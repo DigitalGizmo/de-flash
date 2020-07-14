@@ -7,6 +7,7 @@
 <SCRIPT language="JavaScript" type="text/JavaScript"></SCRIPT>
 <SCRIPT language="JavaScript" src="../../common/amcen_scripts.js"></SCRIPT>
 <LINK href="../../common/am_cen.css" rel="stylesheet" type="text/css">
+<LINK href="../../common/am_cen2.css" rel="stylesheet" type="text/css">
 </head>
 <BODY link="#333366" vlink="#666699" alink="#993300" background="../../images/bkgnd_cloth.gif">
 <A name="top"></A>
@@ -42,18 +43,37 @@
           <TD>
             <H1>A Union Soldier's Uniform from the Civil War, around 1865</H1>
             <P>In the north a certain number of men between the ages of 18-45 from each community were drafted into the Union army. Soldiers, except for officers were issued uniforms. Officers were expected to purchase their own and had to make sure that they met strict military requirements. Companies that had contracts with the government made the uniforms. For the most part they were sewn on treadle sewing machines, although some shirts were hand sewn and some of the finish work on the uniforms was done by hand. A dress code for all soldiers was strictly enforced except when they were on the battlefield. Anyone found in violation was made to pay a fine. In the later years of the Civil War the dress code was not as strictly enforced.</P>
-            <P>Navigate to each layer of this activity by clicking on the "Next" and "Previous" buttons. Using your cursor, roll over each image to learn about the unfamiliar clothing. (requires Flash Player)</P>
+            <P>Navigate to each layer of this activity by clicking on the "Next" and "Previous" buttons. Using your cursor, roll over each image to learn about the unfamiliar clothing.</P>
    			 		<p><a href="notflash/civil_war_soldier.html">Non-flash, non-interactive, printable version of this activity</a></p>
            <P>
 
 
-						<div class="dressup_swf">
-							
-              <img src="html5images/civil_war_soldier.jpg" height="650" alt="soldier">
+						<div class="dressup-wrapper">
+              <!-- where and how do we designate the layer? and the button to navigate the layers? -->
+
+              <svg class="dressup-base" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 975 1500" enable-background="new 0 0 975 1500" xml:space="preserve">
+                <g id="photos">
+                  <image overflow="visible" width="975" height="1500" id="layer4" xlink:href="images/civil_war_soldier.jpg" >
+                  </image>
+                </g>
+                <g id="hotspots"><!-- where does the a href tag go? -->
+                  <path id="haversack" fill="#FFF40B" d="M584,610c0,49,7.5,90,8,113c1,44-20.2,104-22,120c-3,26,69,28,89,23c20-18,53-12,24-144
+                    c15-18,48-55-46-139c-5-7-11-8-11-8L584,610z"/>
+                </g>
+              </svg>
+
+<!-- something to think about: should these hotspots be triggered on rollover as they are now? or on click to make them mobile friendly? if click, we'll need a "close" link -->
+              <div class="dressup-pops">
+                <div id="haversack"><!-- I gave each popup an id so it can trigger the correct audio file to play -->
+                  <img src=images/haversack.jpg alt="Haversack and contents">
+                  <h2>Haversack &amp; Mucket</h2>
+                  <p>Originally, a haversack was issued for carrying food. Many soldiers used them to hold just about anything. This one contains writing and lighting equipment, The New Testament, a newspaper, silverware and a dish made from half of a canteen, items for personal cleanliness, including a comb for lice removal, a "jaw harp" (a musical instrument), a sewing kit known as a "housewife", a pocket knife, a pipe and tobacco and "hardtack" (a very hard cracker made from flour and water). The haversacks had striped linings that could be unbuttoned and taken out for laundering. A "mucket" served as a mug, bucket and cooking pot.</p>
+                </div>
 
 						</div><!-- end dressup div -->
 
-            
+
             </P>
             <TABLE border="0" cellspacing="0" cellpadding="1" width="200">
               <TR bgcolor="#CCCC99">
