@@ -1,0 +1,23 @@
+.dressup-wrapper {
+	max-width: 500px;
+	position: relative;
+}
+
+.dressup-wrapper .dressup-base {
+	position: absolute;
+}
+
+.dressup-wrapper .dressup-pop {
+	position: absolute;
+}
+
+.dressup-wrapper .dressup-pop div {
+	background-color: white;
+	border: 1px solid gray;
+	max-width: 50%;
+	padding: 1em;
+}
+
+.dressup-wrapper .dressup-pop div img {
+	max-width: 100%;
+}
