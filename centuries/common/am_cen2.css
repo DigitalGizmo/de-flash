@@ -3,17 +3,76 @@
 	position: relative;
 }
 
-.dressup-wrapper .dressup-pops {
+.dressup-wrapper nav ul {
+	background-color: lightblue;
+	padding: 0.5em;
+	margin: 0;
+}
+
+.dressup-wrapper nav ul li {
+	display: inline;
+	padding-right: 0.75em;
+}
+
+nav ul li.layer-title {
+	font-weight: bold;
+}
+
+.dressup-pop {
 	position: absolute;
 }
 
-.dressup-wrapper .dressup-pops div {
+.dressup-wrapper .dressup-pop div {
 	background-color: white;
 	border: 1px solid gray;
+	box-shadow: 2px 2px 6	px black;
 	max-width: 50%;
 	padding: 1em;
 }
 
-.dressup-wrapper .dressup-pops div img {
+.dressup-pop div h2, .dressup-pop div p {
+	font-size: 0.6em;
+}
+
+.dressup-wrapper .dressup-pop div img {
 	max-width: 100%;
+}
+
+.left-top {
+	top:150px; left:10px;
+}
+
+.left-middle {
+	top:350px; left:10px;}
+}
+
+.left-bottom {
+	top:250px; left:10px;}
+}
+
+.right-top {
+	top:50px; left:300px;
+}
+
+.right-middle {
+	top:150px; left:300px;}
+}
+
+.right-bottom {
+	top:300px; left:300px;}
+}
+
+.full-middle {
+
+}
+
+.full-bottom {
+
+}
+
+.hotspot {
+	fill-rule:evenodd;
+	clip-rule:evenodd;
+	fill:#CC3333;
+	fill-opacity:0.35;
 }
