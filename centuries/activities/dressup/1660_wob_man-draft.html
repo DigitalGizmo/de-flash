@@ -9,6 +9,13 @@
 <LINK href="../../common/am_cen.css" rel="stylesheet" type="text/css">
 <LINK href="../../common/am_cen2.css" rel="stylesheet" type="text/css">
 
+<style type="text/css" media="screen">
+ .dressup-pop {
+      /* pointer-events:none; */
+  }  
+
+</style>
+
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 <BODY link="#333366" vlink="#666699" alink="#993300" background="../../images/bkgnd_cloth.gif">
@@ -195,7 +202,7 @@
                   id="waistcoat" 
                   class="hotspot" 
                   @mouseover="showPop('waistcoat')"
-                  @mouseleave="showPop('none')"
+                  @mouseleave="hidePop()"
                   d="M810.2,497.4c1.6,0.6-1.5,13.6-3.1,14.1c9.1,12.3-11.8,129.1-15.5,160.4
                   c3.5,3.2-7.7,23.6-5.6,40.1c3.4-2.6,0.4-1.6,11.2-10.1c24.2-42.7-30.2,213.2-32.7,207.2c-17.7,17.6-51.4,18.2-76.7,65.6
                   c0,2.3,0.9,4.3,0.1,12.2c1.7,3.3-10.3,14.3,2.4,24.1c3-2,5.6-2.4,7.6-1.2c0.7,3,2.2,2.4-2.2,7.2c3.7,2.3,5.6,7.8,14.1,6.4
@@ -302,7 +309,10 @@
               <div 
                 v-if="popId === 'waistcoat'"
                 class="dressup-pop left-middle"
-                id="waistcoat">
+                id="waistcoat"
+                @mouseover="onPop(true)"
+                @mouseleave="leavePop()"
+                >
                 <h2>Waistcoat</h2>
                 <p>This wool vest is called a waistcoat, sometimes pronounced, &quot;weskit&quot;. The Abenaki called it a &ldquo;silad&rdquo;. It is a similar style to that worn by European men.  &ldquo;Indian waistcoats&rdquo; like this were made by Europeans specifically for trade with Eastern Woodland peoples. It is interesting to note that the preferred color of wool cloth used by the W&ocirc;banakiak for clothing was usually either red or blue.</p>
               </div><!-- end dressup-pop  -->
