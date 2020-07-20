@@ -169,7 +169,12 @@
                   c-17.7,9.7-25.1-40.1-21.6-56.7c-55.2-5.9-63.3-8-99.8-7.9c-56.6,21.9,14.6-279.5,28.1-306.7c1.6-0.1-14-6.4-11.7-12
                   c-0.4-0.2-0.6-0.2-0.6-0.1c4.3-5.2,5.9-4.6,23.1,7.2c45.6,16.6,120,24.3,173.1,10.8c7.6-2.7,5.8-7.6,23.4-2.5
                   c25.9-14.3,79-9.2,13.4,7.2C725.1,994.3,724.9,1025.1,725.1,1026.4L725.1,1026.4z"/>
-                <path id="gorget" class="hotspot" d="M695.2,547.7c-41,130.2-137.5,143.5-120.6-12.6c-1.5-10.6-1.8-21.4,4.2-38.7
+                <path 
+                  id="gorget" 
+                  class="hotspot" 
+                  @mouseover="showPop('gorget')"
+                  @mouseleave="showPop('none')"
+                  d="M695.2,547.7c-41,130.2-137.5,143.5-120.6-12.6c-1.5-10.6-1.8-21.4,4.2-38.7
                   c-1.2-4.4-1.2-5.7,3-13.5c-0.2-3.6,1.1-9,4-3.8c0.9-0.2,0.1,0,1.4,2.9c4.3,7.7,8.6,21.7,21,34.7c0.2,0,0.4,0.1,0.8,0.1
                   c8.8-5.2,29.2-6.7,42.3,0.8c41-37.2,78.8-55.9,4.3,4.4c11.4,26.3-35.6,77.2-61.9,42.3c0.1,0.5,0.2,1.1,0.3,1.8
                   c-1.5-1.9-2.6-3.6-6.1-5.1c-0.4-2.7-2.2-8.1-2.6-12.3c-0.2,1-0.7,1.6-1.5,1.8c1.8,13.3,5.5,31.2,4.2,54
@@ -225,106 +230,91 @@
             <!-- Popups for Layer 1 -->
               <div 
                 v-if="popId === 'breechcloth'"
-                class="dressup-pop left-top">
-                <div id="breechcloth"> <!-- Don doesn't need this extra div, to you? -->
-                  <img src=html5images/haversack.jpg alt="Haversack and contents">
-                  <h2>Breechclout or Breechcloth</h2>
-                  <p>A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of
-              fabric or deerskin that goes between the legs and is held in
-              place by a belt tied around the waist. The breechclout might
-              be compared to modern-day shorts, underwear, or bathing suit.
-              This man's breechclout is made of wool.</p>
-                </div>
+                class="dressup-pop left-top"
+                id="breechcloth">
+                <img src=html5images/haversack.jpg alt="Haversack and contents">
+                <h2>Breechclout or Breechcloth</h2>
+                <p>A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of
+                fabric or deerskin that goes between the legs and is held in
+                place by a belt tied around the waist. The breechclout might
+                be compared to modern-day shorts, underwear, or bathing suit.
+                This man&rsquo; breechclout is made of wool.</p>
 						  </div><!-- end dressup-pop  -->
 
               <div 
                 v-if="popId === 'pendant'"
-                class="dressup-pop left-middle">
-                <div id="pendant">
-                  <h2>Thunderbird Pendant</h2>
-                  <p>This pendant is in the shape of a thunderbird or swallow,
-              which are both considered by the W&ocirc;banakiak to be powerful
-              symbols. Swallows, too, are associated with thunder since
-              they become more active before severe storms. The pendant
-              was cut from a brass kettle.</p>
-                </div>
+                class="dressup-pop left-middle"
+                id="pendant">
+                <h2>Thunderbird Pendant</h2>
+                <p>This pendant is in the shape of a thunderbird or swallow,
+                which are both considered by the W&ocirc;banakiak to be powerful
+                symbols. Swallows, too, are associated with thunder since
+                they become more active before severe storms. The pendant
+                was cut from a brass kettle.</p>
               </div><!-- end dressup-pop  -->
 
               <div 
                 v-if="popId === 'earrings'"
-                class="dressup-pop left-middle">
-                <div id="earrings">
-                  <h2>Earrings</h2>
-                  <p>These earrings are made of brass and shell. People often
-                slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.
-                Notice that this man hangs his pipe in his earring for convenience.
-                The pipe is from Europe and is made of white clay.</p>
-                </div>
+                class="dressup-pop left-middle"
+                id="earrings">
+                <h2>Earrings</h2>
+                <p>These earrings are made of brass and shell. People often
+                slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;. Notice that this man hangs his pipe in his earring for convenience. The pipe is from Europe and is made of white clay.</p>
               </div><!-- end dressup-pop  -->
 
               <div 
                 v-if="popId === 'leggings'"
-                class="dressup-pop left-middle">
-                <div id="leggings">
-                  <h2>Leggings</h2>
-                  <p>These are deerskin leggings, called &ldquo;medasal&rdquo;.
-              They are tied to a belt at the waist to keep them up. Leggings
-              were worn for warmth and to protect one's legs when walking
-              through scratchy undergrowth.</p>
-                </div>
+                class="dressup-pop left-middle"
+                id="leggings">
+                <h2>Leggings</h2>
+                <p>These are deerskin leggings, called &ldquo;medasal&rdquo;.
+                They are tied to a belt at the waist to keep them up. Leggings
+                were worn for warmth and to protect one's legs when walking
+                through scratchy undergrowth.</p>
               </div><!-- end dressup-pop  -->
               
               <div 
                 v-if="popId === 'garters'"
-                class="dressup-pop left-middle">
-                <div id="garters">
-                  <h2>Garters</h2>
-                  <p>This man wears garters, called &ldquo;kiganibial&rdquo;, tied
-              on just under his knees. They are made from wool yarn, using
-              a technique called &quot;fingerweaving&quot;. As the name suggests,
-              fingerweaving is a way to weave by using just the fingers,
-              instead of weaving on a loom. The garters help to keep the
-              man's leggings in place.</p>
-                </div>
+                class="dressup-pop left-middle"
+                id="garters">
+                <h2>Garters</h2>
+                <p>This man wears garters, called &ldquo;kiganibial&rdquo;, tied
+                on just under his knees. They are made from wool yarn, using
+                a technique called &quot;fingerweaving&quot;. As the name suggests,
+                fingerweaving is a way to weave by using just the fingers,
+                instead of weaving on a loom. The garters help to keep the
+                man&rsquo;s leggings in place.</p>
               </div><!-- end dressup-pop  -->
                             
               <div 
                 v-if="popId === 'moccasins'"
-                class="dressup-pop left-middle">
-                <div id="moccasins">
-                  <h2>Moccasins</h2>
-                  <p>These are summer-weight moccasins with a center seam.
+                class="dressup-pop left-middle"
+                id="moccasins">
+                <h2>Moccasins</h2>
+                <p>These are summer-weight moccasins with a center seam.
                 They are made from the hide of a white-tailed deer. The Abenaki
                 call all kinds of shoes &quot;mkezenal&quot;. The English
                 adapted this word into &ldquo;moccasin&rdquo;.</p>
-                </div>
               </div><!-- end dressup-pop  -->
                             
 
               <!-- Popups for Layer 2 -->
               <div 
                 v-if="popId === 'waistcoat'"
-                class="dressup-pop left-middle">
-                <div id="waistcoat">
-                  <h2>Waistcoat</h2>
-                  <p>This wool vest is called a waistcoat, sometimes pronounced, &quot;weskit&quot;. The Abenaki called it a &ldquo;silad&rdquo;. It is a similar
-                style to that worn by European men.  &ldquo;Indian waistcoats&rdquo; like
-                this were made by Europeans specifically for trade with Eastern
-                Woodland peoples. It is interesting to note that the preferred
-                color of wool cloth used by the W&ocirc;banakiak for clothing
-                was usually either red or blue.</p>
-                </div>
+                class="dressup-pop left-middle"
+                id="waistcoat">
+                <h2>Waistcoat</h2>
+                <p>This wool vest is called a waistcoat, sometimes pronounced, &quot;weskit&quot;. The Abenaki called it a &ldquo;silad&rdquo;. It is a similar style to that worn by European men.  &ldquo;Indian waistcoats&rdquo; like this were made by Europeans specifically for trade with Eastern Woodland peoples. It is interesting to note that the preferred color of wool cloth used by the W&ocirc;banakiak for clothing was usually either red or blue.</p>
               </div><!-- end dressup-pop  -->
                             
               <div 
                 v-if="popId === 'shirt'"
-                class="dressup-pop left-middle">
-                <div id="shirt">
-                  <h2>Shirt</h2>
-                  <p>This man&rsquo;s shirt, called a &ldquo;wihibaks&rdquo;, is made
+                class="dressup-pop left-middle"
+                id="shirt">
+                <h2>Shirt</h2>
+                <p>This man&rsquo;s shirt, called a &ldquo;wihibaks&rdquo;, is made
                 of linen. It is the same style worn by European men,
                 but they would wear theirs tucked into their breeches.</p>
-                </div>
               </div><!-- end dressup-pop  -->
               
             </div><!-- end dressup-wrapper  -->

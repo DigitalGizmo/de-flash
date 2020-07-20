@@ -22,19 +22,19 @@ nav ul li.layer-title {
 	position: absolute;
 }
 
-.dressup-wrapper .dressup-pop div {
+.dressup-pop {
 	background-color: white;
 	border: 1px solid gray;
-	box-shadow: 2px 2px 6	px black;
+	box-shadow: 2px 2px 6px black;
 	max-width: 50%;
 	padding: 1em;
 }
 
-.dressup-pop div h2, .dressup-pop div p {
+.dressup-pop h2, .dressup-pop p {
 	font-size: 0.6em;
 }
 
-.dressup-wrapper .dressup-pop div img {
+.dressup-pop img {
 	max-width: 100%;
 }
 
@@ -70,9 +70,12 @@ nav ul li.layer-title {
 
 }
 
+.hotspot-on {
+	fill: #CC3333;
+	fill-opacity: 0.35;
+}
+
 .hotspot {
-	fill-rule:evenodd;
-	clip-rule:evenodd;
-	fill:#CC3333;
-	fill-opacity:0.35;
+	fill: #FFF;
+	fill-opacity: 0.0;
 }
