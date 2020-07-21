@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.61 23">
+  <title>prev</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="prev">
+        <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" style="fill: #ddd1bb;stroke: #b2aa9b;stroke-miterlimit: 10"/>
+        <text transform="translate(8.06 14.33)" style="font-size: 12px;fill: #394872;font-family: Copperplate">Previous Layer</text>
+      </g>
+    </g>
+  </g>
+</svg>

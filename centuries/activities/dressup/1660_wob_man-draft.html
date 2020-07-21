@@ -19,6 +19,27 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 <BODY link="#333366" vlink="#666699" alink="#993300" background="../../images/bkgnd_cloth.gif">
+  <svg width="0" height="0" class="hide"><!-- svg sprite for activity buttons -->
+    <defs>
+      <g id="prev-button">
+        <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" style="fill: #ddd1bb;stroke: #b2aa9b;stroke-miterlimit: 10"/>
+        <text transform="translate(8.06 14.33)" style="font-size: 12px;fill: #394872;font-family: Copperplate">Previous Layer</text>
+      </g>
+
+      <g id="next-button">
+        <path d="M92.9,22.5H11.49a11,11,0,0,1-11-11v0a11,11,0,0,1,11-11H92.9l11,11h0Z" fill="#ddd1bb" stroke="#b2aa9b" stroke-miterlimit="10"/>
+        <text transform="translate(18.25 14.33)" font-size="12" fill="#394872" font-family="Copperplate">Next Layer</text>
+      </g>
+
+      <g id="audio-button">
+        <circle cx="13" cy="13" r="12.5" fill="#6977b0" stroke="#5b69a1" stroke-miterlimit="10"/>
+        <text transform="translate(2.83 19.47)" font-size="22" fill="#cfdaf0" font-family="Webdings">X</text>
+        <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" fill="none" stroke="#cfdaf0" stroke-miterlimit="10"/>
+        <path d="M14.61,8.15a4.4,4.4,0,0,1,0,8.79" fill="none" stroke="#cfdaf0" stroke-miterlimit="10"/>
+      </g>
+    </defs>
+  </svg>      
+
 <A name="top"></A>
 
 <TABLE width="95%" border="0" cellspacing="0" cellpadding="4">
@@ -69,10 +90,31 @@
               <nav>
                 <ul>
                   <li class="layer-title">Under Garments</li>
-                  <li><a href="previous-layer" @click.prevent="prevLayer()">&larr; previous layer</a></li>
-                  <li>&bull;</li>
-                  <li><a href="next-layer" @click.prevent="nextLayer()">next layer &rarr;</a></li>
-                  <li class="audio">audio on/audio off</li>
+                  
+                  <li>
+                    <a href="previous-layer" @click.prevent="prevLayer()">
+                      <svg class="prev-button" width="104" height="22" viewbox="0 0 104 23">
+                        <title>previous layer</title>
+                        <use xlink:href="#prev-button" />
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="next-layer" @click.prevent="prevLayer()">
+                      <svg class="next-button" width="104" height="22" viewbox="0 0 104 23">
+                        <title>next layer</title>
+                        <use xlink:href="#next-button" />
+                      </svg>
+                  </li>
+                  
+                  <li class="audio">
+                      <svg class="audio-button" width="25" height="25" viewbox="0 0 26 26">
+                        <title>audio</title>
+                        <use xlink:href="#audio-button" />
+                      </svg>
+                  </li>
+
                 </ul>
               </nav>
 

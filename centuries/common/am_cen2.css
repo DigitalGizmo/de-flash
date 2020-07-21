@@ -3,21 +3,29 @@
 	position: relative;
 }
 
+/* navigation */
 .dressup-wrapper nav ul {
 	background-color: lightblue;
-	padding: 0.5em;
+	height: 2em;
 	margin: 0;
+	padding: 0.5em;
 }
 
 .dressup-wrapper nav ul li {
 	display: inline;
-	padding-right: 0.75em;
+	padding-right: 1.5em;
 }
 
 nav ul li.layer-title {
 	font-weight: bold;
 }
 
+.layer-nav-btn {
+	height: 100%;
+	width: auto;
+}
+
+/* pop ups */
 .dressup-pop {
 	position: absolute;
 }
@@ -38,6 +46,7 @@ nav ul li.layer-title {
 	max-width: 100%;
 }
 
+/* pop up positions */
 .left-top {
 	top:150px; left:10px;
 }
@@ -70,6 +79,7 @@ nav ul li.layer-title {
 
 }
 
+/* hotspots */
 .hotspot-on {
 	fill: #CC3333;
 	fill-opacity: 0.35;
