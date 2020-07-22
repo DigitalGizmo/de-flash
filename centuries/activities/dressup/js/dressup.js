@@ -5,27 +5,36 @@ var dressApp = new Vue({
 	data: {
 		layerNum: 1,
 		popId: 'none',
-    mouseOnPop: false
+    mouseOnPop: false,
+    // popIsOpen: false
 	},
 	methods: {
 		showPop: function(shortname) {
-			console.log(' -- showPop')
+			// console.log(' -- showPop')
 			this.popId = shortname
+      this.popIsOpen = true
 		},
+    // Looks like this is triggered when you're on pop and you move?
+    // Hint: leavePop will set mouseOnPop to false
 		hidePop: function() {
-			console.log(' -- hidePop')
-      // event.stopPropagation();
-      if (!this.mouseOnPop) {
-  			this.popId = 'none'
-      }
+			// console.log(' -- hidePop, mouseOnPop = ' + this.mouseOnPop)
+      // The timeout prevents single flash of pop on transition
+      // from hotspot to popup. Also fixes flicker on Safari
+      setTimeout(() => {
+        // if I'm not on the popup
+        if (!this.mouseOnPop) {
+          // console.log(' -- hidePop - not on pop')
+    			this.popId = 'none'
+        }
+      }, 200);
 		},
     onPop: function(truth) {
-      console.log(' -- onPop: ' + truth)
+      // console.log(' -- onPop: ' + truth)
       this.mouseOnPop = truth
       // this.popId = 'none'
     },
     leavePop: function() {
-      console.log(' -- leavePop')
+      // console.log(' -- leavePop')
       // if (this.mouseOnPop) {
         this.popId = 'none'
         this.mouseOnPop = false
