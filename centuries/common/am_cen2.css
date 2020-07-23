@@ -20,24 +20,22 @@ nav ul li.layer-title {
 	font-weight: bold;
 }
 
-.layer-nav-btn {
-	height: 100%;
-	width: auto;
-}
-
-.button-text {
-	/*fill: #cfdaf0;*/
+#next-button text, #prev-button text {
+	fill: #cfdaf0;
 	font-size: 12px;
 	font-family: "Copperplate";
+	stroke: none;
 }
 
-.button-style {
+
+#next-button, #prev-button, #audio-button {
 	fill: #6977b0;
 	stroke: #5b69a1;
 }
 
-nav ul li a:hover svg.prev-button {
-	fill: #ddd1bb;
+svg:hover {
+	fill: red;
+	/*fill: #ddd1bb;*/
 	stroke: #b2aa9b;
 }
 
