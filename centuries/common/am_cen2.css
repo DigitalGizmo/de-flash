@@ -25,6 +25,27 @@ nav ul li.layer-title {
 	width: auto;
 }
 
+.button-text {
+	/*fill: #cfdaf0;*/
+	font-size: 12px;
+	font-family: "Copperplate";
+}
+
+.button-style {
+	fill: #6977b0;
+	stroke: #5b69a1;
+}
+
+nav ul li a:hover svg.prev-button {
+	fill: #ddd1bb;
+	stroke: #b2aa9b;
+}
+
+.button-disabled {
+	fill: #c4c4c4;
+	stroke: #a09f9f;
+}
+
 /* pop ups */
 .dressup-pop {
 	position: absolute;

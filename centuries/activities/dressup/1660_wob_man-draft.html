@@ -22,18 +22,18 @@
   <svg width="0" height="0" class="hide"><!-- svg sprite for activity buttons -->
     <defs>
       <g id="prev-button">
-        <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" style="fill: #ddd1bb;stroke: #b2aa9b;stroke-miterlimit: 10"/>
-        <text transform="translate(8.06 14.33)" style="font-size: 12px;fill: #394872;font-family: Copperplate">Previous Layer</text>
+        <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" class="button-style" />
+        <text transform="translate(8.06 14.33)" class="button-text">Previous Layer</text>
       </g>
 
       <g id="next-button">
-        <path d="M92.9,22.5H11.49a11,11,0,0,1-11-11v0a11,11,0,0,1,11-11H92.9l11,11h0Z" fill="#ddd1bb" stroke="#b2aa9b" stroke-miterlimit="10"/>
-        <text transform="translate(18.25 14.33)" font-size="12" fill="#394872" font-family="Copperplate">Next Layer</text>
+        <path d="M92.9,22.5H11.49a11,11,0,0,1-11-11v0a11,11,0,0,1,11-11H92.9l11,11h0Z"  class="button-style" />
+        <text transform="translate(18.25 14.33)" class="button-text">Next Layer</text>
       </g>
 
       <g id="audio-button">
         <circle cx="13" cy="13" r="12.5" fill="#6977b0" stroke="#5b69a1" stroke-miterlimit="10"/>
-        <text transform="translate(2.83 19.47)" font-size="22" fill="#cfdaf0" font-family="Webdings">X</text>
+        <path d="M12.5,20.47l-5-4.66H4.25V9.51h3.2L12.5,4.84Z" fill="#cfdaf0"/>
         <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" fill="none" stroke="#cfdaf0" stroke-miterlimit="10"/>
         <path d="M14.61,8.15a4.4,4.4,0,0,1,0,8.79" fill="none" stroke="#cfdaf0" stroke-miterlimit="10"/>
       </g>
@@ -94,7 +94,6 @@
                   <li>
                     <a href="previous-layer" @click.prevent="prevLayer()">
                       <svg class="prev-button" width="104" height="22" viewbox="0 0 104 23">
-                        <title>previous layer</title>
                         <use xlink:href="#prev-button" />
                       </svg>
                     </a>
@@ -126,7 +125,7 @@
                 v-if="layerNum === 1"
                 id="1660_wob_man1">
                 
-                <image style="overflow:visible;" width="1267" height="2000" id="base-photo1" xlink:href="html5images/1700_wob_man1.jpg" >
+                <image style="overflow:visible;" width="1267" height="2000" id="base-photo1" xlink:href="html5/1660_wob_man/images/1700_wob_man1.jpg" >
                 </image>
                 <path 
                   id="pouch" 
@@ -238,7 +237,7 @@
                 v-if="layerNum === 2"
                 id="1660_wob_man2">
                 
-                <image style="overflow:visible;" width="1267" height="2000" id="base-photo2" xlink:href="html5images/1700_wob_man2.jpg" >
+                <image style="overflow:visible;" width="1267" height="2000" id="base-photo2" xlink:href="html5/1660_wob_man/images/1700_wob_man2.jpg" >
                 </image>
                 <path 
                   id="waistcoat" 
@@ -283,7 +282,7 @@
                 @mouseover="onPop(true)"
                 @mouseleave="leavePop()"
                 >
-                <img src=html5images/haversack.jpg alt="Haversack and contents">
+                <img src=html5/1660_wob_man/images/haversack.jpg alt="Haversack and contents">
                 <h2>Breechclout or Breechcloth</h2>
                 <p>A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of
                 fabric or deerskin that goes between the legs and is held in
