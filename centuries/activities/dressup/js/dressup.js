@@ -5,8 +5,7 @@ var dressApp = new Vue({
 	data: {
 		layerNum: 1,
 		popId: 'none',
-    mouseOnPop: false,
-    // popIsOpen: false
+    mouseOnPop: false
 	},
 	methods: {
 		showPop: function(shortname) {
