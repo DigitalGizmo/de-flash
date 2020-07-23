@@ -11,7 +11,8 @@
 robots.txt
 # directories
 centuries/images/
-centuries/activities/dressup/images/
+centuries/activities/dressup/html5/
+centuries/activities/dressup/html5images/
 **/.sass-cache
 **/.sass-cache/*
 
