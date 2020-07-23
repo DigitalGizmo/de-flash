@@ -1,44 +1,25 @@
 <HTML>
 <HEAD>
-<TITLE>A Civil War Union Soldier's Uniform</TITLE>
-<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<META NAME="description" content="Explore artifacts from our museum and historic manuscripts from our library that reveal the history of New England.">
-<META NAME="keywords" content= "New England History, Massachusetts, American History, Social Studies Curricula, antiques, historic artifacts & manuscripts, Deerfield, Pioneer Valley">
-<SCRIPT language="JavaScript" type="text/JavaScript"></SCRIPT>
-<SCRIPT language="JavaScript" src="../../common/amcen_scripts.js"></SCRIPT>
-<LINK href="../../common/am_cen.css" rel="stylesheet" type="text/css">
-<LINK href="../../common/am_cen2.css" rel="stylesheet" type="text/css">
+  <TITLE>A Civil War Union Soldier's Uniform</TITLE>
+  <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <META NAME="description" content="Explore artifacts from our museum and historic manuscripts from our library that reveal the history of New England.">
+  <META NAME="keywords" content= "New England History, Massachusetts, American History, Social Studies Curricula, antiques, historic artifacts & manuscripts, Deerfield, Pioneer Valley">
+  <SCRIPT language="JavaScript" type="text/JavaScript"></SCRIPT>
+  <SCRIPT language="JavaScript" src="../../common/amcen_scripts.js"></SCRIPT>
+  <LINK href="../../common/am_cen.css" rel="stylesheet" type="text/css">
+  <LINK href="../../common/am_cen2.css" rel="stylesheet" type="text/css">
 
-<style type="text/css" media="screen">
- .dressup-pop {
-      /* pointer-events:none; */
-  }  
+  <style type="text/css" media="screen">
+   .dressup-pop {
+        /* pointer-events:none; */
+    }  
 
-</style>
+  </style>
 
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
-<BODY link="#333366" vlink="#666699" alink="#993300" background="../../images/bkgnd_cloth.gif">
-  <svg width="0" height="0" class="hide"><!-- svg sprite for activity buttons -->
-    <defs>
-      <g id="prev-button">
-        <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" />
-        <text transform="translate(8.06 14.33)">Previous Layer</text>
-      </g>
 
-      <g id="next-button">
-        <path d="M92.9,22.5H11.49a11,11,0,0,1-11-11v0a11,11,0,0,1,11-11H92.9l11,11h0Z" />
-        <text transform="translate(18.25 14.33)">Next Layer</text>
-      </g>
-
-      <g id="audio-button">
-        <circle cx="13" cy="13" r="12.5" stroke-miterlimit="10"/>
-        <path d="M12.5,20.47l-5-4.66H4.25V9.51h3.2L12.5,4.84Z" fill="#cfdaf0"/>
-        <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" stroke="#cfdaf0" />
-        <path d="M14.61,8.15a4.4,4.4,0,0,1,0,8.79" stroke="#cfdaf0"/>
-      </g>
-    </defs>
-  </svg>      
+<BODY link="#333366" vlink="#666699" alink="#993300" background="../../images/bkgnd_cloth.gif">   
 
 <A name="top"></A>
 
@@ -59,13 +40,13 @@
       <!-- #BeginLibraryItem "/Library/searchbox.lbi" -->
 
       <div class="searchbox">
-            <b>Site Search</b><br>
-            <form method="GET" action="../../search/search.cgi">
-              <input type="text" name="zoom_query" size="8">
-              <br><br>
-              <input type="submit" value="Go">
-            </form>
-            <a href="../../search/search.cgi">Advanced Search</a>
+        <b>Site Search</b><br>
+        <form method="GET" action="../../search/search.cgi">
+          <input type="text" name="zoom_query" size="8">
+          <br><br>
+          <input type="submit" value="Go">
+        </form>
+        <a href="../../search/search.cgi">Advanced Search</a>
       </div><!-- #EndLibraryItem -->
     </TD>
       
@@ -87,6 +68,7 @@
    			 		<p><a href="notflash/civil_war_soldier.html">Non-interactive, printable version of this activity</a></p>
 
 						<div id="app" class="dressup-wrapper">
+
               <nav>
                 <ul>
                   <li class="layer-title">Under Garments</li>
@@ -94,7 +76,10 @@
                   <li>
                     <a href="previous-layer" @click.prevent="prevLayer()">
                       <svg class="prev-button" width="104" height="22" viewbox="0 0 104 23">
-                        <use xlink:href="#prev-button" />
+                        <g id="prev-button">
+                          <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" />
+                          <text transform="translate(8.06 14.33)">Previous Layer</text>
+                        </g>
                       </svg>
                     </a>
                   </li>
@@ -102,16 +87,22 @@
                   <li>
                     <a href="next-layer" @click.prevent="nextLayer()">
                       <svg class="next-button" width="104" height="22" viewbox="0 0 104 23">
-                        <title>next layer</title>
-                        <use xlink:href="#next-button" />
+                        <g id="next-button">
+                          <path d="M92.9,22.5H11.49a11,11,0,0,1-11-11v0a11,11,0,0,1,11-11H92.9l11,11h0Z" />
+                          <text transform="translate(18.25 14.33)">Next Layer</text>
+                        </g>
                       </svg>
                   </li>
                   
                   <li class="audio">
                     <a href=#"">
                       <svg class="audio-button" width="25" height="25" viewbox="0 0 26 26">
-                        <title>audio</title>
-                        <use xlink:href="#audio-button" />
+                        <g id="audio-button">
+                          <circle cx="13" cy="13" r="12.5" stroke-miterlimit="10"/>
+                          <path d="M12.5,20.47l-5-4.66H4.25V9.51h3.2L12.5,4.84Z" fill="#cfdaf0"/>
+                          <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" stroke="#cfdaf0" />
+                          <path d="M14.61,8.15a4.4,4.4,0,0,1,0,8.79" stroke="#cfdaf0"/>
+                        </g>
                       </svg>
                     </a>
                   </li>

@@ -27,16 +27,14 @@ nav ul li.layer-title {
 	stroke: none;
 }
 
-
 #next-button, #prev-button, #audio-button {
 	fill: #6977b0;
 	stroke: #5b69a1;
 }
 
-svg:hover {
-	fill: red;
-	/*fill: #ddd1bb;*/
-	stroke: #b2aa9b;
+#next-button:hover, #prev-button:hover, #audio-button:hover {
+	fill: #cfdaf0;
+	stroke: #6977b0;
 }
 
 .button-disabled {
