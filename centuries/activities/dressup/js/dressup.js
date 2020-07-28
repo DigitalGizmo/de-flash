@@ -50,6 +50,12 @@ var dressApp = new Vue({
 		},
     toggleAudio: function() {
       this.audioOn ? this.audioOn = false : this.audioOn = true
+    },
+    onAudio: function() {
+      this.audioOn = true
+    },
+    offAudio: function() {
+      this.audioOn = false
     }
     // playSound (audioFileName) {
     //   console.log(' -- audioFileName: ' + audioFileName)

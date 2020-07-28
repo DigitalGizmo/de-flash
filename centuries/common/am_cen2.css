@@ -42,6 +42,11 @@ nav ul li.layer-title {
 	stroke: #5b69a1;
 }
 
+.audio-on-button-selected {
+	fill: green;
+	stroke: #5b69a1;
+}
+
 .audio-button-deselected {
 	fill: red;
 	stroke: white;
