@@ -37,12 +37,17 @@ nav ul li.layer-title {
 	stroke: #6977b0;
 }
 
-.audio-button-button {
+.audio-button-selected {
 	fill: #6977b0;
 	stroke: #5b69a1;
 }
 
-.audio-button-button:hover {
+.audio-button-deselected {
+	fill: red;
+	stroke: white;
+}
+
+.audio-button-selected:hover, .audio-button-deselected:hover  {
 	fill: #cfdaf0;
 	stroke: #6977b0;	
 }
