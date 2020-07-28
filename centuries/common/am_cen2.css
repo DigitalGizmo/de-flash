@@ -27,32 +27,26 @@ nav ul li.layer-title {
 	stroke: none;
 }
 
+#next-button text:hover, #prev-button text:hover {
+	fill: #6977b0;
+}
+
 #next-button, #prev-button {
 	fill: #6977b0;
-	stroke: #5b69a1;
+	stroke: #d0daef;
 }
 
 #next-button:hover, #prev-button:hover {
-	fill: #cfdaf0;
+	fill: #d0daef;
 	stroke: #6977b0;
 }
 
-.audio-button-selected {
+.audio-button{
 	fill: #6977b0;
 	stroke: #5b69a1;
 }
 
-.audio-on-button-selected {
-	fill: green;
-	stroke: #5b69a1;
-}
-
-.audio-button-deselected {
-	fill: red;
-	stroke: white;
-}
-
-.audio-button-selected:hover, .audio-button-deselected:hover  {
+.audio-button:hover  {
 	fill: #cfdaf0;
 	stroke: #6977b0;	
 }
