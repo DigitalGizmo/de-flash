@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-  <TITLE>A Civil War Union Soldier's Uniform</TITLE>
+  <TITLE>W&ocirc;banaki Men's Clothing from 1660</TITLE>
   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <META NAME="description" content="Explore artifacts from our museum and historic manuscripts from our library that reveal the history of New England.">
   <META NAME="keywords" content= "New England History, Massachusetts, American History, Social Studies Curricula, antiques, historic artifacts & manuscripts, Deerfield, Pioneer Valley">
@@ -71,7 +71,10 @@
 
               <nav>
                 <ul>
-                  <li class="layer-title">Under Garments</li>
+                  <li class="layer-title">
+                    <template v-if="layerNum === 1">Under Garments</template>
+                    <template v-if="layerNum === 2">Outer Garments</template>
+                  </li>
                   
                   <li>
                     <a href="previous-layer" @click.prevent="prevLayer()">
@@ -95,9 +98,13 @@
                   </li>
                   
                   <li class="audio">
-                    <a href=#"">
+                    <a href="#" @click.prevent="toggleAudio">
                       <svg class="audio-button" width="25" height="25" viewbox="0 0 26 26">
-                        <g id="audio-button">
+                        <g 
+                          id="audio-button" 
+                          class="audio-button-button"
+                          :class="{ 'button-disabled': audioOn}"
+                          >
                           <circle cx="13" cy="13" r="12.5" stroke-miterlimit="10"/>
                           <path d="M12.5,20.47l-5-4.66H4.25V9.51h3.2L12.5,4.84Z" fill="#cfdaf0"/>
                           <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" stroke="#cfdaf0" />
@@ -123,7 +130,7 @@
                   width="1267" 
                   height="2000" 
                   id="base-photo1" 
-                  xlink:href="html5/1660_wob_man/images/1700_wob_man1.jpg" 
+                  xlink:href="html5/1660_wob_man/images/layer-1.jpg" 
                   @mouseover="showPop('none')"
                   >
                 </image>
@@ -249,7 +256,7 @@
                   width="1267" 
                   height="2000" 
                   id="base-photo2" 
-                  xlink:href="html5/1660_wob_man/images/1700_wob_man2.jpg" 
+                  xlink:href="html5/1660_wob_man/images/layer-2.jpg" 
                   @mouseover="showPop('none')"
                   >
                 </image>
