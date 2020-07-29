@@ -1,0 +1,267 @@
+<HTML>
+<HEAD>
+  <TITLE>W&ocirc;banaki Men's Clothing from 1660</TITLE>
+  <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <META NAME="description" content="Explore artifacts from our museum and historic manuscripts from our library that reveal the history of New England.">
+  <META NAME="keywords" content= "New England History, Massachusetts, American History, Social Studies Curricula, antiques, historic artifacts & manuscripts, Deerfield, Pioneer Valley">
+  <SCRIPT language="JavaScript" type="text/JavaScript"></SCRIPT>
+  <SCRIPT language="JavaScript" src="../../common/amcen_scripts.js"></SCRIPT>
+  <LINK href="../../common/am_cen.css" rel="stylesheet" type="text/css">
+  <LINK href="../../common/am_cen2.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css" media="screen">
+    .hotspoton {
+      fill: #CC3333;
+      fill-opacity: 0.35;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+</head>
+
+<BODY link="#333366" vlink="#666699" alink="#993300" background="../../images/bkgnd_cloth.gif">   
+
+<A name="top"></A>
+
+<TABLE width="95%" border="0" cellspacing="0" cellpadding="4">
+  <TR valign="top">
+    <TD><!-- #BeginLibraryItem "/Library/icon_navbar.lbi" -->
+      <a href="../../home.html"><img src="../../images/nav_home.gif" width="75" height="47" border="0" alt="icon for Home page"></a><br> 
+      <a href="../../kids_home.html"><img src="../../images/nav_kidshome.gif" width="75" height="47" border="0" alt="icon for Kid's Home page"></a><br> 
+      <a href="../../collection/index.html"><img src="../../images/nav_collection.gif" width="75" height="55" border="0" alt="icon for Digital Collection"></a><br> 
+      <a href="../index.html"><img src="../../images/nav_activities.gif" width="75" height="57" border="0" alt="icon for Activities"></a><br>
+      <a href="../../turns/index.jsp"><img src="../../images/nav_turns.gif" width="75" height="57" border="0" alt="icon for Turns Exhibit"></a><br> 
+      <a href="../../classroom/index.html"><img src="../../images/nav_classroom.gif" width="75" height="58" border="0" alt="icon for In the Classroom"></a><br>
+      <a href="../../chronology/make_chronology.jsp"><img src="../../images/nav_chron.gif" width="75" height="48" border="0" alt="icon for Chronologies"></a><br>
+      <a href="../../mycollection/show.do"><img src="../../images/nav_mycollection.gif" width="75" height="52" border="0" alt="icon for My Collection"></a><br>
+      <!-- #EndLibraryItem -->
+      <BR>
+
+      <!-- #BeginLibraryItem "/Library/searchbox.lbi" -->
+
+      <div class="searchbox">
+        <b>Site Search</b><br>
+        <form method="GET" action="../../search/search.cgi">
+          <input type="text" name="zoom_query" size="8">
+          <br><br>
+          <input type="submit" value="Go">
+        </form>
+        <a href="../../search/search.cgi">Advanced Search</a>
+      </div><!-- #EndLibraryItem -->
+    </TD>
+      
+    <TD valign="top">
+      <SPAN class="small"><A href="../index.html"><STRONG>Things To Do</STRONG></A><BR>
+      <A href="index.html">Dress Up</A> | <A href="../oralhistory/index.html">1st Person</A> | 
+      <A href="../afram/index.html">African American Map</A> | <A href="../readthis/index.jsp">Now Read This</A> | 
+      <A href="../magic_lens/index.html">Magic Lens</A> | <A href="../rotate/index.html">In the Round</A> | 
+      <A href="../tools/index.html">Tool Videos</A> | <A href="../architecture/index.html">Architecture</A> |
+      <A href="../postcards/index.html">e-Postcards</A> | <A href="../../chronology/make_chronology.jsp">Chronologies</A> | 
+      <A href="../turns_activities/index.html">Turns  Activities</A></SPAN><BR>
+      
+      <TABLE border="1" cellspacing="0" cellpadding="15" bgcolor="#FFFFFF" bordercolor="#CCCC99">
+        <TR>
+          <TD>
+            <H1>A Union Soldier's Uniform from the Civil War, around 1865</H1>
+            <P>In the north a certain number of men between the ages of 18-45 from each community were drafted into the Union army. Soldiers, except for officers were issued uniforms. Officers were expected to purchase their own and had to make sure that they met strict military requirements. Companies that had contracts with the government made the uniforms. For the most part they were sewn on treadle sewing machines, although some shirts were hand sewn and some of the finish work on the uniforms was done by hand. A dress code for all soldiers was strictly enforced except when they were on the battlefield. Anyone found in violation was made to pay a fine. In the later years of the Civil War the dress code was not as strictly enforced.</P>
+            <P>Navigate to each layer of this activity by clicking on the "Next" and "Previous" buttons. Using your cursor, roll over each image to learn about the unfamiliar clothing.</P>
+   			 		<p><a href="notflash/civil_war_soldier.html">Non-interactive, printable version of this activity</a></p>
+
+						<div id="app" class="dressup-wrapper">
+
+              <nav>
+                <ul>
+                  <li class="layer-title">
+                    <template v-if="layerNum === 1">Under Garments</template>
+                    <template v-if="layerNum === 2">Outer Garments</template>
+                  </li>
+                  
+                  <li>
+                    <a href="previous-layer" @click.prevent="prevLayer()">
+                      <svg class="prev-button" width="104" height="22" viewbox="0 0 104 23">
+                        <g id="prev-button">
+                          <path d="M93.12,22.5H11.71l-11-11h0l11-11H93.12a11,11,0,0,1,11,11v0A11,11,0,0,1,93.12,22.5Z" />
+                          <text transform="translate(8.06 14.33)">Previous Layer</text>
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="next-layer" @click.prevent="nextLayer()">
+                      <svg class="next-button" width="104" height="22" viewbox="0 0 104 23">
+                        <g id="next-button">
+                          <path d="M92.9,22.5H11.49a11,11,0,0,1-11-11v0a11,11,0,0,1,11-11H92.9l11,11h0Z" />
+                          <text transform="translate(18.25 14.33)">Next Layer</text>
+                        </g>
+                      </svg>
+                  </li>
+                  
+                  <li>
+
+                    <!-- On Button -->
+                    <a 
+                      v-if="audioOn"
+                      href="#" 
+                      @click.prevent="toggleAudio">
+                      <svg width="25" height="25" viewbox="0 0 26 26">
+                        <g id="audio-on" class="audio-button">
+                          <circle cx="13" cy="13" r="12.5" stroke-miterlimit="10" stroke="#cfdaf0"/>
+                          <!--speaker-->
+                          <path d="M12.5,20.47l-5-4.66H4.25V9.51h3.2L12.5,4.84Z" stroke="#cfdaf0" fill="#cfdaf0"/>
+                          <!--sound waves-->
+                          <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" stroke="#cfdaf0" />
+                          <path d="M14.61,8.15a4.4,4.4,0,0,1,0,8.79" stroke="#cfdaf0"/>
+                        </g>
+                      </svg>                         
+                    </a>
+                    <a 
+                      v-else
+                      href="#" 
+                      @click.prevent="toggleAudio">
+                      <svg width="25" height="25" viewbox="0 0 26 26">
+                        <g id="audio-off" class="audio-button">
+                          <circle cx="13" cy="13" r="12.5" stroke-miterlimit="10" stroke="#cfdaf0"/>
+                          <!--speaker-->                          
+                          <path d="M12.5,20.47l-5-4.66H4.25V9.51h3.2L12.5,4.84Z" stroke="#cfdaf0" fill="#cfdaf0"/>
+                          <!--sound waves-->
+                          <path d="M14.61,5.31a7.23,7.23,0,1,1,0,14.46" stroke="#cfdaf0"/>
+                          <path d="M14.61,8.15a4.4,4.4,0,0,1,0,8.79" stroke="#cfdaf0"/>
+                          <!--slash-->
+                          <line x1="21.91" y1="3.49" x2="3.56" y2="21.84" stroke="#cfdaf0" stroke-width="1.5"/>
+                        </g>
+                      </svg>
+                    </a>
+
+                  </li>
+
+                </ul>
+              </nav>
+
+              <svg class="dressup-base" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 1267 2000" style="enable-background:new 0 0 1267 2000;" xml:space="preserve">
+              
+              <!-- Hotspots for Layer 1 -->
+              <g 
+                v-if="layerNum === 1"
+                id="1660_wob_man1">
+                
+                <image 
+                  style="overflow:visible;" 
+                  width="1267" 
+                  height="2000" 
+                  id="base-photo1" 
+                  xlink:href="html5/1660_wob_man/images/layer-1.jpg" 
+                  @mouseover="showPop('none')"
+                  >
+                </image>
+
+                <g
+                  v-for="hotSpot in dressup[1][0].popItems" :key="hotSpot.popId">
+                  <path 
+                    class="hotspot"
+                    :class="{ hotspoton: popId == hotSpot.popId }"
+                    @mouseover="showPop(hotSpot.popId)"
+                    :d="hotSpot.svg"
+                    />
+                </g>
+              </g>
+               <!-- Hotspots for Layer 2 -->
+              <g 
+                v-if="layerNum === 2"
+                id="1660_wob_man2">
+                
+                <image 
+                  style="overflow:visible;" 
+                  width="1267" 
+                  height="2000" 
+                  id="base-photo2" 
+                  xlink:href="html5/1660_wob_man/images/layer-2.jpg" 
+                  @mouseover="showPop('none')"
+                  >
+                </image>
+
+                <g
+                  v-for="hotSpot in dressup[1][1].popItems" :key="hotSpot.popId">
+                  <path 
+                    class="hotspot"
+                    :class="{ hotspoton: popId == hotSpot.popId }"
+                    @mouseover="showPop(hotSpot.popId)"
+                    :d="hotSpot.svg"
+                    />
+                </g>
+
+              </g>
+              </svg>
+
+            <!-- Popups for Layer 1 -->
+
+              <div
+                v-for="popup in dressup[1][0].popItems" :key="popup.popId">
+                 <div 
+                  v-if="popId === popup.popId"
+                  class="dressup-pop left-top"
+                  >
+                  <img 
+                    v-if="popup.hasImage"
+                    src="html5/1660_wob_man/images/haversack.jpg" alt="Haversack and contents">
+                  <h2 v-html="popup.title" ></h2>
+                  <p v-html="popup.blurb"></p>
+                </div>
+              </div>
+
+              <!-- Popups for Layer 2 -->
+              <div
+                v-for="popup in dressup[1][1].popItems" :key="popup.popId">
+                 <div 
+                  v-if="popId === popup.popId"
+                  class="dressup-pop left-top"
+                  >
+                  <img 
+                    v-if="popup.hasImage"
+                    src="html5/1660_wob_man/images/haversack.jpg" alt="Haversack and contents">
+                  <h2 v-html="popup.title" ></h2>
+                  <p v-html="popup.blurb"></p>
+                </div>
+              </div>
+
+            </div><!-- end dressup-wrapper  -->
+            <script src="json/1660_wob_man3.json" type="text/javascript"></script>
+            <script src="js/dressup-json.js" type="text/javascript"></script>
+
+            <TABLE border="0" cellspacing="0" cellpadding="1" width="200">
+              <TR bgcolor="#CCCC99">
+                <TD>
+                  <P><STRONG>See Also...</STRONG></P>
+                </TD>
+              </TR>
+              <TR>
+                <TD class="bodytext">
+                  <P><A href="../../collection/itempage.jsp?itemid=6075">Springfield Percussion Musket</A></P>
+                  <P><A href="../../collection/itempage.jsp?itemid=6074">Plate and Cup</A></P>
+                  <P><A href="../../collection/itempage.jsp?itemid=6278">Excerpt from James Childs Hitchcock's Civil War Military Journal</A></P>
+                </TD>
+              </TR>
+            </TABLE><!-- end related items table  -->
+
+            <P><A href="#top">top of page</A></P>
+          </TD>
+        </TR>
+      </TABLE>
+      
+      <BR><!-- #BeginLibraryItem "/Library/utilities.lbi" --><table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td> <a href="javascript:popupWindow('/sidebyside.html')"><img src="../../images/util_sidebyside.gif" width="149" height="19" border="0" alt="button for Side by Side Viewing"></a><a href="javascript:popupWindow('/glossary.jsp')"><img src="../../images/util_glossary.gif" width="74" height="19" border="0" alt="button for Glossary"></a><a href="javascript:popupWindow('/print_help.html')"><img src="../../images/util_printhelp.gif" width="101" height="19" border="0" alt="button for Printing Help"></a><a href="javascript:popupWindow('/how_to_read.html')"><img src="../../images/util_olddocs.gif" width="202" height="19" border="0" alt="button for How to Read Old Documents"></a> </td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/navbar.lbi" --><p>&nbsp;</p>
+<p align="center" class="btm_nav"><a href="../../home.html">Home</a> | <a href="../../collection/index.html">Online Collection</a> | <a href="../index.html">Things
+    To Do </a> | <a href="../../turns/index.jsp">Turns
+    Exhibit</a> | <a href="../../classroom/index.html">Classroom</a> | <a href="../../chronology/make_chronology.jsp">Chronologies</a> | <a href="../../mycollection/show.do">My
+    Collection</a><br>
+  <a href="../../about/index.html">About This Site</a> | <a href="../../utilities/site_index.html">Site Index</a> | <a href="../../search/search.cgi">Site Search</a> | <a href="../../feedback.html">Feedback</a></p>
+<!-- #EndLibraryItem --></TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>

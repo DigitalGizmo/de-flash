@@ -1,0 +1,23 @@
+const data = [
+  {
+    "popId": "breechcloth",
+    "class": "left-top",
+    "hasImage": true,
+    "title": "Breechclout or Breechcloth",
+    "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or bathing suit. This man's breechclout is made of wool."
+  },
+  {
+    "popId": "pendant",
+    "class": "left-top",
+    "hasImage": false,
+    "title": "Thunderbird Pendant",
+    "blurb": "This pendant is in the shape of a thunderbird or swallow, which are both considered by the W&ocirc;banakiak to be powerful symbols. Swallows, too, are associated with thunder since they become more active before severe storms. The pendant was cut from a brass kettle"
+  },
+  {
+    "popId": "earrings",
+    "class": "left-top",
+    "hasImage": true,
+    "title": "Earrings",
+    "blurb": "These earrings are made of brass and shell. People often   slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.   Notice that this man hangs his pipe in his earring for convenience.   The pipe is from Europe and is made of white clay."
+  }
+]

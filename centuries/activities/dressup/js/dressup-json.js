@@ -11,7 +11,8 @@ var dressApp = new Vue({
 		popId: 'none',
     audioObject: null,
     audioOn: false,
-    personPath: '1660_wob_man'
+    personPath: '1660_wob_man',
+    dressup: data
 	},
 	methods: {
 		showPop: function(_popId) {
