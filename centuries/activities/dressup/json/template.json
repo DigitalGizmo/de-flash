@@ -1,0 +1,50 @@
+const data = {
+  "info": {
+    "personPath": "",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": ",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": ",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": ",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": ",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data
