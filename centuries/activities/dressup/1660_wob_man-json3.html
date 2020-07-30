@@ -141,88 +141,48 @@
               <svg class="dressup-base" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 1267 2000" style="enable-background:new 0 0 1267 2000;" xml:space="preserve">
               
-              <!-- Hotspots for Layer 1 -->
-              <g 
-                v-if="layerNum === 1"
-                id="1660_wob_man1">
-                
-                <image 
-                  style="overflow:visible;" 
-                  width="1267" 
-                  height="2000" 
-                  id="base-photo1" 
-                  xlink:href="html5/1660_wob_man/images/layer-1.jpg" 
-                  @mouseover="showPop('none')"
-                  >
-                </image>
+                <!-- Hotspots -->
+                <g v-for="(layer, index) in dressup.layers" :key="index">
+                  <g v-if="layerNum === (index + 1)">                 
+                    <image 
+                      style="overflow:visible;" 
+                      width="1267" 
+                      height="2000" 
+                      :xlink:href="'html5/1660_wob_man/images/layer-' + (index + 1) + '.jpg'" 
+                      @mouseover="showPop('none')"
+                      >
+                    </image>
 
-                <g
-                  v-for="hotSpot in dressup[1][0].popItems" :key="hotSpot.popId">
-                  <path 
-                    class="hotspot"
-                    :class="{ hotspoton: popId == hotSpot.popId }"
-                    @mouseover="showPop(hotSpot.popId)"
-                    :d="hotSpot.svg"
-                    />
-                </g>
-              </g>
-               <!-- Hotspots for Layer 2 -->
-              <g 
-                v-if="layerNum === 2"
-                id="1660_wob_man2">
-                
-                <image 
-                  style="overflow:visible;" 
-                  width="1267" 
-                  height="2000" 
-                  id="base-photo2" 
-                  xlink:href="html5/1660_wob_man/images/layer-2.jpg" 
-                  @mouseover="showPop('none')"
-                  >
-                </image>
-
-                <g
-                  v-for="hotSpot in dressup[1][1].popItems" :key="hotSpot.popId">
-                  <path 
-                    class="hotspot"
-                    :class="{ hotspoton: popId == hotSpot.popId }"
-                    @mouseover="showPop(hotSpot.popId)"
-                    :d="hotSpot.svg"
-                    />
+                    <g
+                      v-for="hotSpot in dressup.layers[index].popItems" 
+                      :key="hotSpot.popId">
+                      <path 
+                        class="hotspot"
+                        :class="{ hotspoton: popId == hotSpot.popId }"
+                        @mouseover="showPop(hotSpot.popId)"
+                        :d="hotSpot.svg"
+                        />
+                    </g>
+                  </g>
                 </g>
 
-              </g>
               </svg>
 
-            <!-- Popups for Layer 1 -->
-
-              <div
-                v-for="popup in dressup[1][0].popItems" :key="popup.popId">
-                 <div 
-                  v-if="popId === popup.popId"
-                  class="dressup-pop left-top"
-                  >
-                  <img 
-                    v-if="popup.hasImage"
-                    src="html5/1660_wob_man/images/haversack.jpg" alt="Haversack and contents">
-                  <h2 v-html="popup.title" ></h2>
-                  <p v-html="popup.blurb"></p>
-                </div>
-              </div>
-
-              <!-- Popups for Layer 2 -->
-              <div
-                v-for="popup in dressup[1][1].popItems" :key="popup.popId">
-                 <div 
-                  v-if="popId === popup.popId"
-                  class="dressup-pop left-top"
-                  >
-                  <img 
-                    v-if="popup.hasImage"
-                    src="html5/1660_wob_man/images/haversack.jpg" alt="Haversack and contents">
-                  <h2 v-html="popup.title" ></h2>
-                  <p v-html="popup.blurb"></p>
-                </div>
+              <!-- Popups  -->
+              <div v-for="(layer, index) in dressup.layers" :key="index">
+                <div
+                  v-for="popup in dressup.layers[index].popItems" :key="popup.popId">
+                   <div 
+                    v-if="popId === popup.popId"
+                    class="dressup-pop left-top"
+                    >
+                    <img 
+                      v-if="popup.hasImage"
+                      src="html5/1660_wob_man/images/haversack.jpg" alt="Haversack and contents">
+                    <h2 v-html="popup.title" ></h2>
+                    <p v-html="popup.blurb"></p>
+                  </div>
+                </div>               
               </div>
 
             </div><!-- end dressup-wrapper  -->

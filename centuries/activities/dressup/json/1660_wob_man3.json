@@ -1,8 +1,9 @@
-const data = [
-  {
+const data = {
+  "info": {
     "personPath": "1660_wob_man",
+    "viewBoxWidth": 1267
   },
-  [
+  "layers": [
     {
       "layerName": "Under Garments",
       "popItems": [
@@ -62,4 +63,4 @@ const data = [
       ], // end popItems
     }, // end second layer
   ], // end layers
-] // end data
+} // end data
