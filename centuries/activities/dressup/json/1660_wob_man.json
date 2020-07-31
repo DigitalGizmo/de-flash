@@ -1,23 +1,151 @@
-const data = [
-  {
-    "popId": "breechcloth",
-    "class": "left-top",
-    "hasImage": true,
-    "title": "Breechclout or Breechcloth",
-    "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or bathing suit. This man's breechclout is made of wool."
+const data = {
+  "info": {
+    "personPath": "1660_wob_man",
+    "viewBoxWidth": 1035
   },
-  {
-    "popId": "pendant",
-    "class": "left-top",
-    "hasImage": false,
-    "title": "Thunderbird Pendant",
-    "blurb": "This pendant is in the shape of a thunderbird or swallow, which are both considered by the W&ocirc;banakiak to be powerful symbols. Swallows, too, are associated with thunder since they become more active before severe storms. The pendant was cut from a brass kettle"
-  },
-  {
-    "popId": "earrings",
-    "class": "left-top",
-    "hasImage": true,
-    "title": "Earrings",
-    "blurb": "These earrings are made of brass and shell. People often   slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.   Notice that this man hangs his pipe in his earring for convenience.   The pipe is from Europe and is made of white clay."
-  }
-]
+  "layers": [
+    {
+      "layerName": "Under Garments",
+      "popItems": [
+        {
+          "shortName": "breechcloth",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Breechclout or Breechcloth",
+          "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or bathing suit. This man's breechclout is made of wool.",
+          "svg": "M714.4,944.1c-29,32.4-8.3-29.8,7.4-8.7C721.8,935,719.3,937.9,714.4,944.1z M659.6,1005.1 c-11,79.8,6.2,219.6-23.2,288c-6.9,26.6-88.9,19.2-111.4,19.7c0,1.8-0.5,3.1-1.3,3.9c-2.1,9.8-1.6,35.9-6,56.5 c-19.8,10.9-28.1-44.9-24.2-63.5c-61.8-6.6-70.9-8.9-111.7-8.9c-63.4,24.5,16.4-313,31.4-343.6c1.8-0.1-15.7-7.2-13.1-13.4 c-0.4-0.2-0.7-0.3-0.7-0.2c4.8-5.8,6.6-5.1,25.9,8.1c51.1,18.6,134.5,27.2,193.9,12.1c8.5-3,6.5-8.5,26.2-2.9 c29-16.1,88.5-10.3,15,8.1C659.6,969.1,659.5,1003.6,659.6,1005.1L659.6,1005.1z"
+        },
+        {
+          "shortName": "pendant",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Thunderbird Pendant",
+          "blurb": "This pendant is in the shape of a thunderbird or swallow, which are both considered by the W&ocirc;banakiak to be powerful symbols. Swallows, too, are associated with thunder since they become more active before severe storms. The pendant was cut from a brass kettle.",
+          "svg": "M568.7,585.4c-6.8,17-10.7,29.1-15.5,47.7c5.4-17.1,31.1-26.3,34.6,1.5 c2.3,16.5,8.2,42.9,9.7,70.9c0.8,0.9,26.1,88.4,0.2,85.8c-16.6-9.4-27-80.1-31.8-103.8c-12.2,49.5-13.1,78.7-0.5,129 c0.1,12.5,12.2,18.3-7.4,27.7c-18.4-1.1-16.6-53.9-24.2-68.4c-1.5,3.3-10.3,56.5-19,49.9c-23.6-6.1-6.2-31.3-3.4-55.9 c-8.5-15.9-7.8-47-14.3-74.1c-8.4,29.4-1.2,71.7-9.7,107.9c-26.4-1.9-33-149.2-4.7-179.3c6.4-5.8,23.3-0.1,28.6,31.1 c2.6-1,2.1-1.4,7.2-1.8c-4-2.6-5.8-131.8,2-40.2c0.5-1.5,8.8-15.2,10.2-8.9c18.1-2.9,11.4,16.4,15.1,41.5 C545.3,629.1,589.3,521.2,568.7,585.4z"
+        },
+        {
+          "shortName": "moccasins",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam.   They are made from the hide of a white-tailed deer. The Abenaki call all kinds of shoes &quot;mkezenal&quot;. The English adapted this word into &ldquo;moccasin&rdquo;.",
+          "svg": "M609.1,1860.5c-21.5,19.8,60.8,39-28.2,113.9c-4.9,5.5-31.7,0-38.3-10.2 c-13.6-14.5-29.6-49.4-31.8-77.3c-16.3-17.8,2.2-41.7-9.6-69c-12.3,14.7-10.5-14.9,5.7-0.8c99.1,60.3,66.9-57.3,103.5,28.9 C608.9,1847.1,622.1,1860.7,609.1,1860.5z M387.4,1816.1c3.4,0,6.6,2.5,9.7,7.6c-5.2,1.3-12.2,37.9-27.7,29.2 c-86.8,130.5-214,135.5-151.4,28.6c1.3-10.4,81.4-52.8,66.2-68.9c-0.1,0-0.8-0.5-2.2-1.5c-5.4,12.3-11.8,6.6-2-8.6 c0-0.6,0-0.4,0-1.5c-11,0-23.8-6.5-11.9-18.1c12-16.6,11,19.5,30.7,46.9c21.3,6.8,48.6-15.8,72.5-6.4l11.1,0.3 C382.3,1821,380.8,1819.3,387.4,1816.1z M272.3,1791.1c0.1,1.2,1.4,2.8,6.9,4.5c-1.1-2.5-0.9-2.5-4.4-9.2 C273.1,1788.4,272.3,1790,272.3,1791.1z"
+        },
+        {
+          "shortName": "leggings",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These are deerskin leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
+          "svg": "M691.1,1235.1c-1.8,14.5,27.5,16,21.8,23.9c-18.1,47.8-53,131.5-40.1,172.9 c-19.2,45.7-131.8,68-142.3,7.4c-9.4-36.4-25.2-109.8,3.4-128.7c135.1,17.5,96.7,25.1,154.6-83.7 C689.2,1228.3,690.1,1231,691.1,1235.1z M656.2,1471.8c-0.4,1.5,7.6,3.8,5.7,28.2c11-6.3-4,6.5,9.2,39.1c1.7,0.9,5.4,0.7,2.5,11.1 c2.2,15.9-10.2,44.3-12.3,55.1c10.5,1.1-12.3,39.7-19.8,56.1c3.2,10.6-12.4,31.1-9.4,7.7c-0.2-0.3-0.4-0.7-0.5-1.2 c-3.9-31.1,1.6-149.3,8.9-188.5C636.7,1475.6,643.4,1460.5,656.2,1471.8z M551.2,1487.6c133.1,34.9,57.3-95,69.2,214.2 c1.6,0.7,0.3-9.2,11.8-7.6c9-38.2,11.4,74.4-2.7,96.3c7.3,12.9,0.8,88.2-27.9,27c-0.8-3.9-3.3-8-12.9-7.1 c-8.1,4.9-10.2,11.6-15.6,18c-17.3,18.9-62.6-21.8-79-15.3c-14.4,14.5-15.3-26.3-4.6-47.1c57.4-167.6,9.7-157,41.6-282.4 C527.5,1455.4,534.8,1467.1,551.2,1487.6z M666.3,1554.8c-0.4,2.7-1.1,5.3-2.9,16.5C664.5,1564.7,668.2,1560.6,666.3,1554.8z M464.2,1329.7c-22.8,29.7-32.7,114.2-59.6,147.1c-17.3,24.3-108.4,17.2-116.3-16.3c-20.3,22.3-33.5-123.1-14.3-156.9 c3.5-12.8,34.2-19.1,21-40.2c-3.3-5.1,20.8-48.2,27.7-25.9c-21.5,47.8,109,69.3,135.2,86.5C459.6,1323.3,464,1321.6,464.2,1329.7z M276,1462.5c14.6,13.5,17.6,123.9,6.4,139.8c0,3,1.2,21.2,0.7,28.9c12.5,16.4-10.7,23.2-0.8,43.7c22.5-51.4,13.8-129.3,9.2-181.4 c94.2,55.7,115.5-40.2,118.7,17.5c12.6,54.1-9.4,126.1-21.9,190.1c-6.3,41.7,44.3,138.6-59.5,118c-31,28.1-63.5-31.1-39.5-54.3 c-16.2-35.4-20.9-83.4-17-124.6c-8.3-7.6-3.9-0.1,1.5-19.2c-0.9-6.1,0.2-9.5,0.5-20.5C269,1568.2,245.9,1494.4,276,1462.5z"
+        },
+        {
+          "shortName": "gorget-beads",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Gorget &amp; Beads",
+          "blurb": "When worn by a British or French military officer, a &quot;gorget&quot; was a metal badge of office, signifying that the man was not a common soldier. The W&ocirc;banaki people liked to wear gorgets simply for adornment. People cut up brass kettles received in trade to make their own gorgets, or they made them from shells, such as the one shown here. This man's beads are called &quot;wampum,&quot; or in Abenaki, &quot;w&ocirc;b&ocirc;bial&quot;. The purple beads are made from the thickest part of quahog clam shells found along the New England seacoast. The white beads are made from clam, whelk and other white shells.",
+          "svg": "M626.2,469c-45.9,145.9-154,160.8-135.1-14.1c-1.7-11.9-2-24,4.7-43.3 c-1.3-4.9-1.4-6.4,3.4-15.1c-0.3-4,1.2-10,4.5-4.2c1-0.2,0.1,0,1.5,3.2c4.8,8.7,9.6,24.3,23.5,38.8c0.2,0,0.5,0.1,0.8,0.2 c9.8-5.8,32.6-7.5,47.4,0.8c45.9-41.7,88.3-62.7,4.9,4.9c12.8,29.5-39.9,86.4-69.4,47.4c0.1,0.6,0.2,1.2,0.3,2 c-1.7-2.1-3-4-6.9-5.7c-0.5-3-2.5-9.1-2.9-13.8c-0.2,1.1-0.8,1.8-1.7,2c2,14.9,6.2,34.9,4.7,60.5c96,68.7,79.6-85.2,129.9-120.1 C645.4,422.4,636.8,441.6,626.2,469z M501.7,423.8c3.3,5.3-1.6,16,5.5,31.2c0.2-0.4,0.5-1,0.8-1.5c-0.7-1-1.2-2.2-1.5-3.5 c2,1,2,0.5,5.7-7.2c0.2,0.5-0.1,0.1,0.7,2c2.5-3.8,5.1-6.6,7.9-8.2c-5.1-2.8-6.8-17-14.3-25.7c-0.9-2-1.6-3.8-2.2-5.2 c-0.8,8-2.4,4-3,18C501.5,423.6,501.6,423.7,501.7,423.8z M499.2,455.9c-0.5,0-0.8-0.2-1.2-0.5c-0.2,2.8-1.1,1.3,5,12.3 c0.1-1.2,0.4-2.6,0.8-4.2c-1.2-1.7-2.3-4.3-3.4-7.9C500.2,455.8,499.8,455.9,499.2,455.9z"
+        },
+        {
+          "shortName": "pouch",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Tobacco Pouch",
+          "blurb": "The Abenaki word for tobacco is &ldquo;odam&ocirc;&rdquo;, and a tobacco pouch is called an &quot;odam&ocirc;winoda&quot;. This pouch is made of painted and beaded deer hide. It contains a metal striker, a piece of flint, a chunk of tree fungus, and a small bundle of tobacco tied up in cloth. When the striker and flint are struck together, they produce sparks. The sparks would light the tree fungus, which would then be used to light the tobacco in the bowl of the pipe.",
+          "svg": "M812,1317.4c-5.4,72.8,10.8,160.5-0.5,228.1c-0.6,3.1-0.1,11.9-8.2,25.3 c-2.3,18.3-8.9-17.9-15.2-27.8c-3.3,4.6-6,7.8-8,9.5c-1.5,6.9-2.7,12.2-3.7,15.7c0.7,2.2,1.9,2.8-1.8,5c-1,0.8-2.6,0.9-3.3-2.8 c-2.1-4.1-3.1-3.6-8.2-18.6c-1,22.7-8,25.3-5.5-3.9c-2.2,3.9-5,9.9-10.2,17.6l-2.3-0.7c-1.3-12.3,17.9-20,5.4-39.2 c-4-1.7-25.6,70.6-20.6,28.1c-13.3-3.3-2-28.8-14.7-41.4c-0.2,0.3-1.7,0.2-7.4,6.4c5.7,17.1,6.8,69.8-6.9-2c-1.3-1-2.5-2-3.3-3 c-2.3,14.5-21.7,39.9-11.4,3.2c-2.5-3-1.4-18.7-3.3-23.4c-8.9,12.1-2.7,74.4-13.2,30.8c-7.5-30.8,14.3-29.6,4-120.1 c14.4-84.6,39.2-117.2,47.9-191.7c11-17.2,20.8,20.1,53.5-23.7C809.4,1216.4,805.8,1272.4,812,1317.4z M771.8,1196 c0.1,0,0.2,0,0.3,0c-0.7-0.9-1.1-1.4-1.2-1.5c0,0.4,0,0.9,0,1.5C771.2,1196,771.5,1196,771.8,1196z M805.6,1545.2 c-0.2,0.6-0.5,3.2-0.8,7.9c0.5-3.9,1.3,1,1.3-9C805.9,1544.4,805.7,1544.8,805.6,1545.2z M774.3,1550.6c0-0.4,0.3-1.2,1-2.2 c-0.9-1.8-1.9-1.5-6.5-7.7l-4.7,0.2c-0.2,0.2-0.4,0.5-0.5,0.8c3.6,6.3,2.2,2.7,9.2,18.3c0.9-3.4,0.4-1.4,2.2-7.5 c-0.1-0.2-0.2-0.4-0.3-0.5L774.3,1550.6z M753.9,1522.5c0.3,0.7,0.7,1.5,1.2,2.3c-0.3-0.9-0.6-1.8-0.8-2.7 C754.1,1522.1,754,1522.3,753.9,1522.5z M761.1,1535.5c-1-0.9-2-2.2-2.8-3.9c0.8,2,1.4,3.8,1.8,5.4 C760.4,1536.5,760.8,1536,761.1,1535.5z M802.2,1562H802c0,0.1,0,0.2,0,0.3C802,1562.2,802.1,1562.1,802.2,1562z M727.5,1539.9 c0.4,0.8,0.7,1.7,0.9,2.5c0.4-0.9,1-1.8,1.5-2.8c-0.8,0.1-1.6,0.2-2.3,0.2C727.5,1539.8,727.5,1539.8,727.5,1539.9z"
+        },
+        {
+          "shortName": "garters",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Garters",
+          "blurb": "This man wears garters, called &ldquo;kiganibial&rdquo;, tied on just under his knees. They are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using just the fingers, instead of weaving on a loom. The garters help to keep the man's leggings in place.",
+          "svg": "M675.2,1470.7c1.8-0.3-1.2,15.6-7.7,16.6c-2.5-0.7-21.2-34.2-28.4-7.6 c-12.4,35.4,2.5,77.9-4.5,115.2c-21.3,18.6,15.4,89.3-8.4,102c-6.3,26.1-11.1-41-6.6-59.5c5.1-46.3,2.3-98.1,10.3-149 c-18.2,14.1-89.2,10.3-92.4-22.3c-22.2-34.3,18.9,16.8,48.1,9.9C617.7,1486,659.6,1433.1,675.2,1470.7z M674.7,1564.4 c0.7-6.4,1.2-13.3,1.5-20.7c11.4-9.1,9.4,47.5-10.9,66.5C657.1,1609.3,671.8,1573.4,674.7,1564.4z M415.2,1467.7 c-12.8,51.1-81.2,61.7-124.2,23.5c33.2,87.7-27.7,246.2-2.2,152.7c-15,1.6,3.9-102.5,2.7-118.3c0.7-8.8-10.1-31.5-4.5-38.3 c-3.7-2.8-6.1-11.6-4.7-22.8c-2.4,0.1-3.9-0.2-4.5-1c-0.1-0.7-0.2-1.1-0.3-1.2c-1.8,1.6-4.7,5.3-9.7,15.6 c-13.3,37.3-14-36,13.8-21.8C323.1,1499.5,365.1,1499,415.2,1467.7z"
+        },
+        {
+          "shortName": "pipe",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Pipe",
+          "blurb": "his pipe is for everyday use and shows personal touches (paint, a strand of beads, and a tuft of deer hair dyed red) added by its owner. Since the pipe's bowl is carved from stone, it is called a &ldquo;senip&ocirc;gan&rdquo;.",
+          "svg": "M558.4,888.4c-12.4-8-41.1-30.1-52.8-38.3c-0.2-0.6-0.4-0.1-0.5-1.8c-3.8-2.7-8-5.7-12.6-8.9 c0-0.4,0.1-0.8,0.3-1C493.7,820.7,627.6,919.6,558.4,888.4z M425.7,783.3c-0.4,0.1-1.7,0.2-3.9,0.2c0-0.3-2.7-0.4-6.9-0.8 c-6.2,2.9-51.4-20.9-74.3-33.9c-19.4,6.1-14.9,26.8-13.3,48.9c2.4,5.9,6.3,11.1,3.7,24.2c-1.2,9.7,10.9,37.8-15.3,51.9 c4.4-10,7.6-26.4,4.7-42.3c-2.3-11.8,4.9-20.9-5.5-37.3c-1.6,1.9-3.1,1.1-3.2-4.2c-1.2-1.5-2.3-2.7-3.2-3.7 c-2.5,3.1-5.9,1.6-2.7-6.2c-1.4-7.8,19.4-37.5,5.4-42.3l-7.4-0.3c-1.9,1.1-14.6,34.8-28.9,25.7c13.7-8.2,28.2-24.4,16-47.2 c-10.2-4.9-16.7-8.4-19.5-10.4c0.4,1.1-9.7-2-12.4-19.7c-2.2-4.2-13.5-33.6,17.3-27.9c1,1.9,2.2-0.8,2.7,9.9 c3.5,7.7,9.4,3.3,17.1,31.2c22.7,17.2,42.3,20.7,68.9,38.6C376.2,744.3,406.3,770,425.7,783.3z M326.6,734.6 c-4.5-1.9-10.2-5.8-23.2-12.6c0.2,6,7,14.5,23.7,15.8l0.7-0.7C327,735.9,327.7,737.2,326.6,734.6L326.6,734.6z M289.5,689.5 c-0.8-1.9-0.5,0.3-8.2-11.3c0.2,4.3,0.4,1.3-4,11.1c1.6-0.2,6.3,2,14.3,6.7C291,693.3,291.6,694.1,289.5,689.5z M324.4,861 c-0.1,0-0.2,0-0.3,0c0,0.2-0.1,0.5-0.2,0.8C324.1,861.5,324.3,861.2,324.4,861z"
+        }
+      ], // end popItems
+    }, // end first layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "waistcoat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Waistcoat",
+          "blurb": "This wool vest is called a waistcoat, sometimes pronounced, &quot;weskit&quot;. The Abenaki called it a &ldquo;silad&rdquo;. It is a similar style to that worn by European men.  &ldquo;Indian waistcoats&rdquo; like this were made by Europeans specifically for trade with Eastern Woodland peoples. It is interesting to note that the preferred color of wool cloth used by the W&ocirc;banakiak for clothing was usually either red or blue.",
+          "svg": "M739.7,414.6c1.7,0.7-1.6,20-3.4,20.5c9.9,13.5-13,141.7-17.1,176.1c3.9,3.5-8.5,25.9-6.2,44 c3.7-2.9,0.4-1.7,12.3-11c26.6-46.8-28.2,234-30.8,227.5c-19.5,19.3-61.5,20-89.2,72c0,2.5,1,4.7,0.2,13.3 c1.9,3.6-11.3,15.7,2.6,26.5c3.3-2.2,6.1-2.6,8.4-1.3c0.8,3.3,2.4,2.6-2.5,7.9c4.1,2.6,6.1,8.6,15.5,7.1 c5.6-2.6,63.8-60.3,58.2-33.8c-16,17.3-44.2,73.2,2.1,33.3c43.4,27,59.1,247.4,69.8,315.1c0.9,0.1-2.4,0.2-1.2,0.3 c6.2,11.8-26.6,11-39.5,13.5c0.2,1.8,0.8,2.2,0.2,8.7c-0.4,0.6-4.2,3.4-7.4,0c0-1.2-0.1-0.6-2.1-8.7 c-99.2,1.2-63.6,16.7-110.5,49.1c-22.9,1.9-102,27.6-106,3.8c-52.1-23.5-173.2,6.6-216.5-49.7c-5.9-1.9-13.7-4.6-21.4-7.2 c-20.7,16.5,7.2-51.3,20.3-68.1c2.7-16.5,1.9-67.5,30.6-27.5c47.3-30.7-7.4-108,17.5-109.5c-1.3,13.6,7,21.7,24.9,37.5h8.7 c1-1.2,0.1-1,3.8-4.6c-12.8-25-14.3-50-25.5-82.5c-2.4,1.2-8.7,2.5-8.4-6.3l4-6.3c-0.9-4.9-1-1.9-5.9-13.7 c40.7-169.9,13.3-90.1,26.5-190.7c14.9-392.9-146.6-410.7,91.8-451c12.5,19.5-19.8,68.7-12.5,112.4c-5.3,43.5,64.8,37.5,59,139.6 c-53.5-108-56.4,96.3-41.5,145.4c-0.3-1,1.9-1.1,3-1.6c21.8-33.2,10.9-68.7,18.4-111.2c10.7,21.2,12.4,42.3,15.3,70.5 c2.8,27.3-11.9,60.4-12.1,83.1c22,14.7,27.4-48.3,29-67.8c2.6-1.4,8.5-11.4,7.4,8.1c25.4,101.1,45.5,67.7,20.4-21.9 c-1.1-0.3-0.8,0.6-3.6-1.6c2.7-19.1,4.2-64,18.1-74.8c4.8,29.2,4.2,80.4,28,106.7h8.4c13.4-10.1-12.2-146.4-20.7-163.4 c-19.6-23.7-33.6,25.2-39.1,29.5c-3.9-35-0.6-44.3-21.9-54.6c1.4,0.7,9.1-32.3,15.1-27.5c41.9-65.3,82.2-185.1,113-188 c0.4,0.9,0.6,5.5,1,7.8C638.4,395.6,727.1,409.8,739.7,414.6z"
+        },
+        {
+          "shortName": "shirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "This man's shirt, called a &ldquo;wihibaks&rdquo;, is made of linen. It is the same style worn by European men, but they would wear theirs tucked into their breeches.",
+          "svg": "M834.8,517.6C963.9,651.8,969.7,664,928.3,792.2c-23.2,71.7-46.2,79.2-87.2,147.4 c-24.9,2.9-59.4-7.6-82.8-25.8c-39.6-17.9-53.5-43.8-10.1-69.5c4.6-6.3,11.3-21.7,26.1-23.1c1.3-2.2,2.5-5,9.6-12.2 c-13.1-48.9,58.9-61.1,47.5-110.6c-4.2,0.1-6.3-1.6-6.4-5.1c-8.1-0.9-12.1-19.6-10.9-26.9c-5.9,0.7-18.1-5.6-27.9-16.7 c-9.6,7.9-39.2-10.6-49.7-9.5c-6.3,7.6-22.8,14.2-14.5-0.8c-8.1-66.2,14.2-136.9,23.6-201.1c-3.9-3-5.7-9.8,4.3-7.1 c1-0.2,0.4-6.2,2-4.6C785.4,449.9,797.9,484,834.8,517.6z M560.3,473.5c-12.5-13.4-17.3-44.5,17-56.6 C591.7,418.5,555,479.6,560.3,473.5z M499.2,592.9c-2.2,8.8-2.7,11.2-10.8,3c-90.3-91.8-59.5-134.4-31.3-212.6 c2.6-4.4,53,101.3,2.9,81c8.7,36.2,11.2,81.6,40.4,118C500.4,585.2,500,588.8,499.2,592.9z M314.3,497.1 c48.5,195,43.2,366.2,12.7,555.6c11.3,15.7-55.6,9.9-65.9,11.8c-0.2,2.6-18.3,0.7-25.4-1.9c-31-74.8,7.5-223,15.4-304 c12.2-75.4,27.3-163.5,54.8-245.8C302.5,507.6,309.9,462.7,314.3,497.1z"
+        }
+      ], // end popItems
+    }, // end second layer
+    {
+      "layerName": "Other Garments",
+      "popItems": [
+        {
+          "shortName": "earrings",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Earrings",
+          "blurb": "These earrings are made of brass and shell. People often slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;. Notice that this man hangs his pipe in his earring for convenience. The pipe is from Europe and is made of white clay.",
+          "svg": "M550.3,289.5c1,1.6,3.7,10.4-6,18.2c6.6,9.5-2,17.4-8.8,19.4c-17.1,68.2-19.8,78.6-22.4,78.8 c-3.8-0.6,7.8-59.5,13.8-102.5c4.2-10.6,9.3-13.4,11.6-14.8C542.1,286.4,545.8,286.1,550.3,289.5z"
+        },
+        {
+          "shortName": "pelts",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Pelts",
+          "blurb": "This man hunts for a variety of fur-bearing animals to trade with the Europeans. This is a bundle of mink and white weasel (ermine) pelts.",
+          "svg": "M229.9,438.1c3.4,7.9,7.2,18.7,0.7,35.3c14,5.9,5.5,33.1,9.1,41.1c21.2,36,26.9,42.7,17.8,73.6 c-24.2,104.5,25.8,188.6-10.4,280.4c12.4-1.5-10.3,252-35.6,118.5c-6.2,3.9-14.1,44.5-28.2,25.1c-4.5,41-50.8-37.8-26.9-59.4 c0.4-3.5-10.2-5.9-16-19.1l-1.2-0.5c-27.2,135.9-30.6,21.9-22.6-35.5l-0.7-0.3c-22.1,45.7-19.3-17.7-18.2-47.4 c-0.1,0-0.6-0.6-1.5-1.6c-20.3,73.5-21-66.1-6.8-83.8c-0.8-1.3-1.9-2-3.3-2c-55.1,140.9-1-326.6,54.3-335.9 c7.9-11.4,46.2-36.3,44.2,8.7C194.3,424.5,217.6,416.5,229.9,438.1z"
+        },
+        {
+          "shortName": "trade-coat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Trade Coat",
+          "blurb": "William and John Pynchon, English traders who settled Springfield and Northampton in the Connecticut River Valley of Massachusetts in the 1600s, provided this style of coat for trade with W&ocirc;banaki people. This is a &quot;sleeved waistcoat&quot;, also known as a &quot;trade coat&quot;. As a large overcoat, it was called a &quot;kchi pikizon&quot;. Some Native leaders purchased multiple coats and gifted them to relatives.",
+          "svg": "M809.2,577.7c9.8,14.6,23.8,44.5,31.4,66.3c13.4-2.2,26.2,9.2,20.6,27.1 c51.7,14.9,10.2,192.1,3.1,126.6c-5.2,7-26.3,44.2-25,6c-3-2.4-7.6-6.5-13.2-10.7c-23.4-1.3-34.8,11.4-65.3,9.6 c-26.8,18.4-82.3-28.6-82.7,47.7c-1.6,14.7-11.1-1.8-37.8,36.8c-21.5,26.1,21.7,47.1-111.5,38.3c-44.5,36.5-93.9,35-133.8-0.8 c-12-10.7-39.7-127.5-28.7-140.1c0.3-2.6,0.6-4.8,0.7-6.4c7.1-5.6,6.9,21.7,11.7,29.7c6.6-19.5,14.2-36.7,14.9-59.1 c3-1,3.2-2.4,9.4,6.9c36.6-92.2,20.8-298.2,140.9-319.7c31-32.3,55.6-77.7,108.6-32.8c86.4,38.5,75.6,48.3,99.9,124 C767.8,538.2,785.4,564.8,809.2,577.7z M531.5,413.7c19.8-34.6,19.8-0.4-15.7,23.3C507.1,434.8,526.2,421.1,531.5,413.7z M415.5,465.3c-0.2,3.5-0.5,7-0.8,10.4c1.4-4.5,1.3-5.7,5.9-19.8C417.4,458.8,415.7,462,415.5,465.3z M418.6,448 C448,432,341.1,756,362.9,766.2c-14.7,6.9,1-40.2-11.3-71.1c-14.3,5.3-81.9,23.9-57.9,6.1c0.4-0.3,0.1,4.3-0.2,4.3 c-45.6,57.1-35.7-49.7-40.8-82.8l-3.2-4.5c16.4-8.1,63.2-83,73.1-42.6l4.7,4.8c4.5-8.7,3.7-25.5,24.6-21.8 c-4.5-21.4,23.6-33.4,43.1-50.8C407.5,489.1,399.7,467.1,418.6,448z M408.7,506c0.4-2.7-0.3,0.6,1.3-9.6c-1.4,3.9-0.9,2.5-3.8,10.2 C407.4,506.3,408.2,506,408.7,506z M360.7,694.7c-0.4,0.3-0.9,0.7-1.5,1c0.1,1.3,0.2,2.7,0.2,4.3h0.5 C360.1,698.3,360.4,696.6,360.7,694.7z M360.9,1026.6c9.8-22.8,13.4-52.6,32-73.6c-1.2-0.8-2.1-1.3-2.6-1.5 c11.2-20.9,17.4,28,60.3,13.7c17.7,7.3,17,65.2-11.4,63.9c2.1,15,23.7,0.4,30.1-22.1c16.6-9,16.5,37.2-9.8,87 c-0.4-0.1-0.8-0.2-1-0.3c-27.4,40.2-50.8,63.3-63.7,112c76.6-63.8,63.6-61.9,147.8-161.5c3.5,1.6,1.5,2.4,8.9,1.5 c16.4-42.8,57-25.7,111.9-46.9c8.5,0.3,49.3,12.6,59.6,17.3c24.7,74.5,33.5,203.6,63.9,307.4c4.9,32-57.3,17.5-67.2,50 c0,2.4,3,11.6,4.1,21.6c0.2,0,0.4,0,0.5,0c10.6,7.9-85,35.1-80,6.1c-1.2-1.5-0.1,0-1.6-4.5c-13.3,7.8-45,20.4-63,11.4 c-56.2-1.8-95.5-26-149.3-46.4c0,1.4-0.2,2-0.5,1.7c-36.1-16.3-80.8-5-105.3-38.4c-5.1-2.3,0.7-12.7,6.3-21 c-91.7-26.3,6.4-175,17.7-228.3c-1.3-2.7-2.3-6-2.8-9.7c-9.6,10-13,9.3-26.6,8.7c-0.1-3.6,1.5-3.5,13-13.5 C334.7,1049.8,353.2,1046.2,360.9,1026.6z M485.8,996.6l-0.2,7.6c-1.3,8.9-15.4-23.4-4.6-31.7C484.3,976,484.8,982.3,485.8,996.6z M504.4,1019.7c-5.3,4.6,5.9,17.7-14.7,35.5c-2.7-1.7-5.8-45.5,16.8-44.4C507.8,1013,507.9,1012.8,504.4,1019.7z M700.6,768.5 c1.3,1.2,2.8,3.3,7.1,12.2c1.2-2.5,4.8-10.5,11.4-18c-0.4,0-3.2-6-9.1-15.5C707.4,749.7,704.5,757.7,700.6,768.5z"
+        },
+        {
+          "shortName": "spear",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Spear",
+          "blurb": "A &quot;rat spear&quot; was used for hunting smaller animals such as rats, mink, or ermine. The spear head and shaft are made of metal and would have been received in trade. A stabbing tool like this is called an &ldquo;astahigan&rdquo;.",
+          "svg": "M218,990.9c1-0.1,2.1,811.6,2.4,819.9c-0.8,7.7,2.6,33.4-16.2,19.7c-9.1-11.5-4.1-5.4-5.3-8.4 c2.2-23.3-13.4-825.2-4.7-777l3.4-17.6C200.5,1019.1,210.3,992.3,218,990.9z M181.6,69c4.6-0.2,13.5,216.9,14.7,219.4 c-8.5,23.8-9.9-1.4-11-1.2C188.1,270.3,168.2,58.7,181.6,69z"
+        },
+        {
+          "shortName": "roach",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Roach",
+          "blurb": "This hairpiece is called a &quot;roach&quot;. It is made of turkey wing feathers and it ties onto the hair. The Penobscot word for roach is &quot;wesewal&quot;, which means &quot;faith&quot;. A roach was an important and deeply meaningful ornament.",
+          "svg": "M723.1,71.3c1.2,13.1-3.3,19.5-18,45.2c0.1-0.1,0.3-0.2,0.5-0.3c5.1,6.7-25.7,23.3-31.2,27.4 c3.5,0.3,11.4-2.2,12.9,8.7c11.1-5.3,2.2-28.2,25.5-29.1c9.7,6.4,44.5-20.4,36.2,9.5c-0.1,19.5-29.4,11.1-47.7,23.5 c2.8,2.2,3.7,9.7,4.3,16.9c13.7,6.7,14.6,1.3-4.2,26.1c-3.6,1-6-2.4-12.7-1.9c2.2,1.4,20.3,29.9,1.1,18.5c-2.7,3.2,5.6,13.6,4.2,23 c7.3,8.7,11.3,9.8,35.7,14c4,3.6-15.2,33.8-39.1-5.8c-7.2,1.7-4.8,107.8-18.5,55.7c-25.4-7.1-8.2-43.4-15.6-68.4 c-0.2,0.1-0.4,0.2-0.5,0.3c-0.7-16.3-3.4-37.5-15.5-57.6c-10.4-14.8-18.7-21.8-37.2-37.8c-1.7-3.4-42.3,7.2-26.6-9.8 c-4.4-3.4-19.4-2.6-29.1-13.7c-2.4,5.8-74.6-20.7-37.2-19.3c0.9-4-9.6-23,4.3-19.2c-6.3-1.7-2.9-21.5,4.8-12.2 c7.4,18.2,17,7.9,39.4,15.3c-13.8-7-52.2-26.7-15.6-41.4c-0.1,0,0.2,0.3,0.3,1.6c1,1.4,2.6,3.8,5,7.2 c18.4,14.5,60.7,20.7,62.6,73.3c3.3-0.1,10.9-6.1,13,8.2c2.7-2.9,14.3-4.8,10.6,7.7v0.5l2.9-0.3c13.9-10.7,11.2-23.8,35.9-26.2 c9.9-12.1,26.6-25.4,45.7-44.3C721.5,66.5,722.7,68.1,723.1,71.3z M656.6,178.4c2.3,8.8,3.4,11.9,16.4,25.8 c-0.2-4.7-0.4-1.2,0.6-15c-1.5-0.9-6.9-5.6-16.1-14.2C657.3,175.9,657,177,656.6,178.4z"
+        },
+        {
+          "shortName": "face-paint",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Face Paint",
+          "blurb": "Face paint was used for a variety of reasons, including disguise or to convey a mood or emotion. This man wears red paint to show that he is feeling happy. Red was associated with life, victory, blood, war, or enthusiasm. Notice that he also wears a ring in his nose for decoration.",
+          "svg": "M530,238.9c-5,9.6-14.1,12.7-29.3,2.3c-3.3,4.9-7.3,0.6-22.7-0.8v-0.6 c-4.4,0.4-18.4-11.3-17.5-22.7C462.4,211.8,514,215.3,530,238.9z M458.9,262.5c8.4,5.1,50.1,4,51.8,21.1 c-6,30.2-155,93.9-112.2,12.7c-1.3-8.1-4-21.8,7.4-43.5C412.5,251.1,439.7,252.1,458.9,262.5z"
+        }
+      ], // end popItems
+    }, // end layer
+  ], // end layers
+} // end data
