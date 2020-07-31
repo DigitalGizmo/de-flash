@@ -1,0 +1,104 @@
+const data = {
+  "info": {
+    "personPath": "1700_wob_girl",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Under Garments",
+      "popItems": [
+        {
+          "popId": "shift",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Shift",
+          "blurb": "This girl wears a linen shift. It is a trade item and is the same style worn by French and English girls. European girls wore shifts under their petticoats (skirts) and covered them up with other layers of clothing. W&ocirc;banaki girls and women typically wore shifts and shirts outside of their skirts or petticoats.",
+          "svg": ""
+        },
+        {
+          "popId": "comb",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Comb &amp; Mirror",
+          "blurb": "The comb and mirror are trade items. The Abenaki call a mirror a &ldquo;pipinawiakwigan&rdquo;.. The comb this girl is using to comb tangle from her hair is called a &ldquo;naskuahon. &rdquo; It is made from cow horn.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "skirt",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Wrap-around Skirt",
+          "blurb": "This skirt is made of wool cloth and decorated with ribbons. The skirt wraps around the waist and a sash is tied on to keep the skirt in place. Wrap skirts and petticoats are called &ldquo;labizowan&rdquo;.",
+          "svg": ""
+        },
+        {
+          "popId": "necklace",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Necklace",
+          "blurb": "This girl wears several necklaces, made of glass beads and one made from brass rings. A necklace is called a &ldquo;n&ocirc;pkoan&rdquo;, a thing that circles. These rings were called &quot;bagues a cachet&quot; (plaque rings) by the French, and were given to Native people by traders, soldiers, politicians, and Catholic priests.",
+          "svg": ""
+        },
+        {
+          "popId": "sash",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Sash &amp; Garters",
+          "blurb": "This girl wears a sash around her waist and garters, called &ldquo;kiganibial.&rdquo; They are tied on just under her knees. The sash and garters are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using just the fingers, instead of weaving on a loom. The garters help to keep the girl's leggings in place.",
+          "svg": ""
+        },
+        {
+          "popId": "leggings",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "Leggings",
+          "blurb": "These are wool leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
+          "svg": ""
+        },
+        {
+          "popId": "moccasins",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam. They are made from the hide of a white-tailed deer. The Abenaki call all kinds of shoes &quot;mkezenal&quot;. The English adapted this word into &ldquo;moccasin&rdquo;.",
+          "svg": ""
+        },        
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "capot",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Capot",
+          "blurb": "The French people call this kind of hooded coat a &quot;capot&quot;. It overlaps in front to button at the shoulder, and a sash holds it closed at the waist. This capot is made of wool.",
+          "svg": ""
+        },
+        {
+          "popId": "kettle",
+          "class": "right-middle",
+          "hasImage": true,
+          "title": "Kettle",
+          "blurb": "This kettle is made of brass and was received in trade. The girl can use it to help her mother cook. Or, it can be cut up into shiny metal to be used for jewelry.",
+          "svg": ""
+        },
+        {
+          "popId": "sweetgrass",
+          "class": "left-middle",
+          "hasImage": true,
+          "title": "Braided Sweetgrass",
+          "blurb": "This is a braid of dried sweetgrass. As the name suggests, the grass has a sweet odor. It would be used to decorate baskets and give them a pleasant smell, and it would also be burned during ceremonies as a kind of incense, or smudge to clear the air of any harmful energy.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+  ], // end layers
+} // end data

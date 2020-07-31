@@ -1,0 +1,159 @@
+const data = {
+  "info": {
+    "personPath": "1700_wob_man",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Under Garments",
+      "popItems": [
+        {
+          "popId": "face-paint",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data
