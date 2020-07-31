@@ -11,146 +11,146 @@ const data = {
           "popId": "face-paint",
           "class": "left-top",
           "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "title": "Face Paint",
+          "blurb": "Face paint was used for a variety of reasons, including for disguise or to convey a mood or emotion. This man wears red paint to show that he is feeling happy. Red was associated with life, victory, blood, war, or enthusiasm.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "popId": "gorget",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Gorget &amp; Beads",
+          "blurb": "When worn by a British or French military officer, a &quot;gorget&quot; was a metal badge of office, signifying that the man was not a common soldier. The W&ocirc;banaki people liked to wear gorgets simply for adornment. People cut up brass kettles received in trade to make their own gorgets, or they made them from shells, such as the one shown here. This man's beads are called &quot;wampum&quot;, or in Abenaki, &quot;w&ocirc;b&ocirc;bial&quot;. The purple beads are made from the thickest part of quahog clam shells found along the New England seacoast. The white beads are made from clam, whelk and other white shells.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
+          "popId": "tatoos",
+          "class": "full-middle",
           "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "title": "Tattoos",
+          "blurb": "Tattoos were put on the body for a variety of reasons. Some were marks of valor, and others were used to cover skin injuries. Some tattoos, such as those across the chest of the man shown here, served as barriers against evil spirits. Tattoos were often placed on powerful parts of the body such as around the eyes, on the chest, joints, or the fingers used to draw a bow or pull the trigger of a gun. Tattoos were also used to deaden nerves, to relieve various aches, and to attract healing energy to specific parts of the body.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
+          "popId": "breechcloth",
+          "class": "left-middle",
           "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "title": "Breechclout or Breechcloth",
+          "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or bathing suit. This man's breechclout is made of wool.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-      ], // end popItems for this layer
-    }, // end this layer
-    {
-      "layerName": "",
-      "popItems": [
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "popId": "earrings",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Earrings",
+          "blurb": "Jewelry was worn by men and women. The earrings seen here are made of brass and quahog shell. People often slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.",
           "svg": ""
         },
       ], // end popItems for this layer
     }, // end this layer
     {
-      "layerName": "",
+      "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "popId": "roach",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Roach",
+          "blurb": "This hairpiece is called a &quot;roach&quot;. It is made of dyed red hair from the tail of a male deer. The Penobscot word for roach is &quot;wesewal&quot;, which means &quot;faith&quot;. A roach was an important and deeply meaningful ornament.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "popId": "medal",
+          "class": "left-middle",
+          "hasImage": true,
+          "title": "Medal",
+          "blurb": "his silver medal is being worn simply as jewelry. W&ocirc;banaki people believed that wearing a lot of shiny and sometimes noisy jewelry of various shapes helped to scare away evil energy and spirits.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
+          "popId": "armbands",
+          "class": "right-middle",
           "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "title": "Armbands",
+          "blurb": "These are brass armbands, called &ldquo;wpedinibial.&rdquo; They were made by cutting up a kettle received in trade.",
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
+          "popId": "shirt",
+          "class": "left-middle",
           "hasImage": false,
-          "title": "",
-          "blurb": "",
+          "title": "Shirt",
+          "blurb": "This man's shirt, called a &ldquo;wihibaks&rdquo;, is made of linen. It is the same style worn by European men, but they would wear theirs tucked into their breeches.",
+          "svg": ""
+        },
+        {
+          "popId": "ring-bracelet",
+          "class": "right-middle",
+          "hasImage": true,
+          "title": "Ring &amp; Bracelet",
+          "blurb": "The ring and bracelet seen here are made from brass. The bracelet was made from a kettle. W&ocirc;banaki people used some kettles received in trade for cooking and cut up others to make into jewelry. The ring is called a &quot;bague a cachet&quot; (plaque ring) by the French. This style of ring was given to Native people by traders, soldiers, politicians, and Catholic priests.",
+          "svg": ""
+        },
+        {
+          "popId": "leggings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These are deerskin leggings, called &ldquo;medasal&rdquo;, They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
+          "svg": ""
+        },
+        {
+          "popId": "garters",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "Garters",
+          "blurb": "This man wears garters, called &ldquo;kiganibial&rdquo;, just under his knees. They are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using just the fingers. These garters are decorated with white glass trade beads that were sewn on after the garters were woven. The garters help to keep the man's leggings in place.",
+          "svg": ""
+        },
+        {
+          "popId": "moccasins",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam. They are made from the hide of a white-tailed deer. The Abenaki call all kinds of shoes &quot;mkezenal&quot;. The English adapted this word into &ldquo;moccasin&rdquo;.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "coat",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Coat",
+          "blurb": "This is a &quot;French chief&rsquo;s coat&quot;, made by the French and intended to be worn by the Native American chiefs with whom they traded. The coat is made of wool. It is interesting to note that the wool cloth preferred by the W&ocirc;banakiak for clothing was usually either red or blue.",
+          "svg": ""
+        },
+        {
+          "popId": "pouch",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Pouch",
+          "blurb": "This deerskin pouch is decorated with tufts of deer hair dyed red, embroidery of flattened, dyed porcupine quills, white glass beads, and cones made from a copper kettle. The cones would serve as bells, making a pleasant noise when the bag moved. A bundle of tobacco is attached to the bag's strap.",
+          "svg": ""
+        },
+        {
+          "popId": "wampum",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Wampum Belt",
+          "blurb": "This wampum belt is composed of glass beads. The Abenaki word for wampum is &quot;w&ocirc;b&ocirc;bial&quot;. White signifies peace, clarity, calmness, and friendship. Dark beads signify conflict or complexity. The belt might have been a gift to the man holding it. The ends of the belt are knotted; among the W&ocirc;banakiak, this might symbolize a personal belt belonging to this man.",
+          "svg": ""
+        },
+        {
+          "popId": "warclub",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "War Club",
+          "blurb": "his is a wooden war club. The clan symbol of its owner is carved just below the club head. The lines underneath might signify how many times the man had been to war, how many war party members there were, or how many prisoners were taken. A man might also decorate his war club with an image of his own face or copies of tattoos on his body.",
           "svg": ""
         },
       ], // end popItems for this layer
