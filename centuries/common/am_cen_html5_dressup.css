@@ -1,0 +1,129 @@
+.dressup-wrapper {
+	max-width: 500px;
+	position: relative;
+}
+
+/* navigation */
+.dressup-wrapper nav ul {
+	background-color: lightblue;
+	height: 2em;
+	margin: 0;
+	padding: 0.5em;
+}
+
+.dressup-wrapper nav ul li {
+	display: inline;
+	padding-right: 1.5em;
+}
+
+nav ul li.layer-title {
+	font-weight: bold;
+}
+
+#next-button text, #prev-button text {
+	fill: #cfdaf0;
+	font-size: 12px;
+	font-family: "Copperplate";
+	stroke: none;
+}
+
+#next-button text:hover, #prev-button text:hover {
+	fill: #6977b0;
+}
+
+#next-button, #prev-button {
+	fill: #6977b0;
+	stroke: #d0daef;
+}
+
+#next-button:hover, #prev-button:hover {
+	fill: #d0daef;
+	stroke: #6977b0;
+}
+
+.audio-button{
+	fill: #6977b0;
+	stroke: #5b69a1;
+}
+
+.audio-button:hover  {
+	fill: #cfdaf0;
+	stroke: #6977b0;	
+}
+
+.button-disabled {
+	fill: #c4c4c4;
+	stroke: #a09f9f;
+}
+
+/* pop ups */
+.dressup-pop {
+	position: absolute;
+}
+
+.dressup-pop {
+	background-color: white;
+	border: 1px solid gray;
+	box-shadow: 2px 2px 6px black;
+	max-width: 50%;
+	padding: 1em;
+}
+
+.dressup-pop h2, .dressup-pop p {
+	font-size: 0.6em;
+}
+
+.dressup-pop img {
+	max-width: 100%;
+}
+
+/* pop up positions */
+.left-top {
+	top: 100px; left: 10px;
+}
+
+.left-middle {
+	top: 350px; left: 10px;
+}
+
+.left-bottom {
+	top: 550px; left: 10px;
+}
+
+.right-top {
+	top: 100px; right: 10px;
+}
+
+.right-middle {
+	top: 350px; right: 10px;
+}
+
+.right-bottom {
+	top: 550px; right: 10px;
+}
+
+.full-middle {
+	top: 350px; left: 10px;
+	max-width: 100%;
+}
+
+.full-bottom {
+	top: 550px; left: 10px;
+	max-width: 100%;
+}
+
+.full-top {
+	top: 100px; left: 10px;
+	max-width: 100%;
+}
+
+/* hotspots */
+.hotspot-on {
+	fill: #CC3333;
+	fill-opacity: 0.35;
+}
+
+.hotspot {
+	fill: #FFF;
+	fill-opacity: 0.0;
+}

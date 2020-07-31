@@ -1,0 +1,116 @@
+const data = {
+  "info": {
+    "personPath": "1700_man",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Under Garments",
+      "popItems": [
+        {
+          "shortName": "shirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "A man's shirt would be made of linen and would serve as a nightshirt as well.  He might only own two or three.  He would wear his shirt night and day, often for weeks or more at a time especially in winter, without laundering.  Underpants did not exist yet and before a man put on his breeches he tucked his shirt up around his legs somewhat like a diaper.",
+          "svg": ""
+        },
+        {
+          "shortName": "stockings",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Everyone wore socks called &ldquo;stockings&rdquo; that came up over the knee.  They were commonly hand-knitted of wool or linen.",
+          "svg": ""
+        },
+        {
+          "shortName": "garters",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Garters",
+          "blurb": "Elastic had not been invented yet, so stockings were held up with garters. These garters could be made of ribbon, knitted or leather strips and might tie or buckle on above or below the knee.  This man wears leather garters that buckle on.",
+          "svg": ""
+        },
+        {
+          "shortName": "hair",
+          "class": "right-middle",
+          "hasImage": true,
+          "title": "Hair",
+          "blurb": "Long hair was common. This man wears his braided in a &ldquo;queue&rdquo;. People did not wash their hair as often as we do today. One might not wash their hair all winter long! This is one reason why a man might keep his hair tied or braided back away from his face.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "kerchief",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Kerchief",
+          "blurb": "This man wears or &ldquo;kerchief&rdquo;, or &ldquo;neck cloth&rdquo;.  The style shown here is called a &ldquo;steinkirk&rdquo; and was popular in the late 17th and early 18th centuries.  It might be made of cotton or silk.  Men's ties had not been invented yet.",
+          "svg": ""
+        },
+        {
+          "shortName": "waistcoat",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Waistcoat",
+          "blurb": "This man wears a waistcoat.  This one is sleeveless, similar to what is called a vest today, but a waistcoat might also have sleeves.  There are many more buttons down the front than are needed because they were considered stylish for men.  Women's clothing usually had no buttons!",
+          "svg": ""
+        },        {
+          "shortName": "breeches",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Breeches",
+          "blurb": "Men in this time period did not wear long pants.  Their pants, called &ldquo;breeches&rdquo;, came to just below the knee.  They had a button fly and pockets and often buttoned at the knee as well.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "Shoes were hand sewn by &ldquo;cordwainers&rdquo;, or shoemakers.  They had no rights or lefts.  This man does not have on his everyday shoes.  These are blue and made fancier with heels that are painted red.  These red heels would be considered quite stylish for men.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "hat",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Hat",
+          "blurb": "There were many styles of black felt hats made from either wool or the undercoat of a beaver.  This hat is a three-cornered hat, known as a &ldquo;tricorn&rdquo;, made of wool.  The decoration on the side is a &ldquo;cockade&rdquo;.",
+          "svg": ""
+        },
+        {
+          "popId": "coat",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Coat",
+          "blurb": "This coat is made of wool.  Notice all of the buttons!  It has slits called &ldquo;vents&rdquo; on the sides and back to make it fit comfortably when a man rides a horse.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "great-coat",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Great Coat",
+          "blurb": "&ldquo;Great coats&rdquo; were made of wool and were used as overcoats.  They fit loosely so that they can be worn comfortably over a number of layers of clothing.  If a man was camping in the woods he might sleep in his great coat.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

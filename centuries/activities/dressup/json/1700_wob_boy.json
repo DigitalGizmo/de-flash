@@ -1,0 +1,138 @@
+const data = {
+  "info": {
+    "personPath": "1700_wob_boy",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Under Garments",
+      "popItems": [
+        {
+          "popId": "breechcloth",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Breechclout or Breechcloth",
+          "blurb": "A breechclout, or &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or a bathing suit. This boy's breechclout is made of wool.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "headdress",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Headdress",
+          "blurb": "This headdress is made from ash splint (which is also used for making baskets), red wool cloth, hawk feathers, and glass trade wampum beads (cylindrical beads used for jewelry, ceremonies, and currency).",
+          "svg": ""
+        },
+        {
+          "popId": "cup",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Cup",
+          "blurb": "The boy holds a wooden cup for food or drink. It might have been made by himself or by one of his male relatives. The Abenaki word for a personal wooden scoop or cup is &ldquo;amkw&ocirc;n&rdquo;. Cups like this were useful for collecting drinking water while traveling.",
+          "svg": ""
+        },        {
+          "popId": "leggings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These are wool leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth. It is interesting to note that wool cloth used for clothing by Native people at this time was usually either red or blue.",
+          "svg": ""
+        },
+        {
+          "popId": "moccasins",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam. They are made from the hide of a white-tailed deer. The Abenaki word for any kind of shoe is &quot;mkezenal&quot;.",
+          "svg": ""
+        },
+        {
+          "popId": "garters",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Garters",
+          "blurb": "This boy wears garters, or &ldquo;kiganibial&rdquo;, tied on just under his knees. They are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using just the fingers instead of a loom. The garters help to keep the boy's leggings in place.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "necklace-pendant",
+          "class": "top-right",
+          "hasImage": true,
+          "title": "Necklace &amp; Pendant",
+          "blurb": "The necklace is made of glass beads from Holland. The pendant is a brass turtle and is the boy's clan symbol or personal totem animal. The turtle was made from a kettle that was cut up to make jewelry. W&ocirc;banaki families belonged to clans, with each clan composed of a number of different families. Clan symbols included the turtle, bear, wolf, deer, fishes, birds, and other animals. Clan symbols varied according to tribal groups.",
+          "svg": ""
+        },
+        {
+          "popId": "shirt",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "This boy's shirt is made of linen. In Abenaki, a shirt is called &ldquo;wihibaks&rdquo;. It is the same style that European boys would wear, but theirs were worn tucked into their breeches.",
+          "svg": ""
+        },        {
+          "popId": "armband",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Armband",
+          "blurb": "This armband is worn for decoration. Armbands and bracelets, called &ldquo;wpedinibial,&rdquo; were made from pieces cut from brass or copper cooking kettles.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer    
+
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "toque",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Toque",
+          "blurb": "A &quot;toque&quot; is a French term for a knitted wool cap. It was received in trade. The Abenaki call these &ldquo;antigwal&rdquo;.",
+          "svg": ""
+        },
+        {
+          "popId": "arrow",
+          "class": "left-middle",
+          "hasImage": true,
+          "title": "Arrow",
+          "blurb": "These arrows, called &ldquo;pakual&rdquo;, have brass heads, which were much thinner and lighter than stone arrowheads. The brass heads were cut from a kettle.",
+          "svg": ""
+        },        {
+          "popId": "bow",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Bow",
+          "blurb": "This boy hunts with his father's old &ldquo;tibi&rdquo;, or bow.",
+          "svg": ""
+        },
+        {
+          "popId": "capot",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Capot",
+          "blurb": "The French call this kind of hooded coat a &quot;capot&quot;. The Abenaki people would call a large overcoat like this a &quot;kchipikizon&quot;. It overlaps in front to button at the shoulder, and a sash holds it closed at the waist. This capot is made of wool. Capots were originally worn by sailors as raincoats and were adapted for use in the woods. They were very popular in the Indian trade.",
+          "svg": ""
+        },
+        {
+          "popId": "mittens",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Mittens",
+          "blurb": "These are knitted wool mittens that were received in trade. The Abenaki call all mittens, whether made from wool, leather or fur, &ldquo;meljassak&rdquo;.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer    
+  ], // end layers
+} // end data

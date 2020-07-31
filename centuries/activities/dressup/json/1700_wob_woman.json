@@ -1,0 +1,160 @@
+const data = {
+  "info": {
+    "personPath": "1700_wob_woman",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Base Layer",
+      "popItems": [
+        {
+          "popId": "dress",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Dress",
+          "blurb": "This dress is made of deerskin with painted designs.",
+          "svg": ""
+        },
+        {
+          "popId": "tatoos",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Tattoos",
+          "blurb": "Tattoos were put on the body for a variety of reasons. On men, some were marks of valor, and others were used to cover skin injuries or were placed on powerful parts of the body such as around the eyes, on the chest, joints, or the fingers used to draw a bow or pull the trigger of a gun. Tattoos were also used to deaden nerves, to relieve various aches, and to attract healing energy to specific parts of the body. Generally, W&ocirc;banaki women did not have as many tattoos as men did.",
+          "svg": ""
+        },
+        {
+          "popId": "comb",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Comb &amp; Mirror",
+          "blurb": "The comb and mirror are trade items. The mirror is called a &ldquo;pipinawiakwigan&rdquo;. The comb, called a &ldquo;naskuahon&rdquo;, is made of cow horn.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Ornament &amp; Legwear",
+      "popItems": [
+        {
+          "popId": "leggings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These are deerskin leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
+          "svg": ""
+        },
+        {
+          "popId": "moccasins",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are winter moccasins, made of deerskin. Unlike the summer moccasins, which have a seam in the center on top, winter moccasins have no center seam because it would cause blisters when wearing snowshoes. Instead, the seam is placed along the top edges of the moccasin. The Abenaki word for all shoes, including moccasins, is &quot;mkezenal&quot;.",
+          "svg": ""
+        },
+        {
+          "popId": "earrings",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Earrings &amp; Bracelets",
+          "blurb": "Jewelry was worn by men and women. The earrings, &ldquo;saksohanal&rdquo;. and bracelets, called &ldquo;wpedinibial&rdquo;, are made from a brass kettle. There are also white shell beads on the earrings.",
+          "svg": ""
+        },
+        {
+          "popId": "necklaces",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Necklaces",
+          "blurb": "This woman wears a variety of necklaces. A necklace is called a called &ldquo;n&ocirc;pkoan&rdquo;, a thing that circles. Several of these &ldquo;n&ocirc;pkoanal&rdquo; are made from glass beads and one strand is wampum, cylindrical beads used for jewelry, ceremonies, and currency, that are called &quot;w&ocirc;b&ocirc;bial&quot;. The purple beads are made from quahog clam shells collected from the New England seacoast. The white beads are made from whelk shells. She also wears a woven necklace of blue and white glass wampum.",
+          "svg": ""
+        },
+        {
+          "popId": "spoon",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Spoon",
+          "blurb": "This is a brass spoon received in trade. It is being worn around the neck for convenience.",
+          "svg": ""
+        },
+        {
+          "popId": "sash",
+          "class": "full-bottom",
+          "hasImage": false,
+          "title": "Sash &amp; Garters",
+          "blurb": "This woman wears a sash around her waist and garters, called &ldquo;kiganibial&rdquo;, tied on just under her knees. The sash and garters are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using the fingers, instead of weaving on a loom. The garters help to keep the woman's leggings in place.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "pipe",
+          "class": "right-top",
+          "hasImage": true,
+          "title": "Pipe",
+          "blurb": "Both men and women smoked pipes, using various smoking mixtures for healing purposes, for relaxation, and for prayer. This pipe is made of stone.",
+          "svg": ""
+        },
+        {
+          "popId": "capot",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Capot",
+          "blurb": "The French call this kind of hooded coat a &quot;capot&quot;. The W&ocirc;banakiak call a large overcoat like this a &quot;kchi pikizon&quot;. It overlaps in front and is kept closed with a brass hook and eye. Capots were usually kept closed with buttons, so the hook &amp; eye might have been a replacement. A sash also holds the capot closed at the waist. This capot is made of wool. Originally worn by sailors as raincoats and adapted for use in the woods, they were very popular in the Indian trade.",
+          "svg": ""
+        },
+        {
+          "popId": "blanket",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Blanket",
+          "blurb": "This wool blanket was received in trade and is being used as a bedroll.",
+          "svg": ""
+        },
+        {
+          "popId": "mittens",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Mittens",
+          "blurb": "These are wool mittens received in trade. Mittens are called &ldquo;meljasak&rdquo;.",
+          "svg": ""
+        },
+        {
+          "popId": "kettle",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Kettle",
+          "blurb": "This is a brass kettle, received in trade from the French. It can be used for cooking, or it can be cut up into shiny metal to be used for jewelry.",
+          "svg": ""
+        },
+        {
+          "popId": "pouch",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Pouch",
+          "blurb": "This pouch has been decorated with white glass beads, paint, and a tuft of deer hair dyed red. The pouch might contain tobacco and materials needed to start a fire, such as a steel striker and flints.",
+          "svg": ""
+        },
+        {
+          "popId": "knife",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Knife",
+          "blurb": "A knife could be used for a variety of tasks, from cutting food to carving wood or basket splints. The sheath is decorated with white glass beads and paint. The wooden barrel-shaped bead serves as a toggle to help keep the knife on a belt.",
+          "svg": ""
+        },
+        {
+          "popId": "mirror",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Mirror",
+          "blurb": "Between the tobacco pouch and the knife is a small mirror in a wooden frame.  It might not only have been used as a mirror, but as a shiny object to help scare away harmful spirits. The Abenaki call a mirror a &ldquo;pipinawiakwigan&rdquo;, which literally means a container that holds an image and turns it around.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+  ], // end layers
+} // end data
