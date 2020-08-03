@@ -6,27 +6,28 @@
 var dressApp = new Vue({
 	el: '#app',
 	data: {
-		layerNum: 1,
+		layerIndex: 0,
     layerTitle: 'layer title',
-		popId: 'none',
+		shortName: 'none',
     audioObject: null,
     audioOn: false,
-    personPath: '1660_wob_man'
+    personPath: '1660_wob_man',
+    dressup: data
 	},
 	methods: {
-		showPop: function(_popId) {
+		showPop: function(_shortName) {
 			// console.log(' -- showPop')
       // Stop any playing sound
       if (this.audioObject != null) {
         this.audioObject.pause()
       }
-			this.popId = _popId
+			this.shortName = _shortName
       this.popIsOpen = true
       // Play audio, if on
-      if (this.audioOn && this.popId != 'none') {
+      if (this.audioOn && this.shortName != 'none') {
         const audioFileName = 'html5/' +
-          this.personPath + '/audio/' + this.popId + '.mp3'
-        console.log('  -- audio on, popId none')
+          this.personPath + '/audio/' + this.shortName + '.mp3'
+        console.log('  -- audio on, shortName none')
           console.log('  -- audioFileName:' + audioFileName)
         // if(audioFileName.exists()) {
         try {
@@ -39,17 +40,38 @@ var dressApp = new Vue({
       }
 		},
 		prevLayer: function() {
-			this.popId = 'none'
-			// this.layerNum = this.layerNum++
-			this.layerNum = 1
+			this.shortName = 'none'
+      // Check whether prev.
+      if (this.prevExists) {
+  			this.layerIndex--
+      }
 		},
 		nextLayer: function() {
-			this.popId = 'none'
-			// this.layerNum = this.layerNum++
-			this.layerNum = 2
+      // Clear any popups.
+			this.shortName = 'none'
+      // Check whether next.
+      if (this.nextExists) {
+  			this.layerIndex++
+      }
 		},
     toggleAudio: function() {
       this.audioOn ? this.audioOn = false : this.audioOn = true
     }
-	}
+	},
+  computed: {
+    nextExists () {
+      if (this.layerIndex < (this.dressup.layers.length - 1)) {
+        return true
+      } else {
+        return false
+      }
+    },
+    prevExists () {
+      if (this.layerIndex > 0) {
+        return true
+      } else {
+        return false
+      }
+    }
+  },
 });
