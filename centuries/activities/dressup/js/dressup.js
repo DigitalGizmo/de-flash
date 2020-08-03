@@ -11,9 +11,12 @@ var dressApp = new Vue({
 		shortName: 'none',
     audioObject: null,
     audioOn: false,
-    personPath: '1660_wob_man',
+    personPath: 'tba',
     dressup: data
 	},
+  created () {
+    this.personPath = this.dressup.info.personPath
+  },
 	methods: {
 		showPop: function(_shortName) {
 			// console.log(' -- showPop')
