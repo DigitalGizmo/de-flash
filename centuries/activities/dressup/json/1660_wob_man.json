@@ -9,7 +9,7 @@ const data = {
       "popItems": [
         {
           "shortName": "breechcloth",
-          "class": "left-top",
+          "class": "right-bottom",
           "hasImage": false,
           "title": "Breechclout or Breechcloth",
           "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or bathing suit. This man's breechclout is made of wool.",
@@ -17,7 +17,7 @@ const data = {
         },
         {
           "shortName": "pendant",
-          "class": "left-top",
+          "class": "left-bottom",
           "hasImage": false,
           "title": "Thunderbird Pendant",
           "blurb": "This pendant is in the shape of a thunderbird or swallow, which are both considered by the W&ocirc;banakiak to be powerful symbols. Swallows, too, are associated with thunder since they become more active before severe storms. The pendant was cut from a brass kettle.",
@@ -25,7 +25,7 @@ const data = {
         },
         {
           "shortName": "moccasins",
-          "class": "left-top",
+          "class": "right-middle",
           "hasImage": false,
           "title": "Moccasins",
           "blurb": "These are summer-weight moccasins with a center seam.   They are made from the hide of a white-tailed deer. The Abenaki call all kinds of shoes &quot;mkezenal&quot;. The English adapted this word into &ldquo;moccasin&rdquo;.",
@@ -33,7 +33,7 @@ const data = {
         },
         {
           "shortName": "leggings",
-          "class": "left-top",
+          "class": "left-middle",
           "hasImage": false,
           "title": "Leggings",
           "blurb": "These are deerskin leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
@@ -41,7 +41,7 @@ const data = {
         },
         {
           "shortName": "gorget-beads",
-          "class": "left-top",
+          "class": "full-middle",
           "hasImage": true,
           "title": "Gorget &amp; Beads",
           "blurb": "When worn by a British or French military officer, a &quot;gorget&quot; was a metal badge of office, signifying that the man was not a common soldier. The W&ocirc;banaki people liked to wear gorgets simply for adornment. People cut up brass kettles received in trade to make their own gorgets, or they made them from shells, such as the one shown here. This man's beads are called &quot;wampum,&quot; or in Abenaki, &quot;w&ocirc;b&ocirc;bial&quot;. The purple beads are made from the thickest part of quahog clam shells found along the New England seacoast. The white beads are made from clam, whelk and other white shells.",
@@ -49,7 +49,7 @@ const data = {
         },
         {
           "shortName": "pouch",
-          "class": "left-top",
+          "class": "left-bottom",
           "hasImage": false,
           "title": "Tobacco Pouch",
           "blurb": "The Abenaki word for tobacco is &ldquo;odam&ocirc;&rdquo;, and a tobacco pouch is called an &quot;odam&ocirc;winoda&quot;. This pouch is made of painted and beaded deer hide. It contains a metal striker, a piece of flint, a chunk of tree fungus, and a small bundle of tobacco tied up in cloth. When the striker and flint are struck together, they produce sparks. The sparks would light the tree fungus, which would then be used to light the tobacco in the bowl of the pipe.",
@@ -57,7 +57,7 @@ const data = {
         },
         {
           "shortName": "garters",
-          "class": "left-top",
+          "class": "left-middle",
           "hasImage": false,
           "title": "Garters",
           "blurb": "This man wears garters, called &ldquo;kiganibial&rdquo;, tied on just under his knees. They are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using just the fingers, instead of weaving on a loom. The garters help to keep the man's leggings in place.",
@@ -65,7 +65,7 @@ const data = {
         },
         {
           "shortName": "pipe",
-          "class": "left-top",
+          "class": "full-bottom",
           "hasImage": true,
           "title": "Pipe",
           "blurb": "his pipe is for everyday use and shows personal touches (paint, a strand of beads, and a tuft of deer hair dyed red) added by its owner. Since the pipe's bowl is carved from stone, it is called a &ldquo;senip&ocirc;gan&rdquo;.",
@@ -78,7 +78,7 @@ const data = {
       "popItems": [
         {
           "shortName": "waistcoat",
-          "class": "left-top",
+          "class": "left-bottom",
           "hasImage": false,
           "title": "Waistcoat",
           "blurb": "This wool vest is called a waistcoat, sometimes pronounced, &quot;weskit&quot;. The Abenaki called it a &ldquo;silad&rdquo;. It is a similar style to that worn by European men.  &ldquo;Indian waistcoats&rdquo; like this were made by Europeans specifically for trade with Eastern Woodland peoples. It is interesting to note that the preferred color of wool cloth used by the W&ocirc;banakiak for clothing was usually either red or blue.",
@@ -86,7 +86,7 @@ const data = {
         },
         {
           "shortName": "shirt",
-          "class": "left-top",
+          "class": "right-bottom",
           "hasImage": false,
           "title": "Shirt",
           "blurb": "This man's shirt, called a &ldquo;wihibaks&rdquo;, is made of linen. It is the same style worn by European men, but they would wear theirs tucked into their breeches.",
@@ -99,7 +99,7 @@ const data = {
       "popItems": [
         {
           "shortName": "earrings",
-          "class": "left-top",
+          "class": "full-middle",
           "hasImage": true,
           "title": "Earrings",
           "blurb": "These earrings are made of brass and shell. People often slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;. Notice that this man hangs his pipe in his earring for convenience. The pipe is from Europe and is made of white clay.",
@@ -107,7 +107,7 @@ const data = {
         },
         {
           "shortName": "pelts",
-          "class": "left-top",
+          "class": "left-bottom",
           "hasImage": true,
           "title": "Pelts",
           "blurb": "This man hunts for a variety of fur-bearing animals to trade with the Europeans. This is a bundle of mink and white weasel (ermine) pelts.",
@@ -115,7 +115,7 @@ const data = {
         },
         {
           "shortName": "trade-coat",
-          "class": "left-top",
+          "class": "right-bottom",
           "hasImage": false,
           "title": "Trade Coat",
           "blurb": "William and John Pynchon, English traders who settled Springfield and Northampton in the Connecticut River Valley of Massachusetts in the 1600s, provided this style of coat for trade with W&ocirc;banaki people. This is a &quot;sleeved waistcoat&quot;, also known as a &quot;trade coat&quot;. As a large overcoat, it was called a &quot;kchi pikizon&quot;. Some Native leaders purchased multiple coats and gifted them to relatives.",
@@ -123,7 +123,7 @@ const data = {
         },
         {
           "shortName": "spear",
-          "class": "left-top",
+          "class": "right-middle",
           "hasImage": true,
           "title": "Spear",
           "blurb": "A &quot;rat spear&quot; was used for hunting smaller animals such as rats, mink, or ermine. The spear head and shaft are made of metal and would have been received in trade. A stabbing tool like this is called an &ldquo;astahigan&rdquo;.",
@@ -131,7 +131,7 @@ const data = {
         },
         {
           "shortName": "roach",
-          "class": "left-top",
+          "class": "left-middle",
           "hasImage": true,
           "title": "Roach",
           "blurb": "This hairpiece is called a &quot;roach&quot;. It is made of turkey wing feathers and it ties onto the hair. The Penobscot word for roach is &quot;wesewal&quot;, which means &quot;faith&quot;. A roach was an important and deeply meaningful ornament.",
@@ -139,7 +139,7 @@ const data = {
         },
         {
           "shortName": "face-paint",
-          "class": "left-top",
+          "class": "full-middle",
           "hasImage": true,
           "title": "Face Paint",
           "blurb": "Face paint was used for a variety of reasons, including disguise or to convey a mood or emotion. This man wears red paint to show that he is feeling happy. Red was associated with life, victory, blood, war, or enthusiasm. Notice that he also wears a ring in his nose for decoration.",
