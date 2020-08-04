@@ -5,7 +5,58 @@ const data = {
   },
   "layers": [
     {
-      "layerName": "",
+      "layerName": "Under Garments",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },      
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+    {
+      "layerName": "Daily Garments",
       "popItems": [
         {
           "popId": "",
@@ -26,7 +77,49 @@ const data = {
       ], // end popItems for this layer
     }, // end this layer
     {
-      "layerName": "",
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "popId": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
       "popItems": [
         {
           "popId": "",

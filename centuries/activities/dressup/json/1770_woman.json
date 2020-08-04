@@ -1,0 +1,126 @@
+const data = {
+  "info": {
+    "personPath": "1770_woman",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "popId": "cap",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Cap",
+          "blurb": "It was both practical and stylish for a woman to wear a cap.  It covered dirty, possibly lice-infested hair and kept it away from the fire.  A woman would wear a cap both indoors and out.  When outside she might put on another hat over her cap.",
+          "svg": ""
+        },
+        {
+          "popId": "shift",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Shift",
+          "blurb": "A shift would be made of linen and would serve as both nightgown and slip.  A woman might only own two or three.  She would wear her shift night and day, often for weeks or more at a time especially in winter, without laundering.  Underpants did not exist yet so a woman would wear absolutely nothing under her shift!",
+          "svg": ""
+        },
+        {
+          "popId": "stockings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Everyone wore socks called &ldquo;stockings&rdquo; that came up over the knee.  They were commonly hand-knitted of wool or linen.",
+          "svg": ""
+        },      
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "popId": "stays",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Stays &amp; Busk",
+          "blurb": "Stays are a support garment stiffened with whalebone, wood or reed; that provides good posture and the ice cream cone-shaped silhouette that was popular throughout most of the 18th century.  A woman might start wearing stays as a toddler! If she did not have the skill to make her own, she could purchase stays that had been imported from England. Many women wore a busk down the front of their stays.  A busk is a piece of wood that has been shaped so that it is smooth and rounded at the back.  It prevents the woman from bending at the waist, and creates the rounded shape down the front of the body that was fashionable.  Many busks were gifts from a boyfriend or husband and carved with designs on the front.",
+          "svg": ""
+        },
+        {
+          "popId": "pockets",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Pockets",
+          "blurb": "Women's clothing did not have attached pockets.  A pocket or two would be tied on around a woman's waist before she put on her final layer.  Gowns and petticoats had slits in the sides for access to pockets.  Pockets were not meant to show, as they contained personal and sometimes valuable items.",
+          "svg": ""
+        },
+        {
+          "popId": "petticoat",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Under Petticoat",
+          "blurb": "Women in the 18th century wore multiple petticoats--what we would call skirts.  They always wore at least two, and sometimes, when it was very cold, would wear up to five.  Petticoats were made from linen, wool, silk or cotton. The ones worn underneath were usually undyed linen.",
+          "svg": ""
+        },
+        {
+          "popId": "shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "A common woman would have one or two pairs of shoes.  They were hand sewn by &ldquo;cordwainers&rdquo;, or shoemakers, and had no rights or lefts.",
+          "svg": ""
+        }
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "kerchief",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Kerchief",
+          "blurb": "For modesty sake, a woman wore a kerchief of silk, linen or cotton.  Only for a formal occasion such as a party or ball would she not wear one.",
+          "svg": ""
+        },
+        {
+          "popId": "gown",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Gown",
+          "blurb": "This gown is in the style called a &ldquo;Polonaise&rdquo;.  It closes down the front and is actually sewn together.  The woman could also have used straight pins to fasten it.  Buttons were not fashionable on women's clothing. It is made of a very fine woolen cloth.",
+          "svg": ""
+        },
+        {
+          "popId": "quilted-petticoat",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Quilted Petticoat",
+          "blurb": "This petticoat is made of changeable silk and is quilted in a fashionable design.  Changeable silk is woven with one color in the warp and another color in the weft.  You can see how some areas look pink and other areas look gray.  This type of fabric is beautiful in candlelight.  Petticoats were quilted for warmth and also to look pretty.",
+          "svg": ""
+        },
+        {
+          "popId": "scissors",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Scissors Clip",
+          "blurb": "Some women kept their sewing equipment handy by using a scissors clip that hooked onto a belt or apron strings.  Any number of items could be attached to it by chain or ribbon.  This woman has scissors and a ball for holding pins and needles.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "Cape",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Cape",
+          "blurb": "Women did not wear coats in the winter.  They wore woolen capes.  Scarlet was a fashionable color for these hooded capes, and this may be the origin of &ldquo;Little Red Riding Hood&rdquo;.  Capes were half circles of wool, pieced to make them wide enough.  Many capes had attached hoods to keep the woman's head warm",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+
+  ], // end layers
+} // end data

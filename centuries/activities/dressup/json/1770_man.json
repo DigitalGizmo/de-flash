@@ -1,0 +1,165 @@
+const data = {
+  "info": {
+    "personPath": "1770_man",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "popId": "shirt",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "A man's shirt would be made of linen and would serve as a nightshirt as well.  He might only own two or three.  He would wear his shirt night and day, often for weeks or more at a time especially in winter, without laundering.  Underpants did not exist yet and before a man put on his breeches he tucked his shirt up around his legs somewhat like a diaper.",
+          "svg": ""
+        },
+        {
+          "popId": "stockings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Stockings and Garters",
+          "blurb": "Everyone wore socks called &ldquo;stockings&rdquo; that came up over the knee.  They were commonly hand-knitted of wool or linen.  Elastic had not been invented yet, so stockings were held up with garters.   These garters could be made of ribbon, knitted or leather strips and might tie or buckle on above or below the knee. This man wears knitted garters.",
+          "svg": ""
+        },     
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "popId": "kerchief",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Kerchief",
+          "blurb": "This man wears a kerchief, or neck handkerchief, knotted at the front.  It could be made from cotton, linen, silk or very light wool.  All men wore some kind of neck cloth.  The neck tie had not been invented yet.",
+          "svg": ""
+        },
+        {
+          "popId": "waistcoat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Waistcoat",
+          "blurb": "This man wears a waistcoat.  This one is sleeveless, similar to what is called a vest today, but a waistcoat might also have sleeves.  There are many more buttons down the front than are needed because they were considered stylish for men.  Women's clothing usually had no buttons!",
+          "svg": ""
+        },
+        {
+          "popId": "trousers",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Trousers",
+          "blurb": "Throughout the 18th century, fashionable men wore knee breeches.  By the end of the century, some men switched to longer, more utilitarian trousers that came down to about the ankles.  These trousers are made of linen and have been patched many times over the years to extend their use.",
+          "svg": ""
+        },
+        {
+          "popId": "shoes",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Shoes",
+          "blurb": "Shoes were hand sewn by &ldquo;cordwainers,&rdquo; or shoemakers.  They had no rights or lefts.  These everyday shoes are fastened with buckles.  The soles are fitted with hobnails and iron heel protectors.  The nails and protectors keep the soles of the shoes from wearing out.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "blanket",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Blanket Roll",
+          "blurb": "Militia men carried their own blankets.  They were used like a sleeping bag would be used today.  This man is carrying his blanket rolled up and over one shoulder.",
+          "svg": ""
+        },
+        {
+          "popId": "frock",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Frock",
+          "blurb": "This frock, or overshirt, is made from checked wool.  A frock serves two purposes--keeping the man's other clothes clean, and also keeping the man warm.  It is made the same way as a shirt, only cut larger.",
+          "svg": ""
+        },
+        {
+          "popId": "hat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Hat",
+          "blurb": "There were many styles of black felt hats made from either wool or the undercoat fur of a beaver.  This hat has a narrow brim and is the type often seen on militia men who fought in the American Revolution.",
+          "svg": ""
+        },
+        {
+          "popId": "canteen",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Canteen",
+          "blurb": "Militia men carried canteens to hold water.  This canteen is tinned, has a wooden plug and is covered with wool cloth to help keep the water cool.",
+          "svg": ""
+        },
+        {
+          "popId": "haversack",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Haversack",
+          "blurb": "This haversack is made from linen canvas.  The militia man carries many things in it. Going clockwise from the haversack: Inside the haversack is a piece of cloth to be used as a rag or to be cut up for cleaning the gun.  On top of the haversack oiled cloth could be used to keep something dry; leather cover for the gun lock to keep it dry; tinned cup used for drinking and eating; pewter spoon for eating; cloth bag for gun tools; gun tools include: a screw which is attached to the end of the ramrod to extract the ball if needed, a worm which is attached to the end of the ramrod and, with a piece of cloth, is used to clean the gun, a common nail can be used for a variety of cleaning and repair jobs, a lock vise, a screwdriver and an extra flint; leather bag used for pipe and pipe tobacco; folding knife.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "leggings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These leather leggings protect the trousers when going through brush, and also keep out the rain.  They are held with garters that are finger woven and have a design of seed beads.  Both garters and leggings are a Native American influence.",
+          "svg": ""
+        },
+        {
+          "popId": "mittens",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Mittens",
+          "blurb": "These beaver fur mittens keep hands very warm.  They are held together with a long strip of leather so the man can take them off if he needs to use his hands quickly and not have to worry about losing them.",
+          "svg": ""
+        },
+        {
+          "popId": "pack-basket",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Pack Basket",
+          "blurb": "This man is carrying a pack basket on his back held by a strap across the front of his shoulders.  Pack baskets are a Native American influence. Going clockwise from the basket: This pack basket is woven from ash splints.  The lidded pot could be used for boiling water as well as cooking a one-pot meal. The jug could hold a small amount of rum.  The tump line is used for dragging something behind you.  It is warn either across the forehead or in front of the shoulders.  Woven from hemp cord, this tump line is 11 feet long. The brass tinder box holds char cloth used to start a fire.  Char cloth is almost burnt cloth that easily catches fire when a spark falls on it.  The spark is made by hitting the flint with the steel.  This tinder box also has a magnifying lens in the lid so that the sun can be used to start a fire instead of the flint and steel. Pipe tongs are used to take a coal out of the fire to light a pipe. Militia men were responsible for bringing their own supplies.  This iron frying pan could be used to cook meat if hunting was successful.  The small ax or hatchet could be used for cutting wood. This large piece of oiled cloth could be used as a ground cloth or a covering from the rain.",
+          "svg": ""
+        },
+        {
+          "popId": "powder-horn",
+          "class": "left-middle",
+          "hasImage": true,
+          "title": "Powder Horn",
+          "blurb": "The powder horn is used to carry gun powder to be used to re-prime the lock if the charge did not go off.",
+          "svg": ""
+        },
+        {
+          "popId": "cartridge-box",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Cartridge Box",
+          "blurb": "The cartridge box holds pre-made paper cartridges.  The cartridges hold a lead ball and gunpowder, and are used by the soldier to speed the process of loading the gun.",
+          "svg": ""
+        },
+        {
+          "popId": "musket",
+          "class": "right-middle",
+          "hasImage": true,
+          "title": "Musket",
+          "blurb": "The gun is a Brown Bess musket.  It is a smooth bore gun and has a flintlock ignition.  In this detail, gun lock is cocked and ready to be fired.  Behind the gun, you can see the brush and vent pick worn hanging from the strap of the cartridge box.  The brush is used to clean the priming pan and the pick is used to keep the touch hole clean so the spark from the pan can enter the gun and ignite the powder.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data
