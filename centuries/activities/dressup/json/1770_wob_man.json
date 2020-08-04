@@ -1,0 +1,176 @@
+const data = {
+  "info": {
+    "personPath": "1770_wob_man",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "face-paint",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Face Paint",
+          "blurb": "Face paint was used for a variety of reasons, including for disguise or to convey a mood or emotion. This man wears red paint to show that he is feeling happy. Red was associated with life, victory, blood, war, or enthusiasm.",
+          "svg": ""
+        },
+        {
+          "popId": "tatoos",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Tatoos",
+          "blurb": "Tattoos were put on the body for a variety of reasons. Some were marks of valor, and others were used to cover skin injuries. Some tattoos, such as those across the chest of the man shown here, served as barriers against evil spirits. Tattoos were often placed on powerful parts of the body such as around the eyes, on the chest, joints, or the fingers used to draw a bow or pull the trigger of a gun. Tattoos were also used to deaden nerves, to relieve various aches, and to attract healing energy to specific parts of the body.",
+          "svg": ""
+        },
+        {
+          "popId": "beads",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Beads",
+          "blurb": "These wampum beads (cylindrical beads used for jewelry, ceremonies, and currency) are made of glass. The Abenaki word for wampum bead is &quot;w&ocirc;b&ocirc;bial&quot;.",
+          "svg": ""
+        },      
+        {
+          "popId": "breechcloth",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Breechclout or Breechcloth",
+          "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear or bathing suit. This man's breechclout is made of wool, decorated with silk ribbons and silver trade pins. It is interesting to note that wool cloth used for clothing was usually either red or blue.",
+          "svg": ""
+        },
+        {
+          "popId": "cup",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Cup",
+          "blurb": "The man holds a wooden cup for food or drink. It might have been made by himself or by one of his male relatives. The Abenaki word for a personal wooden scoop or cup is &ldquo;amkw&ocirc;n&rdquo;; in Algonkian, the word for a wooden cup is &quot;noggin&quot;. These cups were useful for collecting drinking water from a spring or other fresh water source while traveling.",
+          "svg": ""
+        },      
+         {
+          "popId": "leggings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These are wool leggings, called &ldquo;medasal&rdquo;, decorated with silk ribbons and glass beads. The leggings are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
+          "svg": ""
+        },
+        {
+          "popId": "moccasins",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam. They are made from the hide of a white-tailed deer. The Abenaki call all kinds of shoes &quot;mkezenal&quot;. The English adapted this word into &ldquo;moccasin&rdquo;.",
+          "svg": ""
+        },      
+     ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "roach",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Roach",
+          "blurb": "This hairpiece is called a &quot;roach&quot;. It is made of dyed red hair from the tail of a buck deer. The Penobscot word for roach is &quot;wesewal&quot;, which means &quot;faith&quot;. A roach was an important and deeply meaningful ornament.",
+          "svg": ""
+        },
+        {
+          "popId": "armbands",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Armbands &amp; Bracelets",
+          "blurb": "Jewelry was worn by men and women. These bracelets and armbands,called &ldquo;wpedinibial&rdquo;, are made of silver.",
+          "svg": ""
+        },
+        {
+          "popId": "kerchief",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Kerchief",
+          "blurb": "This is a silk kerchief. The silk would have been imported from India.",
+          "svg": ""
+        },
+         {
+          "popId": "shirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "This man's shirt, called a &ldquo;wihibaks&rdquo;, is made of linen and has ruffles at the neck and sleeves. It is the same style worn by European men for formal occasions, but they would wear theirs tucked into their breeches. This man's shirt has been decorated with silver trade pins called &quot;brooches&quot;.",
+          "svg": ""
+        },
+         {
+          "popId": "knife",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Knife",
+          "blurb": "A knife could be used for a variety of tasks, from cutting food to carving wood. The sheath is decorated with embroidery of flattened, dyed porcupine quills, white glass beads, and tufts of deer hair dyed red and placed in cones made from a copper kettle that was cut up to make jewelry. The cones would serve as bells, making a pleasant noise when the sheath moved.",
+          "svg": ""
+        },
+         {
+          "popId": "sash",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Sash &amp; Garters",
+          "blurb": "This man wears garters, called &ldquo;kiganibial&rdquo;, just under his knees. They help to keep his leggings in place. He also wears a sash around his waist. The sash and garters are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by using just the fingers. The sash and garters are decorated with glass beads, which were sewn on after they were woven.",
+          "svg": ""
+        },
+         {
+          "popId": "earrings",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Earrings",
+          "blurb": "These earrings are made of silver with wampum beads. People often slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.",
+          "svg": ""
+        },
+         {
+          "popId": "nose-ring",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Nose Ring",
+          "blurb": "This man pierced his nose in order to wear a nose ring. This ring is made of silver.",
+          "svg": ""
+        },
+ ], // end popItems for this layer
+    }, // end this layer
+
+    {
+      "layerName": "",
+      "popItems": [
+        {
+          "popId": "wampum",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Wampum Belt &amp; Talking Strings",
+          "blurb": "Around this man's neck is a wampum belt. It is composed of glass beads. In Abenaki, the word for wampum belt is &quot;w&ocirc;b&ocirc;bial&quot;. Dark beads signify anger, sadness, conflict or complexity. It would give an important, serious message to someone receiving it. The ends of the belt are knotted; among the W&ocirc;banakiak, this might symbolize a personal belt belonging to this man. The talking strings were used for peaceful purposes and served as memory devices. White signifies peace, clarity, calmness, and friendship. Each strand might stand for part of a message, inviting and welcoming visitors and wishing them health.",
+          "svg": ""
+        },
+        {
+          "popId": "axe",
+          "class": "left-middle",
+          "hasImage": true,
+          "title": "Axe/Pipe",
+          "blurb": "This metal axe serves a dual purpose. It can be used for cutting or smoking. There is a pipe bowl on the end opposite the blade. In diplomatic contexts, pipes like these signaled the delicate balance between war and peace.",
+          "svg": ""
+        },
+        {
+          "popId": "match-coat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Match Coat",
+          "blurb": "A match coat is a blanket used as a cape or shawl. When used as a blanket, it&rsquo;s a &ldquo;maksa&rdquo;; when used as an overcoat, it&rsquo;s a &quot;kchi pikizon&quot;. This one has been decorated with silk ribbon.",
+          "svg": ""
+        },
+        {
+          "popId": "pouch",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Pouch",
+          "blurb": "This deerskin pouch is decorated with tufts of deer hair dyed red, embroidery of flattened, dyed porcupine quills, blue and white glass wampum beads, and cones made from a copper kettle. The cones would serve as bells, making a pleasant noise when the pouch moved. The pouch's contents include bullets, a steel striker with flints, and a magnifying lens. When a piece of flint is struck against a striker, sparks are produced that can be used to start a fire. If the lens is held at a certain angle to the sun, focusing the sun&rsquo;s rays onto something flammable such as a piece of tree fungus, it could generate enough heat to start a fire. On the right side, from top to bottom, are tobacco rolled up in paper, a screwdriver for use with a gun, a spring for cleaning a gun, and a stone pipe.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

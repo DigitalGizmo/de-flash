@@ -1,0 +1,135 @@
+const data = {
+  "info": {
+    "personPath": "1770_wob_woman",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Base Layer",
+      "popItems": [
+        {
+          "popId": "dress",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Dress",
+          "blurb": "This wool dress is decorated with ribbons, white glass beads, and silver trade pins called &ldquo;brooches&rdquo;.  It is interesting to note that wool cloth used for clothing by the Wôbanaiak was usually either red or blue.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Accessories &amp; Ornaments",
+      "popItems": [
+        {
+          "popId": "face-paint",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Face Paint and Tatoos",
+          "blurb": "Tattoos were put on the body for a variety of reasons.  On men, some tattoos were marks of valor and others were used to cover skin injuries, or were placed on powerful parts of the body such as around the eyes, or on the chest, joints, or bow and trigger fingers.  Some tattoos, such as those on this woman's face, served as barriers against harmful spirits.  Tattoos were also used to deaden nerves, to relieve various aches, and to attract healing energy to specific parts of the body.  Generally, women did not have as many tattoos as men did.  The red face paint this woman wears shows that she is happy.  For a woman, wearing face paint was similar to wearing makeup.",
+          "svg": ""
+        },
+        {
+          "popId": "leggings",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Leggings",
+          "blurb": "These are deerskin leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth.",
+          "svg": ""
+        },
+        {
+          "popId": "sash",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Sash &amp; Garters",
+          "blurb": "This woman wears a sash around her waist and garters, called &ldquo;kiganibial&rdquo;, tied on just under her knees. The sash and garters are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by braiding using just the fingers, instead of weaving on a loom. The garters help to keep the woman's leggings in place.",
+          "svg": ""
+        },
+        {
+          "popId": "moccasins",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam. They are made from the hide of a white-tailed deer. The Abenaki word for all kinds of shoes is &quot;mkezenal&quot;.",
+          "svg": ""
+        },
+        {
+          "popId": "earrings",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Earrings",
+          "blurb": "Jewelry was worn by men and women. The earrings seen here are made of silver. The cones served as bells, making a pleasant sound when they moved. People often slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.",
+          "svg": ""
+        },
+        {
+          "popId": "necklaces",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Necklaces",
+          "blurb": "This woman wears a variety of necklaces. A necklace is called a &ldquo;n&ocirc;pkoan&rdquo;, a thing that circles. Several of these &ldquo;n&ocirc;pkoanal&rdquo; are made from glass beads and one strand is wampum (cylindrical beads used for jewelry, ceremonies, and currency). The purple beads are made from quahog clam shells collected from the New England seacoast. The white beads are made from whelk shells. She also wears a woven necklace of blue and white glass wampum.",
+          "svg": ""
+        },
+        {
+          "popId": "hair-ornament",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Hair Ornament",
+          "blurb": "This is a silver ornament for the hair. This woman's hair is wrapped with white ribbon and the hair ornament is placed over it. She also wears a red ostrich feather in her hair. She would have received these items in trade.",
+          "svg": ""
+        },
+        {
+          "popId": "basket",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Basket",
+          "blurb": "This basket is made from birch bark, with the white outer layer on the inside of the basket. A basket is an &ldquo;abazenoda&rdquo;, literally a container made from a tree; a birch bark basket is a &ldquo;maskwainoda&rdquo;, a container made from a birch tree. Baskets were made both for trade and for personal use. One like this would be useful for gathering berries, roots, or nuts, since the inner layer of birch naturally helps preserve foods.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "capot",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Capot",
+          "blurb": "The French call this kind of hooded coat a &quot;capot&quot;. The W&ocirc;banakiak call a large overcoat like this a &quot;kchi pikizon&quot;. It overlaps in front to button at the shoulder, and a sash holds it closed at the waist. This capot is made of wool. Capots were originally worn by sailors as raincoats and were adapted for use in the woods. They were very popular in the Indian trade.",
+          "svg": ""
+        },
+        {
+          "popId": "pouch",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Tobacco Pouch",
+          "blurb": "The Abenaki word for tobacco pouch is &quot;odamowin&ocirc;da&quot;. This pouch has been decorated with white glass beads, paint, and a tuft of deer hair dyed red. A stone pipe can be seen in the opening of the pouch. Women smoked pipes, as men did, for various purposes including healing, relaxation, or prayer. The pouch would contain tobacco and materials needed to start a fire, such as a steel striker and flints.",
+          "svg": ""
+        },
+        {
+          "popId": "mirror",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Mirror",
+          "blurb": "Between the tobacco pouch and the knife is a small mirror in a wooden frame. It might not only have been used as a mirror, but as a shiny object to help scare away harmful spirits. The Abenaki call a mirror a &ldquo;pipinawiakwigan&rdquo;, which literally means a container that holds an image and turns it around.",
+          "svg": ""
+        },
+        {
+          "popId": "knife",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Knife",
+          "blurb": "A knife could be used for a variety of tasks, from cutting food to carving wood or basket splints. The sheath is decorated with white glass beads and paint. The wooden barrel-shaped bead serves as a toggle to help keep the knife on a belt.",
+          "svg": ""
+        },
+        {
+          "popId": "fan",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Fan",
+          "blurb": "This fan is made of turkey feathers.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

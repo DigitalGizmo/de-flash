@@ -1,0 +1,126 @@
+const data = {
+  "info": {
+    "personPath": "1770_girl",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "popId": "shift",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Shift",
+          "blurb": "The shift is made of linen and serves as both underwear and nightgown.  A boy or girl might only have three to five of them, so they did not wear a clean one everyday.  Underpants had not been invented yet, so nothing was worn under the shift.",
+          "svg": ""
+        },
+        {
+          "popId": "stockings",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Both children and adults wore socks called &ldquo;stockings&rdquo; that came up over the knee.  They were often hand knit from either wool or linen.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "popId": "jumps",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Jumps",
+          "blurb": "This child is wearing &ldquo;jumps&rdquo;.  Jumps have some stiffening of whalebone, wood or reed, but not as much as a pair of stays.  Both boys and girls were put into jumps or stays at a young age because adults believed that stays supported the back and encouraged good posture.",
+          "svg": ""
+        },
+        {
+          "popId": "shoes",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "A child would have only one pair of shoes.  They were hand sewn by a &ldquo;cordwainer&rdquo; or shoemaker and had no rights or lefts.",
+          "svg": ""
+        },
+        {
+          "popId": "pocket",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Pocket",
+          "blurb": "Girls clothing did not have attached pockets.  A pocket would be tied around the girl's waist before she put on her petticoats or gown.  Gowns and petticoats had slits in the sides so the girl could reach into her pocket.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+         {
+          "popId": "petticoat",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Petticoat",
+          "blurb": "Boys and girls wore petticoats&mdash;what we would call skirts&mdash; under their dresses.  They would often wear more than one in the winter, to help keep warm in houses with only a fireplace for heat.",
+          "svg": ""
+        },
+         {
+          "popId": "cap",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Cap",
+          "blurb": "It was both practical and stylish for a young girl to wear a cap.  It covered dirty, possibly lice-infested hair and kept it away from the fire.  When going outside, a girl might wear a hood or a hat over her cap.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "dress",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Dress",
+          "blurb": "Both young boys (up to about age 5) and girls wore dresses similar to those worn by women.  These dresses usually laced up the back and often had &ldquo;leading strings&rdquo; attached to the shoulders.  Leading strings helped guide young children who were learning to walk and could also be used to retrain an active child.",
+          "svg": ""
+        },
+        {
+          "popId": "neckerchief",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Neckerchief",
+          "blurb": "Girls wore kerchiefs to fill in the neckline of the gown.  They provided extra warmth in the winter, and protection from the sun in summer",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "popId": "apron",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Apron",
+          "blurb": "The girl is wearing an apron called a &ldquo;pinner&rdquo;. The bib is held by pinning it to the gown at the top corners using straight pins.  (Safety pins had not been invented yet.)",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "popId": "cape",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Cape",
+          "blurb": "Capes were worn by both boys and girls for winter.  They often had hoods attached and could be either short or long.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data
