@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>1700 Wob Woman List</title>
+  <link rel="stylesheet" href="">
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+  <section id="app">
+    <h1>{{ dressup.info.personPath }}</h1>
+    <p>viewBoxWidth: {{ dressup.info.viewBoxWidth }}</p>
+
+    <div v-for="(layer, index) in dressup.layers" :key="index">     
+      <img :src="'../html5/' + dressup.info.personPath + '/images/layer-' + (index + 1) + '.jpg'" height="200"  alt="ack, we're not adding alt text">
+      <p></p>
+      <table>
+        <caption>{{ layer.layerName }}</caption>
+        <thead>
+          <tr>
+            <th>shortName</th>
+            <th>title</th>
+            <th>class</th>
+            <th>hasImage</th>
+            <th>image</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr
+            v-for="popItem in dressup.layers[0].popItems" 
+            :key="popItem.shortName">
+            <td>{{ popItem.shortName}}</td>
+            <td>{{ popItem.title}}</td>
+            <td>{{ popItem.class}}</td>
+            <td>{{ popItem.hasImage}}</td>
+            <td>
+              <img 
+                v-if="popItem.hasImage"
+                :src="'../html5/' + dressup.info.personPath + '/images/' + popItem.shortName + '.jpg'" 
+                height="75" 
+                :alt="popItem.shortName">
+              <span v-else>N/A</span>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="../json/1700_wob_woman.json" type="text/javascript"></script>
+  <script src="../js/dressup-json.js" type="text/javascript"></script>
+  
+</body>
+</html>
