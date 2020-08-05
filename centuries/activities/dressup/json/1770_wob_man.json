@@ -8,7 +8,7 @@ const data = {
       "layerName": "",
       "popItems": [
         {
-          "popId": "face-paint",
+          "shortName": "face-paint",
           "class": "left-top",
           "hasImage": false,
           "title": "Face Paint",
@@ -16,7 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "tatoos",
+          "shortName": "tatoos",
           "class": "left-top",
           "hasImage": false,
           "title": "Tatoos",
@@ -24,7 +24,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "beads",
+          "shortName": "beads",
           "class": "left-top",
           "hasImage": false,
           "title": "Beads",
@@ -32,7 +32,7 @@ const data = {
           "svg": ""
         },      
         {
-          "popId": "breechcloth",
+          "shortName": "breechcloth",
           "class": "right-middle",
           "hasImage": false,
           "title": "Breechclout or Breechcloth",
@@ -40,7 +40,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "cup",
+          "shortName": "cup",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Cup",
@@ -48,7 +48,7 @@ const data = {
           "svg": ""
         },      
          {
-          "popId": "leggings",
+          "shortName": "leggings",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Leggings",
@@ -56,7 +56,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "moccasins",
+          "shortName": "moccasins",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Moccasins",
@@ -69,7 +69,7 @@ const data = {
       "layerName": "",
       "popItems": [
         {
-          "popId": "roach",
+          "shortName": "roach",
           "class": "left-top",
           "hasImage": false,
           "title": "Roach",
@@ -77,7 +77,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "armbands",
+          "shortName": "armbands",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Armbands &amp; Bracelets",
@@ -85,7 +85,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "kerchief",
+          "shortName": "kerchief",
           "class": "left-top",
           "hasImage": false,
           "title": "Kerchief",
@@ -93,7 +93,7 @@ const data = {
           "svg": ""
         },
          {
-          "popId": "shirt",
+          "shortName": "shirt",
           "class": "left-top",
           "hasImage": false,
           "title": "Shirt",
@@ -101,7 +101,7 @@ const data = {
           "svg": ""
         },
          {
-          "popId": "knife",
+          "shortName": "knife",
           "class": "full-middle",
           "hasImage": true,
           "title": "Knife",
@@ -109,7 +109,7 @@ const data = {
           "svg": ""
         },
          {
-          "popId": "sash",
+          "shortName": "sash",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Sash &amp; Garters",
@@ -117,7 +117,7 @@ const data = {
           "svg": ""
         },
          {
-          "popId": "earrings",
+          "shortName": "earrings",
           "class": "full-middle",
           "hasImage": true,
           "title": "Earrings",
@@ -125,7 +125,7 @@ const data = {
           "svg": ""
         },
          {
-          "popId": "nose-ring",
+          "shortName": "nose-ring",
           "class": "left-top",
           "hasImage": false,
           "title": "Nose Ring",
@@ -139,7 +139,7 @@ const data = {
       "layerName": "",
       "popItems": [
         {
-          "popId": "wampum",
+          "shortName": "wampum",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Wampum Belt &amp; Talking Strings",
@@ -147,7 +147,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "axe",
+          "shortName": "axe",
           "class": "left-middle",
           "hasImage": true,
           "title": "Axe/Pipe",
@@ -155,7 +155,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "match-coat",
+          "shortName": "match-coat",
           "class": "left-top",
           "hasImage": false,
           "title": "Match Coat",
@@ -163,7 +163,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "pouch",
+          "shortName": "pouch",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Pouch",

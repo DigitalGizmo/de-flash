@@ -8,7 +8,7 @@ const data = {
       "layerName": "Under Garments",
       "popItems": [
         {
-          "popId": "breechcloth",
+          "shortName": "breechcloth",
           "class": "right-middle",
           "hasImage": false,
           "title": "Breechclout or Breechcloth",
@@ -21,7 +21,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "headdress",
+          "shortName": "headdress",
           "class": "left-top",
           "hasImage": true,
           "title": "Headdress",
@@ -29,14 +29,14 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "cup",
+          "shortName": "cup",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Cup",
           "blurb": "The boy holds a wooden cup for food or drink. It might have been made by himself or by one of his male relatives. The Abenaki word for a personal wooden scoop or cup is &ldquo;amkw&ocirc;n&rdquo;. Cups like this were useful for collecting drinking water while traveling.",
           "svg": ""
         },        {
-          "popId": "leggings",
+          "shortName": "leggings",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Leggings",
@@ -44,7 +44,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "moccasins",
+          "shortName": "moccasins",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Moccasins",
@@ -52,7 +52,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "garters",
+          "shortName": "garters",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Garters",
@@ -65,7 +65,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "necklace-pendant",
+          "shortName": "necklace-pendant",
           "class": "top-right",
           "hasImage": true,
           "title": "Necklace &amp; Pendant",
@@ -73,14 +73,14 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "shirt",
+          "shortName": "shirt",
           "class": "right-middle",
           "hasImage": false,
           "title": "Shirt",
           "blurb": "This boy's shirt is made of linen. In Abenaki, a shirt is called &ldquo;wihibaks&rdquo;. It is the same style that European boys would wear, but theirs were worn tucked into their breeches.",
           "svg": ""
         },        {
-          "popId": "armband",
+          "shortName": "armband",
           "class": "left-middle",
           "hasImage": false,
           "title": "Armband",
@@ -94,7 +94,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "popId": "toque",
+          "shortName": "toque",
           "class": "left-top",
           "hasImage": false,
           "title": "Toque",
@@ -102,14 +102,14 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "arrow",
+          "shortName": "arrow",
           "class": "left-middle",
           "hasImage": true,
           "title": "Arrow",
           "blurb": "These arrows, called &ldquo;pakual&rdquo;, have brass heads, which were much thinner and lighter than stone arrowheads. The brass heads were cut from a kettle.",
           "svg": ""
         },        {
-          "popId": "bow",
+          "shortName": "bow",
           "class": "right-middle",
           "hasImage": false,
           "title": "Bow",
@@ -117,7 +117,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "capot",
+          "shortName": "capot",
           "class": "right-middle",
           "hasImage": false,
           "title": "Capot",
@@ -125,7 +125,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "mittens",
+          "shortName": "mittens",
           "class": "left-middle",
           "hasImage": false,
           "title": "Mittens",

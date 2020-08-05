@@ -1,0 +1,119 @@
+const data = {
+  "info": {
+    "personPath": "1800_wob_boy",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "breechcloth",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Breechclout or Breechcloth",
+          "blurb": "A breechclout, called &ldquo;adhozoan&rdquo;, is a strip of fabric or deerskin that goes between the legs and is held in place by a belt tied around the waist. The breechclout might be compared to modern-day shorts, underwear, or bathing suit. This boy's breechclout is made of wool.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

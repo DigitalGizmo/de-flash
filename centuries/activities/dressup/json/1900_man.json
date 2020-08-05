@@ -1,0 +1,132 @@
+const data = {
+  "info": {
+    "personPath": "1900_man",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "undershirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Undershirt",
+          "blurb": "This undershirt was knitted by machine.  It is made of a combination of cotton and silk, the silk being added to make the garment last longer.  Undershirts might have long or short sleeves and might also have been made of wool.",
+          "svg": ""
+        },
+        {
+          "shortName": "drawers",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Drawers",
+          "blurb": "These cotton drawers were knitted by machine.  They might also be made of wool.  Some men wore one-piece underwear that combined the undershirt and drawers instead of the separates shown here.  Legless underpants had not come into fashion yet.",
+          "svg": ""
+        },
+        {
+          "shortName": "stockings",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Stockings and Garters",
+          "blurb": "Most men wore their &ldquo;stockings&rdquo;, or socks, over their drawers.  Garters were needed to hold stockings up because they did not stay up by themselves.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "trousers",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "Trousers",
+          "blurb": "Trousers might be made of cotton, linen or wool.  They had flat fronts and button flies, as zippers had not been invented yet.  Sometimes trousers had cuffs.  Creases down the back and front of each leg had recently come into fashion.",
+          "svg": ""
+        },
+        {
+          "shortName": "suspenders",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Suspenders",
+          "blurb": "Suspenders were used for holding up trousers.  Often buttons were sewn to the inside of the waistband for buttoning on suspenders.  Some men used belts instead.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "The shoes shown here are quite similar to the dress shoes worn today and could be made of leather, canvas, or a combination of both.  Because shoes were now being machine-made in factories, men were able to have more than in the past and they might have a separate pair for everyday wear, dress occasions, dancing, hunting, sports, etc.",
+          "svg": ""
+        },
+        {
+          "shortName": "shirt",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Shirt",
+          "blurb": "This shirt has a separate collar, but shirts came in a variety of styles:  attached collar and cuffs, separate collar and cuffs, or separate collar with attached cuffs, as shown here.  The collars and cuffs would have been held to the shirt with &ldquo;studs&rdquo;.  The collar shown here is made of &ldquo;linene&rdquo;.  It is stiff paper covered on both sides with cotton cloth.  Shirt cuffs did not have buttons.  Each edge had a buttonhole and a cuff link would be inserted into the buttonholes to close the cuff.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "vest",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Vest",
+          "blurb": "Vests were common and were worn even in summer.  Sometimes a vest matched a man's suit, but not always.",
+          "svg": ""
+        },
+        {
+          "shortName": "tie",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Tie",
+          "blurb": "Ties were similar to those worn today but were thinner and longer.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "Jacket",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Jacket",
+          "blurb": "This man wears a &ldquo;double-breasted&rdquo; jacket, meaning that it has 2 rows of buttons down the front.  Most men's jackets, even for formal wear, were loose fitting and appeared &ldquo;boxy&rdquo; in shape.  In cold weather a man would wear an overcoat over his jacket.",
+          "svg": ""
+        },
+        {
+          "shortName": "Hat",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Hat",
+          "blurb": "There were many styles of hats from which to choose.  This man wears a straw &ldquo;boater&rdquo;. Straw hats were commonly worn in warmer weather.  They were so stiff that they might be a problem on windy days!",
+          "svg": ""
+        },
+        {
+          "shortName": "Gloves",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Gloves",
+          "blurb": "A more fashionable man might wear gloves when going outside even in warmer weather.",
+          "svg": ""
+        },
+        {
+          "shortName": "Cane",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Cane",
+          "blurb": "Canes were common among the more fashionable men, whether they were needed to assist in walking, or were just for show.  This man's cane is just for show.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

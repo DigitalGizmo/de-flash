@@ -8,7 +8,7 @@ const data = {
       "layerName": "Under Garments",
       "popItems": [
         {
-          "popId": "shift",
+          "shortName": "shift",
           "class": "right-middle",
           "hasImage": false,
           "title": "Shift",
@@ -16,7 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "comb",
+          "shortName": "comb",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Comb &amp; Mirror",
@@ -29,7 +29,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "skirt",
+          "shortName": "skirt",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Wrap-around Skirt",
@@ -37,7 +37,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "necklace",
+          "shortName": "necklace",
           "class": "full-middle",
           "hasImage": true,
           "title": "Necklace",
@@ -45,7 +45,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "sash",
+          "shortName": "sash",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Sash &amp; Garters",
@@ -53,7 +53,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "leggings",
+          "shortName": "leggings",
           "class": "full-top",
           "hasImage": true,
           "title": "Leggings",
@@ -61,7 +61,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "moccasins",
+          "shortName": "moccasins",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Moccasins",
@@ -74,7 +74,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "popId": "capot",
+          "shortName": "capot",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Capot",
@@ -82,7 +82,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "kettle",
+          "shortName": "kettle",
           "class": "right-middle",
           "hasImage": true,
           "title": "Kettle",
@@ -90,7 +90,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "sweetgrass",
+          "shortName": "sweetgrass",
           "class": "left-middle",
           "hasImage": true,
           "title": "Braided Sweetgrass",

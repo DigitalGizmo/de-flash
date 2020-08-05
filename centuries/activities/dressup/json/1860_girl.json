@@ -1,0 +1,145 @@
+const data = {
+  "info": {
+    "personPath": "1860_girl",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "chemise",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Chemise",
+          "blurb": "A chemise is like an undershirt and a slip.  A child's chemise is short because the drawers are not open and so a longer chemise is not needed to ensure modesty.",
+          "svg": ""
+        },
+        {
+          "shortName": "stockings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Girls and women wore stockings.  Pantyhose and tights had not been invented yet, and socks were regarded as a men's garment.  A girl wore stockings of wool, cotton, or silk, depending upon the weather and the occasion.  Stockings came up above the knee and were held in place with garters.",
+          "svg": ""
+        },
+        {
+          "shortName": "garters",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Garters",
+          "blurb": "Stockings had no elastic at the top and one needed garters to hold them up. These garters are made of elastic, a new material in this period.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "Drawers",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Drawers",
+          "blurb": "Drawers are like underpants.  The drawers shown here are made to button onto the girl's stays, which is like a jacket worn as underwear.  Unlike her mother's drawers, a little girl's drawers would typically not be split and would have to be unbuttoned from the stays and pulled down to go to the outhouse.  The bottom hem of a girl's drawers might show below the hem of her dress, but when she became older her drawers would not show because she would be wearing a longer dress.",
+          "svg": ""
+        },
+        {
+          "shortName": "Shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "The shoes shown here are made of cloth and leather and they lace up the inside of the ankle.",
+          "svg": ""
+        },
+        {
+          "shortName": "stays",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Stays",
+          "blurb": "This girl wears &ldquo;stays&rdquo; rather than the corset that would be worn by her mother and older sister.  Stays, sometimes referred to as a &ldquo;jacket&rdquo;, have less boning inside than a corset, so they are not as stiff.  These stays have two rows of buttons around the bottom edge.  The lowest row is for buttoning on drawers and the higher row is for buttoning on a hoop skirt. The hoop skirt was a slip with wire hoops in it to make a girl's dress bell out.",
+          "svg": ""
+        },
+        {
+          "shortName": "hair",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Hair",
+          "blurb": "A girl might wear her hair down or held back from her face with a ribbon as shown here.  Many young girls had their hair cut to chin length, while older girls and woman let their hair grow long.  When she became older, a girl would wear her hair up.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "hoop",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Hoops",
+          "blurb": "Hoop skirts made of wire and cloth, were put on under dresses to make the skirts bell out. This girl's hoop skirt buttons onto her stays.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "shirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "A girl might wear a shirt with a skirt and open jacket or she might wear a shirt under a dress, even though only the sleeves and collar would show.",
+          "svg": ""
+        },
+        {
+          "shortName": "dress",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Dress",
+          "blurb": "This girl wears a printed cotton dress that buttons up the back.  Adult women's dresses for day wear fasten up the front, though women's ball gowns most often lace up the back.",
+          "svg": ""
+        },
+        {
+          "shortName": "doll",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Doll",
+          "blurb": "This doll, named &ldquo;Meg&rdquo;, wears clothing appropriate for a teenaged girl: Her dress is too long for a little girl's, while the open neckline would not be worn by an adult woman.  She has a cloth body and her head, hands and feet are made of porcelain.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "cloak",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Cloak",
+          "blurb": "A cloak is a cape. It might be made of one or two layers of wool.",
+          "svg": ""
+        },
+        {
+          "shortName": "hood",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Hood",
+          "blurb": "This girl wears a hood of quilted cotton flannel.  It is not attached to the cloak, but is a separate garment like a bonnet.",
+          "svg": ""
+        },
+        {
+          "shortName": "muff",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Muff",
+          "blurb": "A muff was a stylish way to keep one's hands warm in cold weather.  This girl's muff is made of ermine fur.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

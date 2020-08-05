@@ -1,0 +1,153 @@
+const data = {
+  "info": {
+    "personPath": "1860_man",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "shirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "Shirts were now a little shorter than in the past as they no longer served as underwear and nightshirts (as they did in the 18th century).  This shirt buttons part way down with 3 buttons.",
+          "svg": ""
+        },
+        {
+          "shortName": "drawers",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Drawers",
+          "blurb": "Drawers serve the function of underpants.  These drawers have a button fly.  A man would tuck his drawers into his socks to help keep his socks up.",
+          "svg": ""
+        },
+        {
+          "shortName": "socks",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Socks",
+          "blurb": "Men now wore socks rather than long stockings.  This man's socks are made of wool.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "braces",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Braces",
+          "blurb": "Suspenders were called &ldquo;braces&rdquo; and were used for holding up trousers.  Belts existed as part of special outfits (for firemen and other services), but were not otherwise common.",
+          "svg": ""
+        },
+        {
+          "shortName": "trousers",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Trousers",
+          "blurb": "Pants made by a tailor were called trousers whereas those made in a factory were called pants.  These trousers are made of linen and have a button fly - the modern zipper was not invented until the twentieth century.  Creases would not become popular in pants until later in the 19th century.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "Men's shoes came in a variety of styles and could be made of cloth or leather.  This man wears &ldquo;Congress Boots&rdquo; with elastic sides.  Elastic was a fairly new invention and like the zipper of the early twentieth century, was originally used as a shoe fastening before being introduced into other clothing.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "stock",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Stock",
+          "blurb": "This man wears a stock around his neck.  It is made stiff with a lining of woven horsehair.  It opens in back and fastens with hooks and eyes, but a buckle and strap was another common fastening.  The bow on the front is permanently tied.  The stock gradually replaced the older style of neckwear called a &ldquo;cravat&rdquo; in which a long strip of cloth was wrapped twice around the neck and the ends were then tied in a bow.",
+          "svg": ""
+        },
+        {
+          "shortName": "vest",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Vest",
+          "blurb": "Vests were a common part of everyday wear.  They might match just the trousers or just the coat or all three pieces might match.  A man might wear his vest with any number of his vest buttons fastened or left open.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "frock-coat",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Frock Coat",
+          "blurb": "Men did not appear in public in their shirtsleeves, even if wearing a vest.  This kind of coat is called a frock coat.  A frock coat was fitted to the body above the waist and had a loose skirt of fabric below. Frock coats could be made of extremely fine wool, most often black, for fall or winter, or of cotton or linen for summer.  The frock coat worn by this man is made of cotton and is suitable for summer wear.  The flamboyant pattern is not uncommon for lightweight coats in this period.",
+          "svg": ""
+        },
+        {
+          "shortName": "hat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Hat",
+          "blurb": "This man wears a straw top hat for summertime.  Top hats were considered common everyday wear.",
+          "svg": ""
+        },
+        {
+          "shortName": "gloves",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Gloves",
+          "blurb": "This man wears white cotton gloves.  Kid (goat skin) gloves were more common.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "coat",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Coat",
+          "blurb": "While a frock coat or sack coat was proper outerwear, an overcoat or cloak could be worn in cold weather.  The particular style of cloak shown is called an &ldquo;Inverness cloak&rdquo;.  Its special feature is that, while it does not have sleeves like an overcoat,  the short outer cape provides protection to the arms of the wearer.",
+          "svg": ""
+        },
+        {
+          "shortName": "hat-black",
+          "class": "left-topf",
+          "hasImage": false,
+          "title": "Hat",
+          "blurb": "This top hat is made of wool felt but might also have been made of a felt made from beaver fur.",
+          "svg": ""
+        },
+        {
+          "shortName": "gloves-gray",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Gloves",
+          "blurb": "Stylish gentlemen wore gloves when they went out in public.  The gloves shown here are made of silk.  Kid (goat skin) and cotton were also common materials for making gloves.",
+          "svg": ""
+        },
+        {
+          "shortName": "cane",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Cane",
+          "blurb": "Stylish men liked to carry canes when they went out in public, whether they needed them for walking or not.  Canes were usually small and lightweight.  This one has a gold top.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

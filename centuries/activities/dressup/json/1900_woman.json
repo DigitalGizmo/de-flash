@@ -1,0 +1,169 @@
+const data = {
+  "info": {
+    "personPath": "1900_woman",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "all-in-one",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "All-in-One",
+          "blurb": "There were different styles of underwear for women.  Shown here is an all-in-one.  It is a combination of a &ldquo;chemise&rdquo; and &ldquo;drawers&rdquo;.  A chemise is similar to an undershirt with a slip attached, and drawers are similar to underpants, but with legs.  This all-in-one has split drawers with a slip panel across the back. Split drawers made the trip to the outhouse or bathroom quicker and easier.",
+          "svg": ""
+        },
+        {
+          "shortName": "Stockings",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Socks, pantyhose and tights had not been invented yet.  A woman wore stockings of wool, cotton, or silk, depending upon the weather and the occasion.  Stockings came up above the knee and were held in place with garters made of ribbon or elastic.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "Women's shoes had thick heels and pointed toes.  They might slip on, button or lace and come above or below the ankle.",
+          "svg": ""
+        },
+        {
+          "shortName": "corset",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Corset",
+          "blurb": "A corset provided support and forced a woman's torso into the fashionable shape for the time period, forcing the chest up and swaying the back to force the chest and backside out.  It would be stiffened inside with &ldquo;boning&rdquo; made of strips of whalebone or metal.  It hooked up the front and laced up the back and would feel uncomfortably tight.",
+          "svg": ""
+        },
+        {
+          "shortName": "hair",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Hair",
+          "blurb": "Women wore their hair up on top of their heads in various fashions.  This model has her hair in a &ldquo;Gibson Girl&rdquo;, a popular fashion of the early 20th century.  Her hair is puffed out with the help of &ldquo;rats&rdquo;, which are made of her own hair that she saved from her hair- brush and rolled between her hands to create the shapes seen here.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "corset-cover",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Corset Cover",
+          "blurb": "A corset cover was worn over a corset and it buttoned up the front.  It would be made of lightweight cotton and would hide the corset seams that might otherwise be visible through a blouse or dress.",
+          "svg": ""
+        },
+        {
+          "shortName": "petticoats",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Petticoats",
+          "blurb": "In the 18th century a petticoat referred to a skirt.  In the 20th century a petticoat referred to a slip. This woman has on 2 petticoats to help give her skirt more fullness.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "skirt",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Skirt",
+          "blurb": "Women's skirts and dresses came down to the floor or sometimes as high as the ankle.  This woman wears a walking skirt made of linen.  A walking skirt was a simple everyday style of skirt that was wide enough at the bottom for walking or riding a bicycle.",
+          "svg": ""
+        },
+        {
+          "shortName": "shirtwaist",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shirtwaist",
+          "blurb": "This type of blouse is known as a &ldquo;shirtwaist&rdquo;.  It is tailored to include some details similar to men's shirts.  A shirtwaist can refer to a dress as well.  This shirtwaist is made of linen and is decorated with machine-stitched embroidery.  This style of stand-up collar was popular.",
+          "svg": ""
+        },
+        {
+          "shortName": "belt",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Belt",
+          "blurb": "A belt with a buckle was usually worn with a shirtwaist.  A belt might be made of cloth or leather.  This woman wears one made of cloth.",
+          "svg": ""
+        },
+        {
+          "shortName": "pin",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Pin &amp; Earrings",
+          "blurb": "This woman wears a pin and earrings that are made of human hair.  Usually hair jewelry was worn to remember a loved one who had died and to remind the wearer that death might strike any one at any time, including the wearer!  For those with leisure time, hair weaving was a popular hobby.  This style of jewelry took the form of earrings, pins, bracelets and necklaces.",
+          "svg": ""
+        },
+        {
+          "shortName": "locket",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Locket",
+          "blurb": "This woman wears a locket attached to her belt.  It might also have been pinned to her shirtwaist.  A locket could hold two small photos or a strand of hair belonging to a loved one.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "hat",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Hat",
+          "blurb": "Bonnets in this time period were now out of fashion and large hats were becoming popular.  All hats had very small crowns, not meant to fit on the head, but rather to perch on the hair.  This woman wears a straw hat.",
+          "svg": ""
+        },
+        {
+          "shortName": "parasol",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Parasol",
+          "blurb": "A parasol would not do in a rain shower, but was designed to keep the sun off of a woman's face, as having a tan was deemed very unfashionable.",
+          "svg": ""
+        },
+        {
+          "shortName": "handkerchief",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Handkerchief",
+          "blurb": "Ladies often kept handkerchiefs close at hand, not only for blowing noses but also for dabbing their faces, as sweat was considered most unfashionable.",
+          "svg": ""
+        },
+        {
+          "shortName": "purse",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Purse",
+          "blurb": "This woman holds an everyday purse.  She would have a fancier one for when she calls upon (visits) her friends.",
+          "svg": ""
+        },
+        {
+          "shortName": "gloves",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Gloves",
+          "blurb": "Gloves were not only considered stylish but also kept the hands clean, especially when a woman was in public places.  She would, for example, wear gloves when dancing with a man.  This woman wears net gloves.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

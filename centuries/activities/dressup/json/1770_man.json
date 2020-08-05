@@ -8,7 +8,7 @@ const data = {
       "layerName": "Undergarments",
       "popItems": [
         {
-          "popId": "shirt",
+          "shortName": "shirt",
           "class": "left-middle",
           "hasImage": false,
           "title": "Shirt",
@@ -16,7 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "stockings",
+          "shortName": "stockings",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Stockings and Garters",
@@ -29,7 +29,7 @@ const data = {
       "layerName": "Foundation Garments",
       "popItems": [
         {
-          "popId": "kerchief",
+          "shortName": "kerchief",
           "class": "right-top",
           "hasImage": false,
           "title": "Kerchief",
@@ -37,7 +37,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "waistcoat",
+          "shortName": "waistcoat",
           "class": "left-top",
           "hasImage": false,
           "title": "Waistcoat",
@@ -45,7 +45,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "trousers",
+          "shortName": "trousers",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Trousers",
@@ -53,7 +53,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "shoes",
+          "shortName": "shoes",
           "class": "full-middle",
           "hasImage": true,
           "title": "Shoes",
@@ -67,7 +67,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "blanket",
+          "shortName": "blanket",
           "class": "left-top",
           "hasImage": false,
           "title": "Blanket Roll",
@@ -75,7 +75,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "frock",
+          "shortName": "frock",
           "class": "left-top",
           "hasImage": false,
           "title": "Frock",
@@ -83,7 +83,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "hat",
+          "shortName": "hat",
           "class": "left-top",
           "hasImage": false,
           "title": "Hat",
@@ -91,7 +91,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "canteen",
+          "shortName": "canteen",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Canteen",
@@ -99,7 +99,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "haversack",
+          "shortName": "haversack",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Haversack",
@@ -112,7 +112,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "popId": "leggings",
+          "shortName": "leggings",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Leggings",
@@ -120,7 +120,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "mittens",
+          "shortName": "mittens",
           "class": "left-top",
           "hasImage": false,
           "title": "Mittens",
@@ -128,7 +128,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "pack-basket",
+          "shortName": "pack-basket",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Pack Basket",
@@ -136,7 +136,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "powder-horn",
+          "shortName": "powder-horn",
           "class": "left-middle",
           "hasImage": true,
           "title": "Powder Horn",
@@ -144,7 +144,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "cartridge-box",
+          "shortName": "cartridge-box",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Cartridge Box",
@@ -152,7 +152,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "musket",
+          "shortName": "musket",
           "class": "right-middle",
           "hasImage": true,
           "title": "Musket",

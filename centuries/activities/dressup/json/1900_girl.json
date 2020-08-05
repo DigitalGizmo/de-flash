@@ -1,0 +1,140 @@
+const data = {
+  "info": {
+    "personPath": "1900_girl",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "drawers",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Drawers",
+          "blurb": "Drawers were like underpants.  This girl wears split drawers to make the trip to the outhouse quicker and easier.",
+          "svg": ""
+        },
+        {
+          "shortName": "undershirt",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Undershirt",
+          "blurb": "This is an undershirt or under vest.  In cooler weather a girl might wear a knitted vest of cotton.",
+          "svg": ""
+        },
+        {
+          "shortName": "stockings",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Girls and women wore stockings.  Pantyhose and tights had not been invented yet, and socks were regarded as a men's garment.  A girl wore stockings of wool, cotton, or silk, depending upon the weather and the occasion.  Stockings came up above the knee and were held in place with garters.",
+          "svg": ""
+        },
+        {
+          "shortName": "garters",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Garters",
+          "blurb": "Stockings had no elastic at the top and one needed garters to hold them up. These garters are made of crocheted cotton laced with elastic and silk ribbon.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "chemise",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Chemise",
+          "blurb": "A chemise is a slip.  This one is made of cotton and fastens at the shoulder with buttons.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "Girls' and women's shoes had moderately high heels and pointed toes.  They might slip on, button or lace and come above or below the ankle.",
+          "svg": ""
+        },
+        {
+          "shortName": "corset",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Corset",
+          "blurb": "A girl's corset provided support and guaranteed good posture.  It would be stiffened inside with &ldquo;boning&rdquo; made of narrow strips of steel.  It hooked up the front and laced up the back.  Corsets could be uncomfortably tight, but by the end of the nineteenth century more comfortable &ldquo;sensible&rdquo; stays were very popular.  It would not be appropriate for a girl to wear a colored corset.",
+          "svg": ""
+        },
+        {
+          "shortName": "hair",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Hair",
+          "blurb": "A girl might wear her hair down or tied back with a ribbon as shown here.  When she became an adult, she would wear her hair pinned up.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "dress",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Dress",
+          "blurb": "Girls' dresses were usually simpler than their mothers' dresses.  They were long enough to cover the knee but not the ankle.  This girl wears a dress appropriate for a schoolgirl.",
+          "svg": ""
+        },
+        {
+          "shortName": "earrings",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Earrings",
+          "blurb": "Earrings in this period were made for pierced ears.  The simple gold earrings worn by this girl are appropriate for her young age.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "Coat",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Coat",
+          "blurb": "This coat is made of wool and hooks up the front.",
+          "svg": ""
+        },
+        {
+          "shortName": "gloves",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Gloves",
+          "blurb": "Gloves were considered a necessary part of a woman or young woman's outer wear.  They could be heavy and warm for cold weather, or of fine leather or cloth when being worn as a matter of fashionable custom rather than protection from the elements.",
+          "svg": ""
+        },
+        {
+          "shortName": "books",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "School Books",
+          "blurb": "This girl's schoolbooks are bundled together with a strap for carrying them.",
+          "svg": ""
+        },
+        {
+          "shortName": "hat",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Hat",
+          "blurb": "Hats were a necessary part of outer wear for men, women and children.  Having a suntan was not considered stylish!  This girl wears a straw boater decorated with a bow and an ostrich feather.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

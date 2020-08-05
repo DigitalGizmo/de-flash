@@ -5,10 +5,10 @@ const data = {
   },
   "layers": [
     {
-      "layerName": "Under Garments",
+      "layerName": "Undergarments",
       "popItems": [
         {
-          "popId": "",
+          "shortName": "",
           "class": "",
           "hasImage": false,
           "title": "",
@@ -16,36 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },      
-      ], // end popItems for this layer
-    }, // end this layer
-    {
-      "layerName": "Foundation Garments",
-      "popItems": [
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
+          "shortName": "",
           "class": "",
           "hasImage": false,
           "title": "",
@@ -54,20 +25,24 @@ const data = {
         },
       ], // end popItems for this layer
     }, // end this layer
-
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "",
+          "class": "",
+          "hasImage": false,
+          "title": "",
+          "blurb": "",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
     {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
+          "shortName": "",
           "class": "",
           "hasImage": false,
           "title": "",
@@ -80,57 +55,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-      ], // end popItems for this layer
-    }, // end this layer
-    {
-      "layerName": "Outer Garments",
-      "popItems": [
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-      ], // end popItems for this layer
-    }, // end this layer
-    {
-      "layerName": "Outer Garments",
-      "popItems": [
-        {
-          "popId": "",
-          "class": "",
-          "hasImage": false,
-          "title": "",
-          "blurb": "",
-          "svg": ""
-        },
-        {
-          "popId": "",
+          "shortName": "",
           "class": "",
           "hasImage": false,
           "title": "",

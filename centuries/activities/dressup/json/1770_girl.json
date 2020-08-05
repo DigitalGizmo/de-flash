@@ -8,7 +8,7 @@ const data = {
       "layerName": "Undergarments",
       "popItems": [
         {
-          "popId": "shift",
+          "shortName": "shift",
           "class": "left-middle",
           "hasImage": false,
           "title": "Shift",
@@ -16,7 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "stockings",
+          "shortName": "stockings",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Stockings",
@@ -29,7 +29,7 @@ const data = {
       "layerName": "Foundation Garments",
       "popItems": [
         {
-          "popId": "jumps",
+          "shortName": "jumps",
           "class": "right-middle",
           "hasImage": false,
           "title": "Jumps",
@@ -37,7 +37,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "shoes",
+          "shortName": "shoes",
           "class": "left-middle",
           "hasImage": false,
           "title": "Shoes",
@@ -45,7 +45,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "pocket",
+          "shortName": "pocket",
           "class": "right-middle",
           "hasImage": false,
           "title": "Pocket",
@@ -58,7 +58,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
          {
-          "popId": "petticoat",
+          "shortName": "petticoat",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Petticoat",
@@ -66,7 +66,7 @@ const data = {
           "svg": ""
         },
          {
-          "popId": "cap",
+          "shortName": "cap",
           "class": "left-top",
           "hasImage": false,
           "title": "Cap",
@@ -79,7 +79,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "dress",
+          "shortName": "dress",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Dress",
@@ -87,7 +87,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "neckerchief",
+          "shortName": "neckerchief",
           "class": "left-top",
           "hasImage": false,
           "title": "Neckerchief",
@@ -100,7 +100,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "apron",
+          "shortName": "apron",
           "class": "left-middle",
           "hasImage": false,
           "title": "Apron",
@@ -113,7 +113,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "popId": "cape",
+          "shortName": "cape",
           "class": "left-top",
           "hasImage": false,
           "title": "Cape",

@@ -1,0 +1,149 @@
+const data = {
+  "info": {
+    "personPath": "1800_woman",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "stockings",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Stockings",
+          "blurb": "Everyone wore stockings.  They were worn over the knee and were held up by a little ribbon or belt known as a garter.  Stockings were knitted of cotton, silk or wool.",
+          "svg": ""
+        },
+        {
+          "shortName": "Drawers",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "drawers",
+          "blurb": "Drawers were like underpants.  Women's drawers weren't supposed to show but drawers on young girls and boys did peek out from under their gowns.  Men didn't wear drawers.  Some drawers were split, such as the ones shown here, to make the trip to the outhouse easier and quicker.",
+          "svg": ""
+        },
+        {
+          "shortName": "chemise",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Chemise",
+          "blurb": "The chemise was a long slip and undershirt combined.  Sometimes a chemise might have tucks, a little lace and/ or embroidery on the front, all done by hand, but no one would see it!",
+          "svg": ""
+        },      
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "kerchief",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Kerchief",
+          "blurb": "In the early 19th century, ladies were not supposed to show much skin.  This woman has a kerchief around her neck for this reason.  If she was at a formal party or ball, she could take off her kerchief.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "These shoes are called &ldquo;pumps&rdquo;.  They were supposed to be for dressier occasions but some young ladies who considered themselves quite fashionable, wore them in any weather!  Men wore pumps similar to these but without the ribbons around the ankles.",
+          "svg": ""
+        },
+        {
+          "shortName": "hair",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Hair",
+          "blurb": "At around the age of 12, girls started wearing their hair in buns high up on their heads.  Combs such as this one were meant to look decorative and help hold the hair in place.",
+          "svg": ""
+        },
+        {
+          "shortName": "Corset",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Corset",
+          "blurb": "Girls and women wore corsets to make their figures look nice, but also to give support to their bodies when they carried around heavy things such as milk buckets, firewood, or small children.  Many corsets were lined with stiffeners such as whalebone or metal.  This corset has a pocket in front which contains a &ldquo;busk&rdquo;.  The busk helped make a woman's posture perfect.  This corset laces up the back.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "cap",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Cap",
+          "blurb": "This gown is typical of the new style with its high waist, narrower skirt, and simpler lines.  It has hooks up the back.  A gown might be decorated at the waist with a belt or ribbon.  Young girls often wore the same style of gowns as their mothers.",
+          "svg": ""
+        },
+        {
+          "shortName": "gown",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Gown",
+          "blurb": "This gown is typical of the new style with its high waist, narrower skirt, and simpler lines.  It has hooks up the back.  A gown might be decorated at the waist with a belt or ribbon.  Young girls often wore the same style of gowns as their mothers.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "earrings",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Earrings",
+          "blurb": "Earrings were stylish then as now.  Pear-shaped ones that dangled were quite popular.",
+          "svg": ""
+        },
+        {
+          "shortName": "hat",
+          "class": "right-top",
+          "hasImage": false,
+          "title": "Hat",
+          "blurb": "Suntans were considered very unstylish.  Whenever a girl or lady went outside, she put on a large hat to shade her face.  Straw hats like this one were usually made of rye straw that was grown on farms in New England.   The straw was braided and made into hats by women working from their homes to earn a little extra money.",
+          "svg": ""
+        },
+        {
+          "shortName": "shawl",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Shawl",
+          "blurb": "Sweaters weren't being worn in this country yet.  Shawls were worn instead.  They could be made of wool, silk, or cotton.  In colder weather a girl or lady would wear a long cape.",
+          "svg": ""
+        },
+        {
+          "shortName": "sleeves",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Sleeves",
+          "blurb": "Some gowns had two-part sleeves. The lower part would be basted on (sewn on with big stitches) for cooler weather. In warmer weather, the lower part could be removed by cutting the stiches.",
+          "svg": ""
+        },
+        {
+          "shortName": "reticule",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Reticule",
+          "blurb": "The little bag this woman holds is a purse called a &ldquo;reticule&rdquo;.  In it she might put some money, a handkerchief, gloves, or a fan.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "The shoes shown here are called &ldquo;brogans&rdquo;.  They were not considered fancy and could be worn in all kinds of weather.  They were for men or women.  They would have no rights or lefts, but most people tended to always wear the same shoe on the same foot.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

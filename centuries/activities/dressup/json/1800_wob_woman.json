@@ -1,0 +1,111 @@
+const data = {
+  "info": {
+    "personPath": "1800_wob_woman",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarment",
+      "popItems": [
+        {
+          "shortName": "shift",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Shift",
+          "blurb": "This woman wears a cotton shift. It is a trade item and is the same style that was worn by French and English women throughout the 18th century. By the 19th century, this style of shift was not being worn by European women, but W&ocirc;banaki people did not always follow European fashion trends and some continued to wear &quot;old-fashioned&quot; clothing.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "skirt",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "Wrap-around Skirt",
+          "blurb": "This skirt is made of wool cloth and is decorated with ribbons, white glass beads, and silver pins known as &quot;brooches&quot;. The woman wears more brooches on her shift. The skirt wraps around the waist and a sash is tied on to keep the skirt in place. Wrap skirts and petticoats are called &ldquo;labizowan&rdquo;. It is interesting to note that the wool cloth preferred by W&ocirc;banaki people for clothing at this time was usually either red or blue.",
+          "svg": ""
+        },
+        {
+          "shortName": "moccasins",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Moccasins",
+          "blurb": "These are summer-weight moccasins with a center seam. They are made from the hide of a white-tailed deer. The Abenaki word for all kinds of shoes is &quot;mkezenal&quot;. The English adapted this word into &ldquo;moccasin&rdquo;.",
+          "svg": ""
+        },
+        {
+          "shortName": "leggings",
+          "class": "left-top",
+          "hasImage": true,
+          "title": "Leggings",
+          "blurb": "These are wool leggings, called &ldquo;medasal&rdquo;. They are tied to a belt at the waist to keep them up. Leggings were worn for warmth and to protect one's legs when walking through scratchy undergrowth. These leggings have been decorated with ribbons and white glass beads, all received in trade.",
+          "svg": ""
+        },
+        {
+          "shortName": "sash",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "Sash &amp; Garters",
+          "blurb": "This woman wears a sash around her waist and garters, called &ldquo;kiganibial&rdquo;, tied on just under her knees. The sash and garters are made from wool yarn, using a technique called &quot;fingerweaving&quot;. As the name suggests, fingerweaving is a way to weave by just using the fingers, instead of weaving on a loom. The garters help to keep the woman's leggings in place.",
+          "svg": ""
+        },
+        {
+          "shortName": "bracelets",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Bracelets &amp; Earrings",
+          "blurb": "Jewelry was worn by men and women. The earrings and bracelets seen here are made of silver. People often slept with their earrings on. Earrings are called &ldquo;saksohanal&rdquo;.",
+          "svg": ""
+        },
+        {
+          "shortName": "necklaces",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Necklaces",
+          "blurb": "This woman wears a variety of necklaces. A necklace is called a called &ldquo;n&ocirc;pkoan&rdquo;, a thing that circles. Several of these &ldquo;n&ocirc;pkoanal&rdquo; are made from glass beads and one strand is wampum (cylindrical beads used for jewelry, ceremonies, and currency). The purple beads are made from quahog clam shells collected from the New England seacoast. The white beads are made from whelk shells. She also wears a woven necklace of blue and white glass wampum.",
+          "svg": ""
+        },
+        {
+          "shortName": "knife",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Knife",
+          "blurb": "A knife could be used for a variety of tasks, from cutting food to carving wood or basket splints. The sheath is decorated with white glass beads and paint. The wooden barrel-shaped bead serves as a toggle to help keep the knife on a belt.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "baskets",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Baskets",
+          "blurb": "These are ash splint baskets that this woman would have made to sell to non-Native people. Baskets are called &ldquo;abazenodal&rdquo;, literally meaning containers made from a tree. Many W&ocirc;banaki and other Algonkian Indian women traveled from town to town to sell baskets to their non-Native neighbors.",
+          "svg": ""
+        },
+        {
+          "shortName": "hat",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Hat",
+          "blurb": "The Abenaki word for hat is &ldquo;asolkwin&rdquo;. Without the decoration, this is the style of top hat worn by European men. It is composed of felt made from beaver hair. The silver band and red ostrich feather are typical of decorations used by the W&ocirc;banaki people on hats such as this.",
+          "svg": ""
+        },
+        {
+          "shortName": "jacket",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Jacket",
+          "blurb": "The French name for this jacket is a &quot;mantelet&quot;. This style of jacket was popular during the second half of the 18th century. It would have been out of style for most European women by 1800, but Eastern Woodland Native American women did not always follow European fashion trends and might wear a piece of clothing that was considered to be old-fashioned. This mantelet is made of a cotton fabric known as &quot;calico&quot;. The fabric would have been imported from India, and the jacket would have been received in trade.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

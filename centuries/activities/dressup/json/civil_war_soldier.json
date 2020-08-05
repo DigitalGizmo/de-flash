@@ -1,0 +1,188 @@
+const data = {
+  "info": {
+    "personPath": "civil_war_soldier",
+    "viewBoxWidth": 0
+  },
+  "layers": [
+    {
+      "layerName": "Undergarments",
+      "popItems": [
+        {
+          "shortName": "drawers",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Drawers",
+          "blurb": "All men who enlisted were issued one pair of drawers per year.  They were made of cotton and had a fly that buttoned.  However, most men preferred to not to wear any drawers at all!",
+          "svg": ""
+        },
+        {
+          "shortName": "shirt",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Shirt",
+          "blurb": "Enlistees were issued one shirt per year but these shirts usually wouldn't last that long.  If a man asked for another or lost one, he would be made to pay for it.  Most men brought shirts with them from home.",
+          "svg": ""
+        },
+        {
+          "shortName": "socks",
+          "class": "right-bottom",
+          "hasImage": false,
+          "title": "Socks",
+          "blurb": "Each soldier was issued one pair of wool socks per year.",
+          "svg": ""
+        },
+        {
+          "shortName": "beard",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Beard",
+          "blurb": "Facial hair was in fashion.  Many men had a beard and/or mustache, often with long sideburns as well.",
+          "svg": ""
+        },
+        {
+          "shortName": "spectacles",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Spectacles",
+          "blurb": "A soldier would bring his spectacles from home.  They were for sale in general stores and people would choose which pair worked best.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Foundation Garments",
+      "popItems": [
+        {
+          "shortName": "trousers",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Trousers",
+          "blurb": "The trousers issued to the soldiers were made of wool.  The pockets in the trousers shown here are the same style as those found on 18th C. breeches.  Trousers could be worn over socks or tucked into them, or they could be rolled up a bit.",
+          "svg": ""
+        },
+        {
+          "shortName": "shoes",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Shoes",
+          "blurb": "This soldier wears ankle-high shoes known as &ldquo;brogans&rdquo;.",
+          "svg": ""
+        },
+        {
+          "shortName": "vest",
+          "class": "left-top",
+          "hasImage": false,
+          "title": "Vest",
+          "blurb": "Although vests were in style, they were not issued to soldiers. Most soldiers brought vests from home.",
+          "svg": ""
+        },
+        {
+          "shortName": "braces",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Braces",
+          "blurb": "Suspenders were called &ldquo;braces&rdquo;.",
+          "svg": ""
+        },
+        {
+          "shortName": "stock",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Stock",
+          "blurb": "A stock was for formal occasions.  It would be stiffened with a lining of hog bristles.  This soldier wears one made of polished cotton with a bow in front.  For less formal occasions he would wear a square black neck cloth rolled up and tied in a bow.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Daily Garments",
+      "popItems": [
+        {
+          "shortName": "sack-coat",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Sack Coat",
+          "blurb": "In the civilian world sack coats such as this were considered old-fashioned, but the Army found them to be durable and cheap and easy to make.  They were used only for field duty.  Soldiers were required to always keep at least the top button closed or pay a fine.",
+          "svg": ""
+        },
+        {
+          "shortName": "cap",
+          "class": "full-middle",
+          "hasImage": true,
+          "title": "Forage Cap",
+          "blurb": "Each soldier was issued a forage cap.  It was worn for &ldquo;fatigue duty&rdquo; when a soldier was cleaning, cooking, sewing, etc.  It was also sometimes used for collecting food such as berries or nuts.  They were comfortable to wear and were therefore popular.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+    {
+      "layerName": "Outer Garments",
+      "popItems": [
+        {
+          "shortName": "knapsack",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Knapsack",
+          "blurb": "A knapsack was a backpack made of waterproof cloth that contained a shirt, socks etc. Attached to the knapsack would be a blanket rolled up with a &ldquo;shelter half&rdquo; (half of a tent) and then rolled up in a rubber blanket that could be used as covering in the rain or as a ground cloth.",
+          "svg": ""
+        },
+        {
+          "shortName": "fry-pan",
+          "class": "left-bottom",
+          "hasImage": false,
+          "title": "Fry Pan &amp; Spatula",
+          "blurb": "In camp there would be a &ldquo;mess&rdquo; tent where soldiers would go for meals but when out in the field and away from camp, a soldier had to do his own cooking.",
+          "svg": ""
+        },
+        {
+          "shortName": "Canteen",
+          "class": "left-middle",
+          "hasImage": false,
+          "title": "Canteen",
+          "blurb": "Canteens were made of metal and covered with wool that could be dampened to keep the water inside cooler.  Since the Union army did not issue dishes, half of an old canteen could serve as a plate.",
+          "svg": ""
+        },
+        {
+          "shortName": "haversack",
+          "class": "full-top",
+          "hasImage": true,
+          "title": "Haversack &amp; Mucket",
+          "blurb": "Originally, a haversack was issued for carrying food.  Many soldiers used them to hold just about anything.  This one contains writing and lighting equipment, The New Testament, a newspaper, silverware and a dish made from half of a canteen, items for personal cleanliness, including a comb for lice removal, a &ldquo;jaw harp&rdquo; (a musical instrument), a sewing kit known as a &ldquo;housewife&rdquo;, a pocket knife, a pipe and tobacco and &ldquo;hardtack&rdquo; (a very hard cracker made from flour and water).  The haversacks had striped linings that could be unbuttoned and taken out for laundering.  A &ldquo;mucket&rdquo; served as a mug, bucket and cooking pot.",
+          "svg": ""
+        },
+        {
+          "shortName": "cartridge-box",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Cartridge Box",
+          "blurb": "A cartridge box is a leather-covered tin container that holds cartridges for the musket.  A cartridge is a measured amount of gunpowder and a bullet hand-wrapped in paper.  The top section holds loose or individual cartridges and wrapped bundles (of ten) cartridges would be stored underneath. A musket tool is shown in front of the cartridge box.  It is a combination screwdriver/wrench used to repair and clean the gun.",
+          "svg": ""
+        },
+        {
+          "shortName": "cap-box",
+          "class": "full-bottom",
+          "hasImage": true,
+          "title": "Cap Box",
+          "blurb": "The cap box holds wool for keeping caps from spilling out, a pick for cleaning the gun and caps.  When a soldier pulled the trigger on his gun, it caused the hammer to hit a cap, which then made the gun go off.",
+          "svg": ""
+        },
+        {
+          "shortName": "bayonet",
+          "class": "right-middle",
+          "hasImage": true,
+          "title": "Bayonet",
+          "blurb": "A bayonet was designed to fit on to the end of a musket so that the musket could be used as a sword when the enemy was too close to shoot.",
+          "svg": ""
+        },
+        {
+          "shortName": "musket",
+          "class": "right-middle",
+          "hasImage": false,
+          "title": "Musket",
+          "blurb": "This is a &ldquo;rifled&rdquo; musket for firing &ldquo;minie&rdquo; balls.  The inside of the musket barrel has a groove spiraling down its length known as rifling.  This gives a spin to the bullet, helping it to travel further faster.  A &ldquo;minie ball&rdquo; was a new style of bullet that was cone-shaped rather than round.  It was smaller than the size of the musket barrel and was easier to load than round bullets.",
+          "svg": ""
+        },
+      ], // end popItems for this layer
+    }, // end this layer
+  ], // end layers
+} // end data

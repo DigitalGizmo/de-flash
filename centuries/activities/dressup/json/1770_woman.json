@@ -8,7 +8,7 @@ const data = {
       "layerName": "Undergarments",
       "popItems": [
         {
-          "popId": "cap",
+          "shortName": "cap",
           "class": "left-top",
           "hasImage": false,
           "title": "Cap",
@@ -16,7 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "shift",
+          "shortName": "shift",
           "class": "right-middle",
           "hasImage": false,
           "title": "Shift",
@@ -24,7 +24,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "stockings",
+          "shortName": "stockings",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Stockings",
@@ -37,7 +37,7 @@ const data = {
       "layerName": "Foundation Garments",
       "popItems": [
         {
-          "popId": "stays",
+          "shortName": "stays",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Stays &amp; Busk",
@@ -45,7 +45,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "pockets",
+          "shortName": "pockets",
           "class": "right-middle",
           "hasImage": false,
           "title": "Pockets",
@@ -53,7 +53,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "petticoat",
+          "shortName": "petticoat",
           "class": "right-middle",
           "hasImage": false,
           "title": "Under Petticoat",
@@ -61,7 +61,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "shoes",
+          "shortName": "shoes",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Shoes",
@@ -74,7 +74,7 @@ const data = {
       "layerName": "Daily Garments",
       "popItems": [
         {
-          "popId": "kerchief",
+          "shortName": "kerchief",
           "class": "left-top",
           "hasImage": false,
           "title": "Kerchief",
@@ -82,7 +82,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "gown",
+          "shortName": "gown",
           "class": "right-middle",
           "hasImage": false,
           "title": "Gown",
@@ -90,7 +90,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "quilted-petticoat",
+          "shortName": "quilted-petticoat",
           "class": "right-middle",
           "hasImage": false,
           "title": "Quilted Petticoat",
@@ -98,7 +98,7 @@ const data = {
           "svg": ""
         },
         {
-          "popId": "scissors",
+          "shortName": "scissors",
           "class": "left-top",
           "hasImage": true,
           "title": "Scissors Clip",
@@ -111,7 +111,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "popId": "Cape",
+          "shortName": "Cape",
           "class": "left-top",
           "hasImage": false,
           "title": "Cape",
