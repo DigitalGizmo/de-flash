@@ -81,41 +81,41 @@ nav ul li.layer-title {
 
 /* pop up positions */
 .left-top {
-	top: 100px; left: 10px;
+	top: 25%; left: 10px;
 }
 
 .left-middle {
-	top: 350px; left: 10px;
+	top: 50%; left: 10px;
 }
 
 .left-bottom {
-	top: 550px; left: 10px;
+	top: 70%; left: 10px;
 }
 
 .right-top {
-	top: 100px; right: 10px;
+	top: 25%; right: 10px;
 }
 
 .right-middle {
-	top: 350px; right: 10px;
+	top: 50%; right: 10px;
 }
 
 .right-bottom {
-	top: 550px; right: 10px;
+	top: 70%; right: 10px;
 }
 
 .full-middle {
-	top: 350px; left: 10px;
+	top: 50%; left: 10px;
 	max-width: 100%;
 }
 
 .full-bottom {
-	top: 550px; left: 10px;
+	top: 70%; left: 10px;
 	max-width: 100%;
 }
 
 .full-top {
-	top: 100px; left: 10px;
+	top: 25%; left: 10px;
 	max-width: 100%;
 }
 
