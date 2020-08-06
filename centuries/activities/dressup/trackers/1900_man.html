@@ -14,7 +14,7 @@
     <p>viewBoxWidth: {{ dressup.info.viewBoxWidth }}</p>
 
     <div v-for="(layer, index) in dressup.layers" :key="index">     
-      <img :src="'../html5/' + dressup.info.personPath + '/images/layer-' + (index + 1) + '.jpg'" height="200"  alt="ack, we're not adding alt text">
+      <img :src="'../html5/' + dressup.info.personPath + '/images/layer-' + (index + 1) + '.jpg'" height="200"  :alt="' LAYER ' + (index + 1) + ' IMAGE'">
       <p></p>
       <table>
         <caption>{{ layer.layerName }}</caption>
@@ -31,7 +31,7 @@
         <tbody>
 
           <tr
-            v-for="popItem in dressup.layers[0].popItems" 
+            v-for="popItem in dressup.layers[index].popItems" 
             :key="popItem.shortName">
             <td>{{ popItem.shortName}}</td>
             <td>{{ popItem.title}}</td>
