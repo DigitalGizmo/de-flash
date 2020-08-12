@@ -37,7 +37,7 @@ const data = {
       "layerName": "Foundation Garments",
       "popItems": [
         {
-          "shortName": "Drawers",
+          "shortName": "drawers",
           "class": "left-middle",
           "hasImage": false,
           "title": "Drawers",
@@ -45,7 +45,7 @@ const data = {
           "svg": ""
         },
         {
-          "shortName": "Shoes",
+          "shortName": "shoes",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Shoes",
