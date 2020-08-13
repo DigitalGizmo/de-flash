@@ -103,7 +103,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "shortName": "Coat",
+          "shortName": "coat",
           "class": "full-bottom",
           "hasImage": true,
           "title": "Coat",

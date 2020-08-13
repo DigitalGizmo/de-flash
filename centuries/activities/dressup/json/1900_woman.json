@@ -16,7 +16,7 @@ const data = {
           "svg": ""
         },
         {
-          "shortName": "Stockings",
+          "shortName": "stockings",
           "class": "left-bottom",
           "hasImage": false,
           "title": "Stockings",

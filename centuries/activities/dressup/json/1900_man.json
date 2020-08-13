@@ -95,7 +95,7 @@ const data = {
       "layerName": "Outer Garments",
       "popItems": [
         {
-          "shortName": "Jacket",
+          "shortName": "jacket",
           "class": "right-middle",
           "hasImage": false,
           "title": "Jacket",
@@ -103,7 +103,7 @@ const data = {
           "svg": ""
         },
         {
-          "shortName": "Hat",
+          "shortName": "hat",
           "class": "right-top",
           "hasImage": false,
           "title": "Hat",
@@ -111,7 +111,7 @@ const data = {
           "svg": ""
         },
         {
-          "shortName": "Gloves",
+          "shortName": "gloves",
           "class": "left-middle",
           "hasImage": false,
           "title": "Gloves",
@@ -119,7 +119,7 @@ const data = {
           "svg": ""
         },
         {
-          "shortName": "Cane",
+          "shortName": "cane",
           "class": "right-bottom",
           "hasImage": false,
           "title": "Cane",

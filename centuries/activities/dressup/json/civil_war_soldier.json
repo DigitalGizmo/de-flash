@@ -135,7 +135,7 @@ const data = {
           "svg": ""
         },
         {
-          "shortName": "Canteen",
+          "shortName": "canteen",
           "class": "left-middle",
           "hasImage": false,
           "title": "Canteen",
