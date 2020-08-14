@@ -1,0 +1,43 @@
+/* styles for HTML5 interactive scenes */
+
+.scene-wrapper {
+	width: 800px;
+}
+
+.scene-image	{
+	float: left;
+	padding: 0;
+	width: 70%;
+}
+
+.scene-image img {
+	max-width: 100%;
+}
+
+.scene-text	{
+	float: right;
+	padding: 1%;
+	width: 28%;
+}
+
+.tabs	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.tabs li {
+	display: inline;
+	padding-right: 10px;
+}
+
+.tabs li a {
+	background-color: #660000;
+	padding: 2px;
+}
+
+.tab-text {
+	height: 340px;
+	overflow-y: scroll;
+}
