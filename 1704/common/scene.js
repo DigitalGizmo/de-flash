@@ -7,9 +7,10 @@ var sceneApp = new Vue({
   el: '#scene-app',
   data: {
     tabIndex: 0,
-    scene: data
+    scene: data,
+    shortName: 'none',
+    popText: 'none yet',
     // layerTitle: 'layer title',
-    // shortName: 'none',
   },
   created () {
     // this.personPath = this.dressup.info.personPath
@@ -19,6 +20,18 @@ var sceneApp = new Vue({
       // console.log(' -- showPop')
       this.tabIndex = _tabIndex
       // this.popIsOpen = true
+    },
+    showPop: function(_popIndex) {
+      console.log(' -- showPop popText: ' + 
+        this.scene.tabs[this.tabIndex].popItems[_popIndex].blurb)
+      this.popText = this.scene.tabs[this.tabIndex].popItems[_popIndex].blurb
+      this.shortName = this.scene.tabs[this.tabIndex].popItems[_popIndex].shortName
+      console.log(' -- showPop sn: ' + this.shortName)
+      // this.popIsOpen = true
+    },
+    hidePop: function() {
+      this.popText = ''
+      this.shortName = 'none'
     },
     // prevLayer: function() {
     //   this.shortName = 'none'
