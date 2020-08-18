@@ -7,62 +7,35 @@ var sceneApp = new Vue({
   el: '#scene-app',
   data: {
     tabIndex: 0,
-    scene: data,
+    tabName: 'Overview',
+    scene: scene,
+    rollTexts: rollTexts,
+    tabTexts: tabTexts,
     shortName: 'none',
     popText: 'none yet',
-    // layerTitle: 'layer title',
+    tabText: ''
   },
   created () {
-    // this.personPath = this.dressup.info.personPath
+    this.tabText = tabTexts[this.tabName]
   },
   methods: {
-    showTab: function(_tabIndex) {
+    showTab: function(_tabName) {
       // console.log(' -- showPop')
-      this.tabIndex = _tabIndex
+      this.tabName = _tabName
+      this.tabText = tabTexts[_tabName]
       // this.popIsOpen = true
     },
-    showPop: function(_popIndex) {
-      console.log(' -- showPop popText: ' + 
-        this.scene.tabs[this.tabIndex].popItems[_popIndex].blurb)
-      this.popText = this.scene.tabs[this.tabIndex].popItems[_popIndex].blurb
-      this.shortName = this.scene.tabs[this.tabIndex].popItems[_popIndex].shortName
-      console.log(' -- showPop sn: ' + this.shortName)
+    showPop: function(_shortName) {
+      // console.log(' -- showPop rollText: ' + this.rollTexts[_shortName])
+      // console.log(' -- showPop testText: ' + this.testText)
+      this.shortName = _shortName
+      this.popText = this.rollTexts[_shortName]
+      // console.log(' -- showPop sn: ' + this.shortName)
       // this.popIsOpen = true
     },
     hidePop: function() {
       this.popText = ''
       this.shortName = 'none'
-    },
-    // prevLayer: function() {
-    //   this.shortName = 'none'
-    //   // Check whether prev.
-    //   if (this.prevExists) {
-    //     this.layerIndex--
-    //   }
-    // },
-    // nextLayer: function() {
-    //   // Clear any popups.
-    //   this.shortName = 'none'
-    //   // Check whether next.
-    //   if (this.nextExists) {
-    //     this.layerIndex++
-    //   }
-    // },
-  },
-  computed: {
-    // nextExists () {
-    //   if (this.layerIndex < (this.dressup.layers.length - 1)) {
-    //     return true
-    //   } else {
-    //     return false
-    //   }
-    // },
-    // prevExists () {
-    //   if (this.layerIndex > 0) {
-    //     return true
-    //   } else {
-    //     return false
-    //   }
-    // }
-  },
+    }
+  }
 });
