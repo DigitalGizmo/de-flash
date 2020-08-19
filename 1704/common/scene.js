@@ -36,6 +36,11 @@ var sceneApp = new Vue({
     hidePop: function() {
       this.popText = ''
       this.shortName = 'none'
+    },
+    tabAbbr: function (_tabName) {
+      return _tabName.substring(0, 3)
     }
+  },
+  computed: {
   }
 });
