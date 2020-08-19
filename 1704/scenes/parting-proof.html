@@ -90,11 +90,17 @@
 
             <!-- Hotspots -->
             <g v-for="(tab, index) in scene.tabs" :key="index">
-              <!-- The following g element gets generated for all. But each
-              is seen only according to its if statement -->
+              <!-- The mask that leaves highlights for a given tab -->
+              <g v-if="tabName === tab.tabName">
+                <path 
+                  :d="tab.maskSvg"
+                  />
+              </g>
+              <!-- The following loop generates all hotspots. But each
+              is seen only according to its per-tab if statement -->
               <g v-if="tabName === tab.tabName || tabName === 'Overview'">                 
                 <g
-                  v-for="(hotSpot, innerindex) in scene.tabs[index].popItems" 
+                  v-for="(hotSpot, innerindex) in scene.tabs[index].hotSpots" 
                   :key="hotSpot.shortName">
                   <path 
                     class="hotspot"
@@ -134,8 +140,8 @@
         </article><!--/scene-text -->
 
       </div><!--/#scene-app -->
-      <script src="data/Parting.json" type="text/javascript"></script>
-      <script src="data/Parting.js" type="text/javascript"></script>
+      <script src="data/March.json" type="text/javascript"></script>
+      <script src="data/March.js" type="text/javascript"></script>
       <script src="../common/scene.js" type="text/javascript"></script>
       <!-- end interactive section -->
 
