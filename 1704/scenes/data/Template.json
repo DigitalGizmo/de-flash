@@ -1,0 +1,63 @@
+const scene = {
+  "scenewide": {
+    "sceneName": "",
+    // RollTexts are in separate .js file
+  },
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "hotSpots": [
+      ], // end hotSpots
+    }, // end first tab
+    {
+      "tabName": "English",
+      "maskSvg": "",
+      "hotSpots": [
+        {
+          "shortName": "",
+          "svg": ""
+        },
+      ], // end hotSpots
+    }, // end layer
+    {
+      "tabName": "French",
+      "maskSvg": "",
+      "hotSpots": [
+        {
+          "shortName": "",
+          "svg": ""
+        },
+      ], // end hotSpots
+    }, // end layer
+    {
+      "tabName": "KanienKehaka",
+      "maskSvg": "",
+      "hotSpots": [
+        {
+          "shortName": "",
+          "svg": ""
+        },
+      ], // end hotSpots
+    }, // end layer
+    {
+      "tabName": "Wendat",
+      "maskSvg": "",
+      "hotSpots": [
+        {
+          "shortName": "",
+          "svg": ""
+        },
+      ], // end hotSpots
+    }, // end layer
+    {
+      "tabName": "Wobanakiak",
+      "maskSvg": "",
+      "hotSpots": [
+        {
+          "shortName": "",
+          "svg": ""
+        },
+      ], // end hotSpots
+    }, // end layer
+  ], // end tabs
+} // end data
