@@ -7,7 +7,7 @@ const scene = {
     {
       "tabName": "Overview",
       "hotSpots": [
-      ] // end hotSpots
+      ], // end hotSpots
     }, // end first tab
     {
       "tabName": "English",
@@ -17,7 +17,7 @@ const scene = {
           "shortName": "",
           "svg": ""
         },
-      ] // end hotSpots
+      ], // end hotSpots
     }, // end layer
     {
       "tabName": "French",
@@ -27,7 +27,7 @@ const scene = {
           "shortName": "",
           "svg": ""
         },
-      ] // end hotSpots
+      ], // end hotSpots
     }, // end layer
     {
       "tabName": "KanienKehaka",
@@ -37,7 +37,7 @@ const scene = {
           "shortName": "",
           "svg": ""
         },
-      ] // end hotSpots
+      ], // end hotSpots
     }, // end layer
     {
       "tabName": "Wendat",
@@ -47,7 +47,7 @@ const scene = {
           "shortName": "",
           "svg": ""
         },
-      ] // end hotSpots
+      ], // end hotSpots
     }, // end layer
     {
       "tabName": "Wobanakiak",
@@ -57,7 +57,7 @@ const scene = {
           "shortName": "",
           "svg": ""
         },
-      ] // end hotSpots
+      ], // end hotSpots
     }, // end layer
   ], // end tabs
 } // end data
