@@ -128,13 +128,13 @@ nav ul li.layer-title {
 	margin-right: 0.75em;
 }
 
+.hotspot {
+	fill: #FFF;
+	fill-opacity: 0.0;
+}
+
 /* hotspots */
 .hotspoton {
 	fill: #CC3333;
 	fill-opacity: 0.35;
-}
-
-.hotspot {
-	fill: #FFF;
-	fill-opacity: 0.0;
 }
