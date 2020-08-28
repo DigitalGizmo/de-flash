@@ -11,8 +11,10 @@ var sceneApp = new Vue({
     scene: scene,
     rollTexts: rollTexts,
     tabTexts: tabTexts,
+    related: related,
     shortName: 'none',
     popText: 'none yet',
+    relatedUp: [false, false, false, false],
     tabText: ''
   },
   created () {
@@ -36,6 +38,10 @@ var sceneApp = new Vue({
     hidePop: function() {
       this.popText = ''
       this.shortName = 'none'
+    },
+    toggleRelated: function(relatedIndex) {
+      this.relatedUp[relatedIndex] ? this.relatedUp[relatedIndex] = false : this.relatedUp[relatedIndex] = true
+      sceneApp.$forceUpdate();
     },
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)

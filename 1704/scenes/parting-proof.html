@@ -28,6 +28,9 @@
     fill-opacity: 0.7;
   }
 
+  li { 
+    display: inline; 
+  }
 
 </style>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
@@ -122,6 +125,27 @@
 
           <div>
             <p v-html='popText'></p>
+            <ul>
+              <li>
+                <a href="#" 
+                  @click.prevent="toggleRelated(0)">
+                  People</a>
+                <p
+                  v-if="relatedUp[0] === true"
+                  v-html="related.people[1]"></p>
+              </li>
+              <li>
+                <a href="#" 
+                  @click.prevent="toggleRelated(1)">
+                  Artifacts</a>
+                <p
+                  v-if="relatedUp[1] === true"
+                  v-html="related.artifacts[1]"></p>
+              </li>
+              <li>Artifacts</li>
+              <li>Explanations</li>
+              <li>Maps</li>
+            </ul>
             shortName: {{ shortName }}
           </div>
 
