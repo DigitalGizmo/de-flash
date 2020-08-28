@@ -1,39 +1,12 @@
 <html lang="en">
 <head>
-<title>Parting Ways</title>
+  <title>Parting Ways</title>
 
-<script language="JavaScript" src="../common/popWindow.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link href="../styles/1704.css" rel="stylesheet" type="text/css">
-<link href="../styles/1704_html5_scenes.css" rel="stylesheet" type="text/css">
-
-<style type="text/css" media="screen">
-  #scene-app {
-    width: 755;
-    height: 410;
-    background-color: white;
-  }
-  .hotspot {
-    fill: #FFF;
-    fill-opacity: 0.0;
-    /*fill-opacity: 0.3;*/
-  }
-  /* hotspots */
-  .hotspoton {
-    fill: #CC3333;
-    fill-opacity: 0.35;
-  }
-  .tab-mask {
-    fill: #333333;
-    fill-opacity: 0.7;
-  }
-
-  li { 
-    display: inline; 
-  }
-
-</style>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script language="JavaScript" src="../common/popWindow.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link href="../styles/1704.css" rel="stylesheet" type="text/css">
+  <link href="../styles/1704_html5_scenes.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 
 </head>
 <body bgcolor="#660000" background="../images/bkgrnd_big.gif" text="#CC9933" link="#CC9900" vlink="#CC9966" alink="#CC3300">
@@ -123,35 +96,11 @@
 
           </svg>
 
-          <div>
-            <p v-html='popText'></p>
-            <ul>
-              <li>
-                <a href="#" 
-                  @click.prevent="toggleRelated(0)">
-                  People</a>
-                <p
-                  v-if="relatedUp[0] === true"
-                  v-html="related.people[1]"></p>
-              </li>
-              <li>
-                <a href="#" 
-                  @click.prevent="toggleRelated(1)">
-                  Artifacts</a>
-                <p
-                  v-if="relatedUp[1] === true"
-                  v-html="related.artifacts[1]"></p>
-              </li>
-              <li>Artifacts</li>
-              <li>Explanations</li>
-              <li>Maps</li>
-            </ul>
-            shortName: {{ shortName }}
-          </div>
-
-        </div>
+        </div><!-- /scene-image -->
 
         <article class="scene-text">
+          
+          <!--tabs -->
           <ul class="tabs">
             <li 
             v-for="(tab, index) in scene.tabs" 
@@ -165,10 +114,67 @@
               </a>
             </li>
           </ul>
+
+          <!--tab text -->
           <div v-html="tabText" class="tab-text"></div>
+
         </article><!--/scene-text -->
 
+        <div class="scene-related">
+          
+          <div class="icons">
+            <a href="#"><img src="images/roll_icon.gif"></a>
+            <a href="#"><img src="images/enlarge_icon.gif"></a>
+          </div>
+
+          <div class="relateds">
+            <!--pop up text area -->
+            <div v-html='popText' class="pop-text"></div>
+
+            <!--pop up menus -->
+            <ul class="pop-menu">
+              <li>
+                <a href="#" 
+                  @click.prevent="toggleRelated(0)">
+                  People</a>
+                <p
+                  v-if="relatedUp[0] === true"
+                  v-html="related.people[1]"></p>
+              </li>
+
+              <li>
+                <a href="#" 
+                  @click.prevent="toggleRelated(1)">
+                  Artifacts</a>
+                <p
+                  v-if="relatedUp[1] === true"
+                  v-html="related.artifacts[1]"></p>
+              </li>
+
+              <li>
+                <a href="#" 
+                  @click.prevent="toggleRelated(2)">
+                  Explanations</a>
+                <p
+                  v-if="relatedUp[2] === true"
+                  v-html="related.background[1]"></p>
+              </li>
+
+              <li>
+                <a href="#" 
+                  @click.prevent="toggleRelated(3)">
+                  Maps</a>
+                <p
+                  v-if="relatedUp[3] === true"
+                  v-html="related.maps[1]"></p>
+              </li>
+            </ul>
+            shortName: {{ shortName }}
+          </div><!--/relateds -->
+        </div><!--/scene-related -->
+
       </div><!--/#scene-app -->
+
       <script src="data/Parting-svg.js" type="text/javascript"></script>
       <script src="data/Parting-text.js" type="text/javascript"></script>
       <script src="../common/scene.js" type="text/javascript"></script>

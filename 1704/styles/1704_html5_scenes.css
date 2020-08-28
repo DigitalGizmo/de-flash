@@ -1,7 +1,13 @@
 /* styles for HTML5 interactive scenes */
+#scene-app {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
 
 .scene-wrapper {
 	width: 800px;
+	overflow: auto;
+	background-color: white;
 }
 
 .scene-image	{
@@ -20,9 +26,18 @@
 	width: 28%;
 }
 
+.scene-related {
+	clear: left;
+	padding: 2%;
+	width: 68%;
+}
+
+.icons {
+	float: left;
+	margin-right: 0.5em;
+}
+
 .tabs	{
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
 	list-style-type: none;
 	padding-left: 0;
 }
@@ -38,6 +53,43 @@
 }
 
 .tab-text {
-	height: 340px;
+	height: 380px;
 	overflow-y: scroll;
+	background-color: beige;
+}
+
+/* hotspots */
+.hotspot {
+	fill: #FFF;
+	fill-opacity: 0.0;
+}
+.hotspoton {
+	fill: #CC3333;
+	fill-opacity: 0.35;
+}
+
+/* spotlights/masks */
+.tab-mask {
+	fill: #000;
+	fill-opacity: 0.7;
+}
+
+.pop-text {
+	color: #660000;
+	height: 40px;
+}
+
+.pop-menu {
+	list-style-type: none;
+}
+
+.pop-menu li {
+	display: inline;
+	margin-right: 2em;
+}
+
+.pop-menu li a {
+	color: brown;
+	background-color: #CC9900;
+	padding: 0.25em 1.5em;
 }
