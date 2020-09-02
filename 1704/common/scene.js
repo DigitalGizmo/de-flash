@@ -40,8 +40,20 @@ var sceneApp = new Vue({
       this.shortName = 'none'
     },
     toggleRelated: function(relatedIndex) {
-      this.relatedUp[relatedIndex] ? this.relatedUp[relatedIndex] = false : this.relatedUp[relatedIndex] = true
+      if (this.relatedUp[relatedIndex]) { // this one is on
+        this.relatedUp[relatedIndex] = false
+      } else { // we're turning this one on
+        this.closeAllRelated()
+        this.relatedUp[relatedIndex] = true  
+      }
       sceneApp.$forceUpdate();
+    },
+    closeAllRelated: function() {
+      // console.log(" -- in closeAllRelated")
+      // Don't know why, but I seem to need to use old for loop
+      for (let i = 0; i < this.relatedUp.length; i++) {
+        this.relatedUp[i] = false
+      }
     },
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
