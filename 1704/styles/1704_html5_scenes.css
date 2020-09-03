@@ -15,7 +15,7 @@
 .scene-wrapper {
 	width: 800px;
 	overflow: auto;
-	background-color: white;
+	background-image: url("../scenes/images/bkgrnd_sand.jpg");
 }
 
 .scene-image	{
@@ -58,13 +58,18 @@
 
 .scene-related {
 	clear: left;
-	padding: 2%;
+	padding: 1% 2%;
 	width: 68%;
 }
 
 .icons {
 	float: left;
-	margin-right: 0.5em;
+	margin-right: 2%;
+	width: 15%;
+}
+
+.relateds {
+	margin-left: 17%;
 }
 
 /* hotspots */
@@ -85,22 +90,27 @@
 
 /* hotspot text */
 .pop-text {
+	border: 1px solid rgb(204, 153, 51);
 	color: #660000;
-	height: 40px;
+	height: 60px;
+	margin-bottom: 3px;
 }
 
 /* popup menus */
 ul.pop-menu {
 	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
 }
 
 ul.pop-menu li {
 	background-color: beige;
 	border: 1px solid rgb(204, 153, 51);
-	display: inline;
-	margin-right: 2em;
+	display: inline-block;
+	margin-top: 0;
 	padding: 0.25em 2em 0.25em 0.5em;
 	position: relative;
+	width: 18.4%;
 }
 
 ul.pop-menu li a {
