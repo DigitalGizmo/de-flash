@@ -120,12 +120,11 @@ ul.pop-menu li a {
 /* popup sub-menus */
 ul.pop-menu li ul {
 	position: absolute;
-	bottom: 2.25em;
-	left: -4.15em;
+	bottom: 1.85em;
+	left: -4.13em;
 }
 
 ul.pop-menu li ul li {
 	display: inline-block;
-	margin: 1px;
 	width: 160px;
 }
