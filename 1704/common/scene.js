@@ -6,9 +6,9 @@
 var sceneApp = new Vue({
   el: '#scene-app',
   data: {
+    scene: scene,
     tabIndex: 0,
     tabName: 'Overview',
-    scene: scene,
     rollTexts: rollTexts,
     tabTexts: tabTexts,
     related: related,
@@ -21,10 +21,11 @@ var sceneApp = new Vue({
     this.tabText = tabTexts[this.tabName]
   },
   methods: {
-    showTab: function(_tabName) {
+    showTab: function(_tabIndex) {
       // console.log(' -- showPop')
-      this.tabName = _tabName
-      this.tabText = tabTexts[_tabName]
+      this.tabIndex = _tabIndex
+      this.tabName = this.scene.tabs[_tabIndex].tabName
+      this.tabText = tabTexts[this.tabName]
       // this.popIsOpen = true
     },
     showPop: function(_shortName) {
@@ -53,6 +54,18 @@ var sceneApp = new Vue({
       // Don't know why, but I seem to need to use old for loop
       for (let i = 0; i < this.relatedUp.length; i++) {
         this.relatedUp[i] = false
+      }
+    },
+    // Determine tab state
+    getTabSuffix: function(_tabIndex) {
+      if (scene.tabs[_tabIndex].enabled) {
+        if (_tabIndex === this.tabIndex) {
+          return '_f4'
+        } else {
+          return '_f2'
+        }
+      } else { // tab with this index not enabled
+        return '_f5'
       }
     },
     tabAbbr: function (_tabName) {
