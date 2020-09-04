@@ -13,7 +13,7 @@
 }
 
 .scene-wrapper {
-	width: 800px;
+	max-width: 900px;
 	overflow: auto;
 	background-image: url("../scenes/html5images/bkgrnd_sand.jpg");
 }
@@ -36,24 +36,23 @@
 
 .tabs	{
 	list-style-type: none;
-	padding-left: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .tabs li {
 	display: inline;
-	padding-right: 10px;
 }
 
 .tabs li a {
-	background-color: beige;
-	border: 1px solid rgb(204, 153, 51);
-	padding: 0.25em;
 }
 
 .tab-text {
-	height: 380px;
-	overflow-y: scroll;
 	background-color: beige;
+	border: 1px solid rgb(204, 191, 148);
+	height: 420px;
+	overflow-y: scroll;
+	padding: 0.25em;
 }
 
 .scene-related {
@@ -90,10 +89,11 @@
 
 /* hotspot text */
 .pop-text {
-	border: 1px solid rgb(204, 153, 51);
+	border: 1px solid rgb(204, 191, 148);
 	color: #660000;
 	height: 60px;
 	margin-bottom: 3px;
+	padding: 0.25em;
 }
 
 /* popup menus */
@@ -105,7 +105,7 @@ ul.pop-menu {
 
 ul.pop-menu li {
 	background-color: beige;
-	border: 1px solid rgb(204, 153, 51);
+	border: 1px solid rgb(204, 191, 148);
 	display: inline-block;
 	margin-top: 0;
 	padding: 0.25em 2em 0.25em 0.5em;
