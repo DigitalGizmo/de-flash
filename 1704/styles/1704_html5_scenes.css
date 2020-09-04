@@ -15,7 +15,7 @@
 .scene-wrapper {
 	width: 800px;
 	overflow: auto;
-	background-image: url("../scenes/images/bkgrnd_sand.jpg");
+	background-image: url("../scenes/html5images/bkgrnd_sand.jpg");
 }
 
 .scene-image	{
