@@ -1,8 +1,20 @@
-// Scene Vue app
-// This does not follow the typical lightbox approach which uses
-// mouseleave. Instead, the base image has a mouseover that sets
-// to "none," which closes the popup and hightlight.
+// Vanilla JavaScript for links in tab text
+// @click doesn't work in dynamically added content
+document.addEventListener('click', function (event) {
+  // If the clicked element doesn't have the right selector, bail
+  if (!event.target.matches('.open-link')) return;
+  // Don't follow the link
+  event.preventDefault();
+  // Log the clicked element in the console
+  const hrefs = event.target.getAttribute('href').split("/");
+  console.log("- hrefs[0]: " + hrefs[0]);
+  // Forward
+  // openLink(linkType, shortName, anchorName)
+  openLink(hrefs[0], hrefs[1], hrefs[2])
 
+}, false);
+
+// Scene Vue app
 var sceneApp = new Vue({
   el: '#scene-app',
   data: {

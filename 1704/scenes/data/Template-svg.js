@@ -6,11 +6,13 @@ const scene = {
   "tabs": [
     {
       "tabName": "Overview",
+      "enabled": true,
       "hotSpots": [
       ], // end hotSpots
     }, // end first tab
     {
       "tabName": "English",
+      "enabled": true,
       "maskSvg": "",
       "hotSpots": [
         {
@@ -21,6 +23,7 @@ const scene = {
     }, // end layer
     {
       "tabName": "French",
+      "enabled": true,
       "maskSvg": "",
       "hotSpots": [
         {
@@ -31,6 +34,7 @@ const scene = {
     }, // end layer
     {
       "tabName": "KanienKehaka",
+      "enabled": true,
       "maskSvg": "",
       "hotSpots": [
         {
@@ -41,6 +45,7 @@ const scene = {
     }, // end layer
     {
       "tabName": "Wendat",
+      "enabled": true,
       "maskSvg": "",
       "hotSpots": [
         {
@@ -51,6 +56,7 @@ const scene = {
     }, // end layer
     {
       "tabName": "Wobanakiak",
+      "enabled": true,
       "maskSvg": "",
       "hotSpots": [
         {
