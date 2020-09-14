@@ -23,10 +23,12 @@ var sceneApp = new Vue({
   methods: {
     showTab: function(_tabIndex) {
       // console.log(' -- showPop')
-      this.tabIndex = _tabIndex
-      this.tabName = this.scene.tabs[_tabIndex].tabName
-      this.tabText = tabTexts[this.tabName]
-      // this.popIsOpen = true
+      // Only if enabled
+      if (this.scene.tabs[_tabIndex].enabled) {
+        this.tabIndex = _tabIndex
+        this.tabName = this.scene.tabs[_tabIndex].tabName
+        this.tabText = tabTexts[this.tabName]
+      }
     },
     showPop: function(_shortName) {
       // console.log(' -- showPop rollText: ' + this.rollTexts[_shortName])
@@ -68,10 +70,30 @@ var sceneApp = new Vue({
         return '_f5'
       }
     },
+    // Lose pointer over diabled tabs
+    cursorState: function(_tabIndex) {
+      if (this.scene.tabs[_tabIndex].enabled) {
+        return "pointer"
+      } else { // disabled
+        return "no-pointer"
+      }
+    },
+    // textLink: function(linkType, _shortName, anchorName) {
+    textLink: function() {
+      // console.log(" -- linkType, shortName, anchorName: " + linkType + _shortName + anchorName)
+      console.log(" -- linkType, shortName, anchorName: ")
+    },
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
     }
   },
   computed: {
+    tabTextCompiled: function() {
+      return {
+        template: 'whammy'
+        // template: `${this.tabTexts[this.tabName]}`
+
+      }
+    }
   }
 });
