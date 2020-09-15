@@ -13,14 +13,14 @@
 }
 
 .scene-wrapper {
-	max-width: 900px;
+	max-width: 930px;
 	overflow: auto;
 	background-image: url("../scenes/html5images/bkgrnd_sand.jpg");
 }
 
 .scene-image	{
 	float: left;
-	padding: 0;
+	padding: 1px;
 	width: 70%;
 }
 
@@ -30,8 +30,14 @@
 
 .scene-text	{
 	float: right;
-	padding: 1%;
-	width: 28%;
+	padding: 3px;
+	width: 29%;
+}
+
+@media screen and (max-width: 890px) {
+	.scene-text {
+		padding: 1px;
+	}
 }
 
 .tabs	{
@@ -44,20 +50,33 @@
 	display: inline;
 }
 
-.tabs li a {
+@media screen and (max-width: 890px) {
+	.tabs li a img {
+		width: 36px;
+	}
+}
+
+img.tab-selected {
+	margin-bottom: -5px;
+}
+
+.no-pointer {
+	cursor: default;
 }
 
 .tab-text {
-	background-color: beige;
-	border: 1px solid rgb(204, 191, 148);
-	height: 420px;
+	background-color: #F7F6E6;
+	border-right: 1px solid #B79A6B;
+	border-left: 1px solid #B79A6B;
+	border-bottom: 1px solid #B79A6B;
+	height: 436px;
 	overflow-y: scroll;
 	padding: 0.25em;
 }
 
 .scene-related {
 	clear: left;
-	padding: 1% 2%;
+	padding: 3px;
 	width: 68%;
 }
 
@@ -89,7 +108,7 @@
 
 /* hotspot text */
 .pop-text {
-	border: 1px solid rgb(204, 191, 148);
+	border: 1px solid #B79A6B;
 	color: #660000;
 	height: 60px;
 	margin-bottom: 3px;
@@ -105,12 +124,13 @@ ul.pop-menu {
 
 ul.pop-menu li {
 	background-color: beige;
-	border: 1px solid rgb(204, 191, 148);
+	border: 1px solid #B79A6B;
 	display: inline-block;
 	margin-top: 0;
-	padding: 0.25em 2em 0.25em 0.5em;
+	/*padding: 0.25em 2em 0.25em 0.5em;*/
+	padding: 0.5% 3% 0.5% 1%;
 	position: relative;
-	width: 18.4%;
+	width: 19.15%;
 }
 
 ul.pop-menu li a {
