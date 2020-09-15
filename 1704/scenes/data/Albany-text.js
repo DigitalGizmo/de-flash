@@ -19,10 +19,10 @@ const related  = {};
 		rollTexts["fowler"] = 'The English must maintain their Iroquois neighbors\' access to <b>firearms </b>if they expect to transfer the Iroquois alliance from the Dutch to the English. (Click object for more.)';
 	rollLinks["fowler"] = ['artifacts','fowler',''];
 		
-	related["people"] = ['<a class="open-link" href="people/Hatsirohawi/Albany">Hatsirohawi</a>', ''];
+	related["people"] = ['<a class="open-link" href="people/Hatsirohawi/Albany">Hatsirohawi</a>'];
 
-	related["artifacts"] = ['<a class="open-link" href="artifacts/copperkettle/">Copper Kettle</a>', '<a class="open-link" href="artifacts/hatchet/">English Hatchet</a>', '<a class="open-link" href="artifacts/fowler/">Fowler</a>', '<a class="open-link" href="artifacts/beads/">Glass Beads</a>', '<a class="open-link" href="artifacts/wampum_string/">Wampum</a>', ''];
+	related["artifacts"] = ['<a class="open-link" href="artifacts/copperkettle/">Copper Kettle</a>', '<a class="open-link" href="artifacts/hatchet/">English Hatchet</a>', '<a class="open-link" href="artifacts/fowler/">Fowler</a>', '<a class="open-link" href="artifacts/beads/">Glass Beads</a>', '<a class="open-link" href="artifacts/wampum_string/">Wampum</a>'];
 
-	related["background"] = ['<a class="open-link" href="background/expColonialEnglish/">English Colonization</a>', '<a class="open-link" href="background/expEpidemics/">Epidemics</a>', '<a class="open-link" href="background/expLand/">European Land Use</a>', '<a class="open-link" href="background/expColonialFrench/">French Colonization</a>', '<a class="open-link" href="background/expNLand/">Native Land Use</a>', ''];
+	related["background"] = ['<a class="open-link" href="background/expColonialEnglish/">English Colonization</a>', '<a class="open-link" href="background/expEpidemics/">Epidemics</a>', '<a class="open-link" href="background/expLand/">European Land Use</a>', '<a class="open-link" href="background/expColonialFrench/">French Colonization</a>', '<a class="open-link" href="background/expNLand/">Native Land Use</a>'];
 
-	related["maps"] = ['<a class="open-link" href="maps/northeast/">Colonial Northeast, c. 1700</a>', '<a class="open-link" href="maps/Moll/">English Dominions</a>', '<a class="open-link" href="maps/home_kan/">Kanienkehaka homeland</a>', ''];
+	related["maps"] = ['<a class="open-link" href="maps/northeast/">Colonial Northeast, c. 1700</a>', '<a class="open-link" href="maps/Moll/">English Dominions</a>', '<a class="open-link" href="maps/home_kan/">Kanienkehaka homeland</a>'];

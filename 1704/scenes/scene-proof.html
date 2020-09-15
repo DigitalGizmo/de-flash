@@ -47,7 +47,10 @@
     <P class="scene_title"><FONT COLOR="#CC9933">Parting Ways</FONT><BR>
 
       <!-- begin interactive section -->
-      <div id="scene-app" class="scene-wrapper">
+      <div 
+        id="scene-app" 
+        class="scene-wrapper"
+        @click="closeRelatedIfOut">
         <div class="scene-image">
           
           <svg 
@@ -120,7 +123,10 @@
           </ul>
 
           <!--tab text -->
-          <div v-html="tabText" class="tab-text"></div>
+          <div class="tab-text">
+            <h3 v-html="tabTitles[tabIndex]"></h3>
+            <div v-html="tabTexts[tabName]">
+          </div>
 
         </article><!--/scene-text -->
 
@@ -137,47 +143,21 @@
 
             <!--pop up menus -->
             <ul class="pop-menu">
-              <li>
-                <a href="#" 
-                  @click.prevent="toggleRelated(0)">
-                  People</a>
-                <ul v-if="relatedUp[0] === true">
-                  <li 
-                    v-for="(relatedLink, index) in related.people" :key="index"
-                    v-html="relatedLink"></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" 
-                  @click.prevent="toggleRelated(1)">
-                  Artifacts</a>
-                <ul v-if="relatedUp[1] === true">
-                  <li 
-                    v-for="(relatedLink, index) in related.artifacts" :key="index"
-                    v-html="relatedLink"></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" 
-                  @click.prevent="toggleRelated(2)">
-                  Explanations</a>
-                <ul v-if="relatedUp[2] === true">
-                  <li 
-                    v-for="(relatedLink, index) in related.background" :key="index"
-                    v-html="relatedLink"></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" 
-                  @click.prevent="toggleRelated(3)">
-                  Maps</a>
-                <ul v-if="relatedUp[3] === true">
-                  <li 
-                    v-for="(relatedLink, index) in related.maps" :key="index"
-                    v-html="relatedLink"></li>
-                </ul>
+              <li 
+                v-for="(menu, index) in popMenuTitles" :key="index"
+                @mouseleave="closeAllRelated()">
+                  <a href="#" 
+                    class="pop-link" 
+                    @click.prevent="toggleRelated(index)">
+                    {{ popMenuTitles[index] }}</a>
+                  <ul v-if="relatedUp[index] === true">
+                    <li 
+                      v-for="(relatedLink, innerIndex) in related[popMenuKeys[index]]" :key="innerIndex"
+                      v-html="relatedLink"></li>
+                  </ul>
               </li>
             </ul>
+
             shortName: {{ shortName }}
           </div><!--/relateds -->
         </div><!--/scene-related -->

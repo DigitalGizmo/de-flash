@@ -27,11 +27,15 @@ var sceneApp = new Vue({
     shortName: 'none',
     popText: 'none yet',
     relatedUp: [false, false, false, false],
-    tabText: ''
+    // tabText: '',
+    tabTitles: ['Overview', 'English Perspective', 'French Perspective', 
+      'Kanienkehaka Perspective', 'Wendat Perspective', 'W&ocirc;banaki Perspective'],
+    popMenuTitles: ['People', 'Artifacts', 'Explanations', 'Maps'],
+    popMenuKeys: ['people', 'artifacts', 'background', 'maps']
   },
-  created () {
-    this.tabText = tabTexts[this.tabName]
-  },
+  // created () {
+  //   this.tabText = tabTexts[this.tabName]
+  // },
   methods: {
     showTab: function(_tabIndex) {
       // console.log(' -- showPop')
@@ -39,7 +43,7 @@ var sceneApp = new Vue({
       if (this.scene.tabs[_tabIndex].enabled) {
         this.tabIndex = _tabIndex
         this.tabName = this.scene.tabs[_tabIndex].tabName
-        this.tabText = tabTexts[this.tabName]
+        // this.tabText = tabTexts[this.tabName]
       }
     },
     showPop: function(_shortName) {
@@ -64,10 +68,18 @@ var sceneApp = new Vue({
       sceneApp.$forceUpdate();
     },
     closeAllRelated: function() {
-      // console.log(" -- in closeAllRelated")
+      console.log(" -- in closeAllRelated")
       // Don't know why, but I seem to need to use old for loop
       for (let i = 0; i < this.relatedUp.length; i++) {
         this.relatedUp[i] = false
+      }
+      sceneApp.$forceUpdate();
+    },
+    closeRelatedIfOut: function(event) {
+      // console.log(" -- in closeRelatedIfOut. " + event.target)
+      if (!event.target.matches('.pop-link')) {
+        // console.log(" -- on pop link! -- not")
+        this.closeAllRelated()
       }
     },
     // Determine tab state
@@ -85,7 +97,11 @@ var sceneApp = new Vue({
     // Lose pointer over diabled tabs
     cursorState: function(_tabIndex) {
       if (this.scene.tabs[_tabIndex].enabled) {
-        return "pointer"
+        if (_tabIndex === this.tabIndex) { // no pointer for current
+          return "no-pointer"
+        } else {
+          return "pointer"
+        }
       } else { // disabled
         return "no-pointer"
       }
@@ -98,21 +114,12 @@ var sceneApp = new Vue({
       }
     },
     // textLink: function(linkType, _shortName, anchorName) {
-    textLink: function() {
-      // console.log(" -- linkType, shortName, anchorName: " + linkType + _shortName + anchorName)
-      console.log(" -- linkType, shortName, anchorName: ")
-    },
+    // textLink: function() {
+    //   // console.log(" -- linkType, shortName, anchorName: " + linkType + _shortName + anchorName)
+    //   console.log(" -- linkType, shortName, anchorName: ")
+    // },
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
     }
   },
-  computed: {
-    tabTextCompiled: function() {
-      return {
-        template: 'whammy'
-        // template: `${this.tabTexts[this.tabName]}`
-
-      }
-    }
-  }
 });
