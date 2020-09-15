@@ -12,6 +12,9 @@
     .no-pointer {
       cursor: default;
     }    
+    .tab-selected {
+      border: 1px solid #555;
+    }    
   </style>
 
 </head>
@@ -119,6 +122,7 @@
                 >
                 <img 
                   :src="'html5images/tab_' + tabAbbr(tab.tabName) + getTabSuffix(index) + '.gif'" 
+                  :class="getTabState(index)"
                   :alt="tab.tabName + 'tab'">
               </a>
             </li>

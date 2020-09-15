@@ -90,6 +90,13 @@ var sceneApp = new Vue({
         return "no-pointer"
       }
     },
+    getTabState: function(_tabIndex) {
+      if (_tabIndex === this.tabIndex) {
+        return "tab-selected"
+      } else { // disabled
+        return "tab"
+      }
+    },
     // textLink: function(linkType, _shortName, anchorName) {
     textLink: function() {
       // console.log(" -- linkType, shortName, anchorName: " + linkType + _shortName + anchorName)
