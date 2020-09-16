@@ -26,6 +26,7 @@ var sceneApp = new Vue({
     related: related,
     shortName: 'none',
     popText: 'none yet',
+    outlinesOn: false,
     relatedUp: [false, false, false, false],
     // tabText: '',
     tabTitles: ['Overview', 'English Perspective', 'French Perspective', 
@@ -64,6 +65,14 @@ var sceneApp = new Vue({
       } else { // we're turning this one on
         this.closeAllRelated()
         this.relatedUp[relatedIndex] = true  
+      }
+      sceneApp.$forceUpdate();
+    },
+    toggleOutlines: function() {
+      if (this.outlinesOn) { // They're on
+        this.outlinesOn = false
+      } else { // They're off
+        this.outlinesOn = true  
       }
       sceneApp.$forceUpdate();
     },
@@ -122,4 +131,9 @@ var sceneApp = new Vue({
       return _tabName.substring(0, 3)
     }
   },
+  computed: {
+    largerUrl: function() {
+      return "illustrations/" + this.scene.scenewide.sceneName + ".html"
+    }
+  }
 });

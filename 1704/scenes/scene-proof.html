@@ -8,6 +8,15 @@
   <link href="../styles/1704_html5_scenes.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 
+  <style type="text/css" media="screen">
+    .outline {
+      stroke: yellow;
+      stroke-width: 2;
+      fill: #FFF;
+      fill-opacity: 0.0;
+    }
+  </style>
+
 </head>
 <body bgcolor="#660000" background="../images/bkgrnd_big.gif" text="#CC9933" link="#CC9900" vlink="#CC9966" alink="#CC3300">
 <!-- show flash tab  -->
@@ -96,6 +105,21 @@
               </g>
             </g>
 
+            <!-- Outlines -->
+            <g v-if="outlinesOn">
+              <!-- The following loop generates all outlines -->
+              <g v-for="(tab, index) in scene.tabs" :key="index">                 
+                <g
+                  v-for="(hotSpot, innerindex) in scene.tabs[index].hotSpots" 
+                  :key="hotSpot.shortName">
+                  <path 
+                    class="outline"
+                    :d="hotSpot.svg"
+                    />
+                </g>
+              </g> <!-- end for loop -->
+            </g> <!-- end if outlines on -->
+
           </svg>
 
         </div><!-- /scene-image -->
@@ -133,8 +157,16 @@
         <div class="scene-related">
           
           <div class="icons">
-            <a href="#"><img src="html5images/hotspot_icon.gif"></a>
-            <a href="#"><img src="html5images/enlarge_icon.gif"></a>
+            <a 
+              href="#"
+              @click.prevent="toggleOutlines">
+              <img src="html5images/hotspot_icon.gif">
+            </a>
+            <a 
+              :href="largerUrl" 
+              target="larger">
+              <img src="html5images/enlarge_icon.gif">
+            </a>
           </div>
 
           <div class="relateds">
@@ -166,8 +198,8 @@
       <!-- end interactive section -->
 
       <!-- begin dynamic call to interactive -->
-      <script src="data/Parting-svg.js" type="text/javascript"></script>
-      <script src="data/Parting-text.js" type="text/javascript"></script>
+      <script src="data/March-svg.js" type="text/javascript"></script>
+      <script src="data/March-text.js" type="text/javascript"></script>
       <script src="../common/scene.js" type="text/javascript"></script>
       <!-- end dynamic call to interactive -->
 
