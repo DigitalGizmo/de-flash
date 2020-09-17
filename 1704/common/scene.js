@@ -32,7 +32,8 @@ var sceneApp = new Vue({
     tabTitles: ['Overview', 'English Perspective', 'French Perspective', 
       'Kanienkehaka Perspective', 'Wendat Perspective', 'W&ocirc;banaki Perspective'],
     popMenuTitles: ['People', 'Artifacts', 'Explanations', 'Maps'],
-    popMenuKeys: ['people', 'artifacts', 'background', 'maps']
+    popMenuKeys: ['people', 'artifacts', 'background', 'maps'],
+    tabHovers: [false, false, false, false, false, false],
   },
   // created () {
   //   this.tabText = tabTexts[this.tabName]
@@ -93,11 +94,15 @@ var sceneApp = new Vue({
     },
     // Determine tab state
     getTabSuffix: function(_tabIndex) {
-      if (scene.tabs[_tabIndex].enabled) {
-        if (_tabIndex === this.tabIndex) {
+      if (scene.tabs[_tabIndex].enabled) { // is enabled
+        if (_tabIndex === this.tabIndex) { // tab selected
           return '_f4'
-        } else {
-          return '_f2'
+        } else { // enabled, but not selected
+          if (this.tabHovers[_tabIndex]) { // hovering
+            return '_f3'
+          } else { // not hovering
+            return '_f2'
+          }
         }
       } else { // tab with this index not enabled
         return '_f5'
@@ -122,11 +127,15 @@ var sceneApp = new Vue({
         return "tab"
       }
     },
-    // textLink: function(linkType, _shortName, anchorName) {
-    // textLink: function() {
-    //   // console.log(" -- linkType, shortName, anchorName: " + linkType + _shortName + anchorName)
-    //   console.log(" -- linkType, shortName, anchorName: ")
-    // },
+    hoverTab: function(_tabIndex) {
+      // console.log(" - hovering over: " + _tabIndex)
+      this.tabHovers[_tabIndex] = true
+      sceneApp.$forceUpdate();
+    },
+    unHoverTab: function(_tabIndex) {
+      this.tabHovers[_tabIndex] = false
+      sceneApp.$forceUpdate();
+    },
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
     }
