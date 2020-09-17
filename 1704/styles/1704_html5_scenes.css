@@ -86,7 +86,7 @@ img.tab-selected {
 	width: 15%;
 }
 
-.relateds {
+.rolltext-related {
 	margin-left: 17%;
 }
 
@@ -107,7 +107,7 @@ img.tab-selected {
 }
 
 /* hotspot text */
-.pop-text {
+.roll-text {
 	border: 1px solid #B79A6B;
 	color: #660000;
 	height: 60px;
@@ -116,13 +116,13 @@ img.tab-selected {
 }
 
 /* popup menus */
-ul.pop-menu {
+ul.related-menu {
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
 }
 
-ul.pop-menu li {
+ul.related-menu li {
 	background-color: beige;
 	border: 1px solid #B79A6B;
 	display: inline-block;
@@ -133,18 +133,18 @@ ul.pop-menu li {
 	width: 19.15%;
 }
 
-ul.pop-menu li a {
+ul.related-menu li a {
 	color: brown;
 }
 
 /* popup sub-menus */
-ul.pop-menu li ul {
+ul.related-menu li ul {
 	position: absolute;
 	bottom: 1.85em;
 	left: -4.13em;
 }
 
-ul.pop-menu li ul li {
+ul.related-menu li ul li {
 	display: inline-block;
 	width: 160px;
 }

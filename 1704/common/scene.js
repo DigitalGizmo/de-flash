@@ -1,17 +1,24 @@
 // Vanilla JavaScript for links in tab text
 // @click doesn't work in dynamically added content
 document.addEventListener('click', function (event) {
-  // If the clicked element doesn't have the right selector, bail
-  if (!event.target.matches('.open-link')) return;
-  // Don't follow the link
-  event.preventDefault();
-  // Log the clicked element in the console
-  const hrefs = event.target.getAttribute('href').split("/");
-  console.log("- hrefs[0]: " + hrefs[0]);
-  // Forward
-  // openLink(linkType, shortName, anchorName)
-  openLink(hrefs[0], hrefs[1], hrefs[2])
-
+  // If the click wan't on text open-link, bail
+  // if (event.target.matches('.hotspot') || 
+  //   event.target.matches('.rollLink')) {
+  //   console.log(" - clicked on hotspot")
+  // } else 
+  // if (!event.target.matches('.open-link')) {
+    // return;
+    if (!event.target.matches('.open-link')) return;
+  // } else { // we must have clicked on open-link
+    // Don't follow the link
+    event.preventDefault();
+    // Log the clicked element in the console
+    const hrefs = event.target.getAttribute('href').split("/");
+    console.log("- hrefs[0]: " + hrefs[0]);
+    // Forward
+    // openLink(linkType, shortName, anchorName)
+    openLink(hrefs[0], hrefs[1], hrefs[2])
+  // }
 }, false);
 
 // Scene Vue app
@@ -21,19 +28,20 @@ var sceneApp = new Vue({
     scene: scene,
     tabIndex: 0,
     tabName: 'Overview',
-    rollTexts: rollTexts,
     tabTexts: tabTexts,
-    related: related,
-    shortName: 'none',
-    popText: 'none yet',
-    outlinesOn: false,
-    relatedUp: [false, false, false, false],
-    // tabText: '',
     tabTitles: ['Overview', 'English Perspective', 'French Perspective', 
       'Kanienkehaka Perspective', 'Wendat Perspective', 'W&ocirc;banaki Perspective'],
-    popMenuTitles: ['People', 'Artifacts', 'Explanations', 'Maps'],
-    popMenuKeys: ['people', 'artifacts', 'background', 'maps'],
     tabHovers: [false, false, false, false, false, false],
+    rollTexts: rollTexts,
+    rollName: 'none',
+    rollText: 'none yet',
+    rollLinks: rollLinks,
+    related: related,
+    outlinesOn: false,
+    // tabText: '',
+    relatedUp: [false, false, false, false],
+    relatedMenuTitles: ['People', 'Artifacts', 'Explanations', 'Maps'],
+    relatedMenuKeys: ['people', 'artifacts', 'background', 'maps'],
   },
   // created () {
   //   this.tabText = tabTexts[this.tabName]
@@ -48,17 +56,17 @@ var sceneApp = new Vue({
         // this.tabText = tabTexts[this.tabName]
       }
     },
-    showPop: function(_shortName) {
-      // console.log(' -- showPop rollText: ' + this.rollTexts[_shortName])
+    showPop: function(_rollName) {
+      // console.log(' -- showPop rollText: ' + this.rollTexts[_rollName])
       // console.log(' -- showPop testText: ' + this.testText)
-      this.shortName = _shortName
-      this.popText = this.rollTexts[_shortName]
-      // console.log(' -- showPop sn: ' + this.shortName)
+      this.rollName = _rollName
+      this.rollText = this.rollTexts[_rollName]
+      // console.log(' -- showPop sn: ' + this.rollName)
       // this.popIsOpen = true
     },
     hidePop: function() {
-      this.popText = ''
-      this.shortName = 'none'
+      this.rollText = ''
+      this.rollName = 'none'
     },
     toggleRelated: function(relatedIndex) {
       if (this.relatedUp[relatedIndex]) { // this one is on
@@ -78,7 +86,7 @@ var sceneApp = new Vue({
       sceneApp.$forceUpdate();
     },
     closeAllRelated: function() {
-      console.log(" -- in closeAllRelated")
+      console.log(" -- closing AllRelated")
       // Don't know why, but I seem to need to use old for loop
       for (let i = 0; i < this.relatedUp.length; i++) {
         this.relatedUp[i] = false
@@ -87,7 +95,11 @@ var sceneApp = new Vue({
     },
     closeRelatedIfOut: function(event) {
       // console.log(" -- in closeRelatedIfOut. " + event.target)
-      if (!event.target.matches('.pop-link')) {
+      // Close unless click was on a related link
+      // This has nothing to do with whether hotspot link works?
+      // Need to include not on hotspot for mobile
+      //  && !event.target.matches('.hotspoton')
+      if (!event.target.matches('.related-link')) {
         // console.log(" -- on pop link! -- not")
         this.closeAllRelated()
       }
@@ -138,6 +150,14 @@ var sceneApp = new Vue({
     },
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
+    },
+    showRollLink: function() {
+      console.log(" - show rollText for: " + this.rollName)
+      // Forward
+      // openLink(linkType, shortName, anchorName)
+      openLink(this.rollLinks[this.rollName][0], 
+        this.rollLinks[this.rollName][1], 
+        this.rollLinks[this.rollName][2])
     }
   },
   computed: {

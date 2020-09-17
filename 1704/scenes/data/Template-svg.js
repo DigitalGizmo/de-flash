@@ -16,7 +16,7 @@ const scene = {
       "maskSvg": "",
       "hotSpots": [
         {
-          "shortName": "",
+          "rollName": "",
           "svg": ""
         },
       ], // end hotSpots
@@ -27,7 +27,7 @@ const scene = {
       "maskSvg": "",
       "hotSpots": [
         {
-          "shortName": "",
+          "rollName": "",
           "svg": ""
         },
       ], // end hotSpots
@@ -38,7 +38,7 @@ const scene = {
       "maskSvg": "",
       "hotSpots": [
         {
-          "shortName": "",
+          "rollName": "",
           "svg": ""
         },
       ], // end hotSpots
@@ -49,7 +49,7 @@ const scene = {
       "maskSvg": "",
       "hotSpots": [
         {
-          "shortName": "",
+          "rollName": "",
           "svg": ""
         },
       ], // end hotSpots
@@ -60,7 +60,7 @@ const scene = {
       "maskSvg": "",
       "hotSpots": [
         {
-          "shortName": "",
+          "rollName": "",
           "svg": ""
         },
       ], // end hotSpots

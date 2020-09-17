@@ -59,7 +59,8 @@
       <div 
         id="scene-app" 
         class="scene-wrapper"
-        @click="closeRelatedIfOut">
+        @click="closeRelatedIfOut"
+        > <!-- @click="closeRelatedIfOut" -->
         <div class="scene-image">
           
           <svg 
@@ -85,7 +86,7 @@
               <g v-for="(tab, index) in scene.tabs" :key="index">                 
                 <g
                   v-for="(hotSpot, innerindex) in scene.tabs[index].hotSpots" 
-                  :key="hotSpot.shortName">
+                  :key="hotSpot.rollName">
                   <path 
                     class="outline"
                     :d="hotSpot.svg"
@@ -95,27 +96,37 @@
             </g> <!-- end if outlines on -->
 
             <!-- Hotspots -->
+            <!-- Loop through each tab -->
             <g v-for="(tab, index) in scene.tabs" :key="index">
-              <!-- The mask that leaves highlights for a given tab -->
+              <!-- Display mask that leaves highlights for a given tab -->
               <g v-if="tabName === tab.tabName">
                 <path 
                   class="tab-mask"
                   :d="tab.maskSvg"
                   />
               </g>
-              <!-- The following loop generates all hotspots. But each
-              is seen only according to its per-tab if statement -->
-              <g v-if="tabName === tab.tabName || tabName === 'Overview'">                 
+              <!-- Show hotspot for chosen tab, or all for overview -->
+              <g v-if="tabName === tab.tabName || tabName === 'Overview'">
+                <!-- Loop generates hotspots this tab. -->
                 <g
                   v-for="(hotSpot, innerindex) in scene.tabs[index].hotSpots" 
-                  :key="hotSpot.shortName">
-                  <path 
-                    class="hotspot"
-                    :class="{ hotspoton: shortName === hotSpot.shortName }"
-                    @mouseover="showPop(hotSpot.shortName)"
-                    @mouseleave="hidePop"
-                    :d="hotSpot.svg"
-                    />
+                  :key="hotSpot.rollName">
+                  <!-- "Extra" g because v-for can't contain a v-if 
+                    Anchor tag will only funciont if spot already highlighte -->
+<!--                   <a 
+                    href="#" 
+                    class="rollLink"
+                    @click.prevent="showRollText"></a>
+ -->                    
+                    <path 
+                      class="hotspot"
+                      :class="{ hotspoton: rollName === hotSpot.rollName }"
+                      @click.prevent="showRollLink"
+                      @mouseover="showPop(hotSpot.rollName)"
+                      @mouseleave="hidePop"
+                      :d="hotSpot.svg"
+                      />
+                  <!-- </a> -->
                 </g>
               </g>
             </g>
@@ -173,28 +184,28 @@
             </a>
           </div>
 
-          <div class="relateds">
-            <!--pop up text area -->
-            <div v-html='popText' class="pop-text"></div>
+          <div class="rolltext-related">
+            <!-- hotspot roll over text area -->
+            <div v-html='rollText' class="roll-text"></div>
 
-            <!--pop up menus -->
-            <ul class="pop-menu">
+            <!-- Related pop up menus -->
+            <ul class="related-menu">
               <li 
-                v-for="(menu, index) in popMenuTitles" :key="index"
+                v-for="(menu, index) in relatedMenuTitles" :key="index"
                 @mouseleave="closeAllRelated()">
                   <a href="#" 
-                    class="pop-link" 
+                    class="related-link" 
                     @click.prevent="toggleRelated(index)">
-                    {{ popMenuTitles[index] }}</a>
+                    {{ relatedMenuTitles[index] }}</a>
                   <ul v-if="relatedUp[index] === true">
                     <li 
-                      v-for="(relatedLink, innerIndex) in related[popMenuKeys[index]]" :key="innerIndex"
+                      v-for="(relatedLink, innerIndex) in related[relatedMenuKeys[index]]" :key="innerIndex"
                       v-html="relatedLink"></li>
                   </ul>
               </li>
             </ul>
 
-            shortName: {{ shortName }}
+            rollName: {{ rollName }}
           </div><!--/relateds -->
         </div><!--/scene-related -->
 
@@ -202,8 +213,8 @@
       <!-- end interactive section -->
 
       <!-- begin dynamic call to interactive -->
-      <script src="data/Albany-svg.js" type="text/javascript"></script>
-      <script src="data/Albany-text.js" type="text/javascript"></script>
+      <script src="data/Parting-svg.js" type="text/javascript"></script>
+      <script src="data/Parting-text.js" type="text/javascript"></script>
       <script src="../common/scene.js" type="text/javascript"></script>
       <!-- end dynamic call to interactive -->
 
