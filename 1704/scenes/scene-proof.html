@@ -121,7 +121,7 @@
                     <path 
                       class="hotspot"
                       :class="{ hotspoton: rollName === hotSpot.rollName }"
-                      @click.prevent="showRollLink"
+                      @click.prevent="showRollLink(hotSpot.rollName)"
                       @mouseover="showPop(hotSpot.rollName)"
                       @mouseleave="hidePop"
                       :d="hotSpot.svg"

@@ -1,24 +1,14 @@
 // Vanilla JavaScript for links in tab text
 // @click doesn't work in dynamically added content
 document.addEventListener('click', function (event) {
-  // If the click wan't on text open-link, bail
-  // if (event.target.matches('.hotspot') || 
-  //   event.target.matches('.rollLink')) {
-  //   console.log(" - clicked on hotspot")
-  // } else 
-  // if (!event.target.matches('.open-link')) {
-    // return;
-    if (!event.target.matches('.open-link')) return;
-  // } else { // we must have clicked on open-link
-    // Don't follow the link
-    event.preventDefault();
-    // Log the clicked element in the console
-    const hrefs = event.target.getAttribute('href').split("/");
-    console.log("- hrefs[0]: " + hrefs[0]);
-    // Forward
-    // openLink(linkType, shortName, anchorName)
-    openLink(hrefs[0], hrefs[1], hrefs[2])
-  // }
+  if (!event.target.matches('.open-link')) return;
+  event.preventDefault();
+  // Log the clicked element in the console
+  const hrefs = event.target.getAttribute('href').split("/");
+  // console.log("- hrefs[0]: " + hrefs[0]);
+  // Forward
+  // openLink(linkType, shortName, anchorName)
+  openLink(hrefs[0], hrefs[1], hrefs[2])
 }, false);
 
 // Scene Vue app
@@ -36,6 +26,7 @@ var sceneApp = new Vue({
     rollName: 'none',
     rollText: 'none yet',
     rollLinks: rollLinks,
+    rollJustShown: 'noneYet',
     related: related,
     outlinesOn: false,
     // tabText: '',
@@ -56,13 +47,45 @@ var sceneApp = new Vue({
         // this.tabText = tabTexts[this.tabName]
       }
     },
+    // Called by hover on desktop
     showPop: function(_rollName) {
       // console.log(' -- showPop rollText: ' + this.rollTexts[_rollName])
       // console.log(' -- showPop testText: ' + this.testText)
       this.rollName = _rollName
       this.rollText = this.rollTexts[_rollName]
-      // console.log(' -- showPop sn: ' + this.rollName)
-      // this.popIsOpen = true
+      console.log(' -- showPop rollJustShown before: ' + this.rollJustShown)
+      // Set delayed rollJustShown to prep mobile 2nd tap
+      this.setRollJustShown(_rollName)
+    },
+    // Called by desk click or mobile tap
+    showRollLink: function(_rollName) {
+      console.log(" - pre-condition rollName: " + this.rollName +
+        " rollJustShown: " + this.rollJustShown)
+      // Need make sure hotspot is already showing
+      // in order to handle second tap on mobile
+      if (_rollName === this.rollJustShown) { // already clicked or hovered
+        console.log(" - actually show rollText for: " + this.rollName)
+        // Forward
+        // openLink(linkType, shortName, anchorName)
+        openLink(this.rollLinks[this.rollName][0], 
+          this.rollLinks[this.rollName][1], 
+          this.rollLinks[this.rollName][2])  
+        this.rollJustShown = 'inactive'    
+      } else { // they don't match, this is first tap
+        this.rollName = _rollName
+        this.rollText = this.rollTexts[_rollName]
+        this.setRollJustShown(_rollName)
+      }
+    },
+    setRollJustShown: function(_rollName) {
+      setTimeout(function(){ 
+        // alert("Hello " + _rollName); 
+        // this.rollJustShown = _rollName
+        // Be careful --"this" doesn't mean what you thing it does
+        // inside this "standard" function!
+        sceneApp.rollJustShown = _rollName
+        console.log(' -- showPop rollJustShown after: ' + sceneApp.rollJustShown)
+      }, 1000);      
     },
     hidePop: function() {
       this.rollText = ''
@@ -91,7 +114,7 @@ var sceneApp = new Vue({
       for (let i = 0; i < this.relatedUp.length; i++) {
         this.relatedUp[i] = false
       }
-      sceneApp.$forceUpdate();
+      // sceneApp.$forceUpdate();
     },
     closeRelatedIfOut: function(event) {
       // console.log(" -- in closeRelatedIfOut. " + event.target)
@@ -151,14 +174,6 @@ var sceneApp = new Vue({
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
     },
-    showRollLink: function() {
-      console.log(" - show rollText for: " + this.rollName)
-      // Forward
-      // openLink(linkType, shortName, anchorName)
-      openLink(this.rollLinks[this.rollName][0], 
-        this.rollLinks[this.rollName][1], 
-        this.rollLinks[this.rollName][2])
-    }
   },
   computed: {
     largerUrl: function() {
