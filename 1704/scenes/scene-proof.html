@@ -169,18 +169,29 @@
         </article><!--/scene-text -->
 
         <div class="scene-related">
-          
+          <!-- Outline and enlarge buttons -->
           <div class="icons">
             <a 
               href="#"
-              @click.prevent="toggleOutlines">
-              <img src="html5images/hotspot_icon.gif">
+              :title="outlineToolTip" 
+              @click.prevent="toggleOutlines"
+              @mouseover="outlineHover = true"
+              @mouseleave="outlineHover = false"
+            >
+              <img 
+                :src="'html5images/hotspot_icon' + 
+                  outlineSuffix + '.gif'">
             </a>
             <a 
               :href="largerUrl" 
               target="larger"
-              title="Show large version of picture">
-              <img src="html5images/enlarge_icon.gif">
+              title="Show large version of picture"
+              @mouseover="iconHover = true"
+              @mouseleave="iconHover = false"
+            >
+              <img 
+                :src="'html5images/enlarge_icon' + 
+                  iconSuffix + '.gif'">
             </a>
           </div>
 

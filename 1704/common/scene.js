@@ -29,7 +29,10 @@ var sceneApp = new Vue({
     rollJustShown: 'noneYet',
     related: related,
     outlinesOn: false,
-    // tabText: '',
+    outlineHover: false,
+    outlineToolTips: ['Show all hot spots in picture',
+      'Remove hotspot outlines'],
+    iconHover: false,
     relatedUp: [false, false, false, false],
     relatedMenuTitles: ['People', 'Artifacts', 'Explanations', 'Maps'],
     relatedMenuKeys: ['people', 'artifacts', 'background', 'maps'],
@@ -38,6 +41,7 @@ var sceneApp = new Vue({
   //   this.tabText = tabTexts[this.tabName]
   // },
   methods: {
+    // -------------- TABS ----------------
     showTab: function(_tabIndex) {
       // console.log(' -- showPop')
       // Only if enabled
@@ -45,86 +49,6 @@ var sceneApp = new Vue({
         this.tabIndex = _tabIndex
         this.tabName = this.scene.tabs[_tabIndex].tabName
         // this.tabText = tabTexts[this.tabName]
-      }
-    },
-    // Called by hover on desktop
-    showPop: function(_rollName) {
-      // console.log(' -- showPop rollText: ' + this.rollTexts[_rollName])
-      // console.log(' -- showPop testText: ' + this.testText)
-      this.rollName = _rollName
-      this.rollText = this.rollTexts[_rollName]
-      console.log(' -- showPop rollJustShown before: ' + this.rollJustShown)
-      // Set delayed rollJustShown to prep mobile 2nd tap
-      this.setRollJustShown(_rollName)
-    },
-    // Called by desk click or mobile tap
-    showRollLink: function(_rollName) {
-      console.log(" - pre-condition rollName: " + this.rollName +
-        " rollJustShown: " + this.rollJustShown)
-      // Need make sure hotspot is already showing
-      // in order to handle second tap on mobile
-      if (_rollName === this.rollJustShown) { // already clicked or hovered
-        console.log(" - actually show rollText for: " + this.rollName)
-        // Forward
-        // openLink(linkType, shortName, anchorName)
-        openLink(this.rollLinks[this.rollName][0], 
-          this.rollLinks[this.rollName][1], 
-          this.rollLinks[this.rollName][2])  
-        this.rollJustShown = 'inactive'    
-      } else { // they don't match, this is first tap
-        this.rollName = _rollName
-        this.rollText = this.rollTexts[_rollName]
-        this.setRollJustShown(_rollName)
-      }
-    },
-    setRollJustShown: function(_rollName) {
-      setTimeout(function(){ 
-        // alert("Hello " + _rollName); 
-        // this.rollJustShown = _rollName
-        // Be careful --"this" doesn't mean what you thing it does
-        // inside this "standard" function!
-        sceneApp.rollJustShown = _rollName
-        console.log(' -- showPop rollJustShown after: ' + sceneApp.rollJustShown)
-      }, 1000);      
-    },
-    hidePop: function() {
-      this.rollText = ''
-      this.rollName = 'none'
-    },
-    toggleRelated: function(relatedIndex) {
-      if (this.relatedUp[relatedIndex]) { // this one is on
-        this.relatedUp[relatedIndex] = false
-      } else { // we're turning this one on
-        this.closeAllRelated()
-        this.relatedUp[relatedIndex] = true  
-      }
-      sceneApp.$forceUpdate();
-    },
-    toggleOutlines: function() {
-      if (this.outlinesOn) { // They're on
-        this.outlinesOn = false
-      } else { // They're off
-        this.outlinesOn = true  
-      }
-      sceneApp.$forceUpdate();
-    },
-    closeAllRelated: function() {
-      console.log(" -- closing AllRelated")
-      // Don't know why, but I seem to need to use old for loop
-      for (let i = 0; i < this.relatedUp.length; i++) {
-        this.relatedUp[i] = false
-      }
-      // sceneApp.$forceUpdate();
-    },
-    closeRelatedIfOut: function(event) {
-      // console.log(" -- in closeRelatedIfOut. " + event.target)
-      // Close unless click was on a related link
-      // This has nothing to do with whether hotspot link works?
-      // Need to include not on hotspot for mobile
-      //  && !event.target.matches('.hotspoton')
-      if (!event.target.matches('.related-link')) {
-        // console.log(" -- on pop link! -- not")
-        this.closeAllRelated()
       }
     },
     // Determine tab state
@@ -174,10 +98,109 @@ var sceneApp = new Vue({
     tabAbbr: function (_tabName) {
       return _tabName.substring(0, 3)
     },
+    // ----- HOT SPOTS -------------------
+    // Called by hover on desktop
+    showPop: function(_rollName) {
+      // console.log(' -- showPop rollText: ' + this.rollTexts[_rollName])
+      this.rollName = _rollName
+      this.rollText = this.rollTexts[_rollName]
+      // Set delayed rollJustShown to prep mobile 2nd tap
+      this.setRollJustShown(_rollName)
+    },
+    // Called by desk click or mobile tap
+    showRollLink: function(_rollName) {
+      console.log(" - pre-condition rollName: " + this.rollName +
+        " rollJustShown: " + this.rollJustShown)
+      // Need make sure hotspot is already showing
+      // in order to handle second tap on mobile
+      if (_rollName === this.rollJustShown) { 
+        // already clicked or hovered
+        // console.log(" - actually show rollText for: " + this.rollName)
+        // Data format:
+        // rollLinks[rollName] =[linkType, shortName, anchorName]
+        openLink(this.rollLinks[this.rollName][0], 
+          this.rollLinks[this.rollName][1], 
+          this.rollLinks[this.rollName][2])  
+        this.rollJustShown = 'inactive'    
+      } else { // they don't match, this is first tap
+        this.rollName = _rollName
+        this.rollText = this.rollTexts[_rollName]
+        this.setRollJustShown(_rollName)
+      }
+    },
+    setRollJustShown: function(_rollName) {
+      setTimeout(function(){ 
+        // For mobile, a timeout for setting the link 
+        // for the second tap.
+        // Reference sceneApp rather than "this"
+        // since we're in an ES5 function
+        sceneApp.rollJustShown = _rollName
+        // console.log(' -- showPop rollJustShown after: ' + 
+        //   sceneApp.rollJustShown)
+      }, 1000);      
+    },
+    hidePop: function() {
+      this.rollText = ''
+      this.rollName = 'none'
+    },
+    // ------ OUTLINE AND LARGER BUTTONS ---------
+    toggleOutlines: function() {
+      if (this.outlinesOn) { // They're on
+        this.outlinesOn = false
+      } else { // They're off
+        this.outlinesOn = true
+      }
+      sceneApp.$forceUpdate();
+    },
+    // ------- RELATED LINKS -------------
+    toggleRelated: function(relatedIndex) {
+      if (this.relatedUp[relatedIndex]) { // this one is on
+        this.relatedUp[relatedIndex] = false
+      } else { // we're turning this one on
+        this.closeAllRelated()
+        this.relatedUp[relatedIndex] = true  
+      }
+      sceneApp.$forceUpdate();
+    },
+    closeAllRelated: function() {
+      console.log(" -- closing AllRelated")
+      // Use ES5 for-loop -- prob to retain "this"
+      for (let i = 0; i < this.relatedUp.length; i++) {
+        this.relatedUp[i] = false
+      }
+      sceneApp.$forceUpdate();
+    },
+    closeRelatedIfOut: function(event) {
+      // For mobile: no mouse leave so close related menu
+      // unless click was on a related link.
+      if (!event.target.matches('.related-link')) {
+        this.closeAllRelated()
+      }
+    },
   },
   computed: {
     largerUrl: function() {
       return "illustrations/" + this.scene.scenewide.sceneName + ".html"
+    },
+    outlineSuffix: function() {
+      if (this.outlineHover) {
+        // console.log(" -- suffix should be selected")
+        return '_f3'
+      } else {
+        if (this.outlinesOn) {
+          return '_f4'
+        } else {
+          return '_f2'
+        }
+      }
+    },
+    outlineToolTip: function() {
+      // If on, show "Remove" msg, if off, show "Show" msg.
+      return (this.outlinesOn ? this.outlineToolTips[1] :
+        this.outlineToolTips[0])
+    },
+    iconSuffix: function() {
+      return (this.iconHover ? '_f3' : '_f2')
     }
   }
 });
