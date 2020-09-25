@@ -15,6 +15,12 @@
       fill: none;
       fill-opacity: 0.0;
     }
+    .fade-enter-active, .fade-leave-active {
+      transition: opacity 1.5s;
+    }
+    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+      opacity: 0;
+    }
   </style>
 
 </head>
@@ -99,12 +105,14 @@
             <!-- Loop through each tab -->
             <g v-for="(tab, index) in scene.tabs" :key="index">
               <!-- Display mask that leaves highlights for a given tab -->
-              <g v-if="tabName === tab.tabName">
-                <path 
-                  class="tab-mask"
-                  :d="tab.maskSvg"
-                  />
-              </g>
+              <transition name="fade">
+                <g v-if="tabName === tab.tabName">
+                  <path 
+                    class="tab-mask"
+                    :d="tab.maskSvg"
+                    />
+                </g>
+            </transition>
               <!-- Show hotspot for chosen tab, or all for overview -->
               <g v-if="tabName === tab.tabName || tabName === 'Overview'">
                 <!-- Loop generates hotspots this tab. -->
