@@ -44,7 +44,7 @@ const scene = {
     {
       "tabName": "French",
       "enabled": true,
-      "maskSvg": "M2000,0v1186H0V0h400v396h400v396h400V396H800V0H2000z",
+      "maskSvg": "M2000,0v1186H0V0h400v396h400v396h400V396V0H2000z",
       "hotSpots": [
         {
           "rollName": "chambly",
