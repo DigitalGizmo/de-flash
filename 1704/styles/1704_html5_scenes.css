@@ -74,6 +74,10 @@ img.tab-selected {
 	padding: 0.25em;
 }
 
+.tab-text h3	{
+	color: #330000;
+}
+
 .scene-related {
 	clear: left;
 	padding: 3px;
