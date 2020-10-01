@@ -148,3 +148,20 @@ ul.related-menu li ul li {
 	display: inline-block;
 	width: 160px;
 }
+
+/* for View Larger Illustration */
+.large-illus {
+	padding: 2em;
+	background-color: #660000;
+}
+
+.large-illus p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #CC9933;
+}
+
+.large-illus img {
+	max-width: 95%;
+}
