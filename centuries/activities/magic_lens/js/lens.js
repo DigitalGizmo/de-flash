@@ -99,7 +99,7 @@ function showLens (containerID, baseImagePath, revealedImagePath, width, height,
         .attr('ry', 15)
         .style("fill-opacity", 0)
         .style("stroke", "#7d7664")
-        .style("stroke-width", 3)
+        .style("stroke-width", 2)
         .style('cursor', 'move')
         .call(drag);
         ;
