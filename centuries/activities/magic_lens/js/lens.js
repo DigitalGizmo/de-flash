@@ -20,6 +20,10 @@ function showLens (containerID, baseImagePath, revealedImagePath, width, height,
     var lensW = 600, lensH = 400;
     var startX = 50, startY = 25; 
     var yMovement = true;
+    var newX = 10;
+    var newY = 10;
+    var clippy;
+    var border;
 
     // Process optional parameters.
     if (typeof optionalParams !== 'undefined') {
@@ -44,23 +48,37 @@ function showLens (containerID, baseImagePath, revealedImagePath, width, height,
     // drag border and clip with it
     var drag = d3.drag()
         .on("drag", function() {
-            var clippy = d3.select('#clip rect');
-            clippy.attr('x', +clippy.attr('x') + d3.event.dx);
-            if (yMovement) { clippy.attr('y', +clippy.attr('y') + d3.event.dy); }
-            
-            var border = d3.select('#lens-border');
-            border.attr('x', +border.attr('x') + d3.event.dx);
-            if (yMovement) { border.attr('y', +border.attr('y') + d3.event.dy); }
-            
+            clippy = d3.select('#clip rect');
+            border = d3.select('#lens-border');
+            // Figure x bumpers and move
+            newX = parseFloat(clippy.attr('x')) + d3.event.dx;
+            if (newX < 1){
+                newX = 1;
+            } else if (newX > width - lensW - 1) {
+                newX = width - lensW - 1;
+            }
+            clippy.attr('x', + newX);
+            border.attr('x', + + newX);
+            // Y movement. Y is disables for sliding vertical bar.       
+            if (yMovement) { 
+                newY = parseFloat(clippy.attr('y')) + d3.event.dy;
+                if (newY < 1){
+                    newY = 1;
+                } else if (newY > height - lensH - 1) {
+                    newY = height - lensH - 1;
+                }  
+                clippy.attr('y', + newY); 
+                border.attr('y', + newY);
+            }         
         });
 
-    // add padding to container and append svg
-    // adding padding bottom here, dynamically, is critical
+    // Append svg to container
+    // (Don't know what the padding bottom was for.)
     var lensSvg = d3.select("#" + containerID)
-            .attr(
-                "style",
-                "padding-bottom: " + Math.ceil(height * 100 / width) + "%"
-            )
+            // .attr(
+            //     "style",
+            //     "padding-bottom: " + Math.ceil(height * 100 / width) + "%"
+            // )
             .append("svg")
             .attr("viewBox", "0 0 " + width + " " + height);
 

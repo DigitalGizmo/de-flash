@@ -57,9 +57,7 @@
             <P><STRONG>Magic Lens</STRONG></P>
             <P>Move the "Magic Lens" over the document to reveal the transcription. You can also resize the lens by clicking and dragging on the resize box in the bottom right corner.</P>
 
-              <!-- here's a generic object/embed tag template...attributes of the object are
-                 interpolated using inline jsp -->
-
+              <!-- JavaScript D3 replacement for Flash -->
               <div id="lens-container">
                 <!-- Required, name to match first parameter below -- will be filled by lens-d3.js -->
               </div>
@@ -67,9 +65,9 @@
               <script src="magic_lens/js/lens.js" type="text/javascript"></script>
               <script type="text/javascript">
                 showLens("lens-container", 
-                  "magic_lens/images/L00_072.jpg", 
-                  "magic_lens/images/L00_072_txt.jpg",
-                  671, 824, "lensW=400&lensH=150&startX=20");
+                  "../collection/media/lens_L01_027_01.jpg", 
+                  "../collection/media/lens_L01_027_01_txt.jpg",
+                  705, 1000, "lensW=400&lensH=150&startX=20");
               </script>
 
           </TD>
