@@ -90,6 +90,15 @@ img.tab-selected {
 	width: 15%;
 }
 
+.icons p {
+	color: #660000;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	line-height: 1em;
+	text-align: right;
+}
+
 .scene-info-area {
 	margin-left: 17%;
 }
