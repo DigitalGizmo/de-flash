@@ -97,6 +97,7 @@ img.tab-selected {
 	letter-spacing: 0.05em;
 	line-height: 1em;
 	text-align: right;
+	padding-top: 1.25em;
 }
 
 .scene-info-area {
