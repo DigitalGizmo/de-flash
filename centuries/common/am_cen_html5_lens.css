@@ -1,3 +1,12 @@
 #lens-container {
 	max-width: 900px;
 }
+
+#pageNum {
+	display: none;
+}
+
+.pageNum-selected {
+	text-decoration: none;
+	cursor: default;
+}

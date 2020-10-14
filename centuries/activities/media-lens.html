@@ -19,16 +19,6 @@
 
     <script src="magic_lens/js/d3.min.js"></script>
 
-    <style type="text/css" media="screen">
-      #pageNum {
-        display: none;
-      }
-      .selected {
-        text-decoration: none;
-        cursor: default;
-      }
-    </style>
-
 </HEAD>
 <BODY link="#333366" vlink="#666699" alink="#993300" background="../images/bkgnd_cloth.gif" onLoad="window.focus()">
 <TABLE width="95%" border="0" cellspacing="0" cellpadding="4">
@@ -63,13 +53,14 @@
             <!--
   Here we have a loop that will iterate through a list of media for an item
   -->
-            <P><STRONG>Magic Lens</STRONG> 
-              <span id="pageNum">
-                <a class="pageLink" href="media-lens.html?page=1">Page 1</a> |
-                <a class="pageLink" href="media-lens.html?page=2">Page 2</a>
-              </span> 
+            <P>
+              <STRONG>Magic Lens</STRONG><br>
+              Move the "Magic Lens" over the document to reveal the transcription.
             </P>
-            <P>Move the "Magic Lens" over the document to reveal the transcription.</P>
+            <p id="pageNum">
+              <a class="pageLink" href="media-lens.html?page=1">Page 1</a> |
+              <a class="pageLink" href="media-lens.html?page=2">Page 2</a>
+            </p> 
 
               <!-- JavaScript D3 replacement for Flash -->
               <div id="lens-container">
@@ -100,7 +91,7 @@
                   // Handle link appearance
                   var selectedIndex = parseInt(pNum) - 1;
                   var linkList = document.querySelectorAll('.pageLink');
-                  linkList[selectedIndex].classList.add('selected')
+                  linkList[selectedIndex].classList.add('pageNum-selected')
                 }
                 showLens("lens-container", 
                   imagePath + ".jpg", 
