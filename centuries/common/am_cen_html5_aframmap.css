@@ -1,0 +1,26 @@
+.afram-map {
+	border: 1px solid #666;
+	float: left;
+	margin-right: 2%;
+	padding: 3px;
+	width: 40%;
+}
+
+.afram-map img {
+	max-width: 100%;
+}
+
+.afram-map p {
+	font-size: 10px;
+	line-height: 13px;
+	color:#666666;
+}
+
+div.afram-site {
+	display: block;
+	overflow: auto;
+}
+
+div.afram-site h3 {
+	margin-bottom: -1em;
+}
