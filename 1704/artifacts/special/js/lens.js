@@ -17,13 +17,17 @@ notice is included. Redistribution via other means is not permitted without prio
 
 // Function called with params from HTML
 function showLens (containerID, baseImagePath, revealedImagePath, width, height, optionalParams) { 
-    var lensW = 600, lensH = 400;
+    var lensW = 400, lensH = 150;
     var startX = 50, startY = 25; 
     var yMovement = true;
     var newX = 10;
     var newY = 10;
     var clippy;
     var border;
+
+    // Set lens size proportionally for default -- will be overridden if param is sent.
+    lensW = width * .5;
+    lensH = lensW * .4;
 
     // Process optional parameters.
     if (typeof optionalParams !== 'undefined') {
